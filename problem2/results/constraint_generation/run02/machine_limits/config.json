@@ -1,0 +1,17 @@
+{
+  "seeds": [
+    23,
+    53
+  ],
+  "limits": [
+    null,
+    1,
+    2
+  ],
+  "seconds": 60,
+  "record_orders_and_adjacencies_retained": true,
+  "record_machine_fixings_removed": true,
+  "warm_reference_unchanged": true,
+  "historical_better_codes_not_used_in_search": true,
+  "script_sha256": "b1fab125ff9b5b0ba859bd993266f6eda9055e30d01ef6134b6a928f32d07bc7"
+}

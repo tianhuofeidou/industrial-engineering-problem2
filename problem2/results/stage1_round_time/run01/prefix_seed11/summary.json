@@ -1,0 +1,26 @@
+{
+  "seed": 11,
+  "initial": 11086,
+  "annealing": 11052,
+  "preparation_seconds": 46.060021199984476,
+  "initialization_seconds": 9.865776399965398,
+  "annealing_seconds": 35.652296699932776,
+  "termination": {
+    "iterations": 326000,
+    "reason": "temperature_floor",
+    "levels": 326,
+    "initial_temperature": 15398.159524501556,
+    "calibrated_temperature": 7699.079762250778,
+    "temperature_multiplier": 2,
+    "final_temperature": 0.7499877768249406,
+    "temperature_ratio": 0.0001,
+    "cooling": 0.97,
+    "moves_per_temperature": 1000,
+    "accepted": 141831,
+    "uphill_accepted": 65024
+  },
+  "quality_archive_size": 2,
+  "archive_limit": 12,
+  "uses_persistent_relation_tracker": false,
+  "complete": true
+}

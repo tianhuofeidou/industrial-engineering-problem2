@@ -1,0 +1,65 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "seed": 11,
+      "method": "vns",
+      "greedy": 5368,
+      "initial": 5169,
+      "heuristic": 5169,
+      "final": 5031,
+      "initial_seconds": 0.08389639999950305,
+      "search_seconds": 0.08486709999851882,
+      "refinement_seconds": 138.2816688999883,
+      "total_seconds": 138.4504323999863,
+      "method_wall_seconds_including_exports": 138.40755870001158,
+      "evaluations": 2397,
+      "cache_hits": 757,
+      "exact_models": 70,
+      "valid": true,
+      "termination": {
+        "iterations": 6,
+        "reason": "all_perturbation_levels_exhausted",
+        "strengths": [
+          2,
+          3,
+          4
+        ],
+        "failures_per_level": 2
+      },
+      "heuristic_result": "seed11/vns/heuristic/result.json",
+      "final_result": "seed11/vns/exact/final/result.json",
+      "heuristic_reached_optimum": false,
+      "heuristic_relative_gap": 0.027429934406678593,
+      "final_reached_optimum": true,
+      "final_relative_gap": 0.0
+    }
+  ],
+  "heuristic": [
+    {
+      "method": "vns",
+      "runs": 1,
+      "best": 5169,
+      "mean": 5169,
+      "stdev": 0.0,
+      "optimum_hits": 0,
+      "mean_search_seconds": 0.08486709999851882,
+      "mean_refinement_seconds": 138.2816688999883,
+      "mean_total_seconds": 138.4504323999863
+    }
+  ],
+  "final": [
+    {
+      "method": "vns",
+      "runs": 1,
+      "best": 5031,
+      "mean": 5031,
+      "stdev": 0.0,
+      "optimum_hits": 1,
+      "mean_search_seconds": 0.08486709999851882,
+      "mean_refinement_seconds": 138.2816688999883,
+      "mean_total_seconds": 138.4504323999863
+    }
+  ],
+  "experiment_wall_seconds": 138.5183965000324
+}

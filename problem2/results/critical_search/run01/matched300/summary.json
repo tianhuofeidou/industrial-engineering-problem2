@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "initial": 10890,
+  "old": {
+    "objective": 10890,
+    "seconds": 298.4637853000313,
+    "models": 200
+  },
+  "new": {
+    "objective": 10875,
+    "seconds": 300.12391380005283,
+    "models": 2
+  },
+  "original_optimality_proven_by_this_run": false
+}

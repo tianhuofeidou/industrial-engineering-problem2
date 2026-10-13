@@ -1,0 +1,21 @@
+{"event": "start", "elapsed_seconds": 0.6549838000210002, "candidate": 11052, "best": 11052}
+{"event": "round", "elapsed_seconds": 6.328763900091872, "candidate": 11052, "round": 1, "jobs": [13, 25], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 11.749241200042889, "candidate": 11052, "round": 2, "jobs": [8, 24], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 17.180543099995703, "candidate": 11052, "round": 3, "jobs": [0, 32], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 22.596780200023204, "candidate": 11052, "round": 4, "jobs": [16, 20], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 28.425699300016277, "candidate": 11052, "round": 5, "jobs": [5, 28], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 33.9496533999918, "candidate": 11052, "round": 6, "jobs": [17, 33], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 39.37371900002472, "candidate": 11052, "round": 7, "jobs": [15, 23], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 45.1092886000406, "candidate": 11052, "round": 8, "jobs": [18, 20], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 50.51322830002755, "candidate": 11052, "round": 9, "jobs": [22, 31], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 55.972475700080395, "candidate": 11052, "round": 10, "jobs": [8, 32], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 61.652391500072554, "candidate": 11052, "round": 11, "jobs": [5, 30], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 67.18556100002024, "candidate": 11052, "round": 12, "jobs": [3, 27], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 72.69338200008497, "candidate": 11052, "round": 13, "jobs": [19, 32], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 78.12822680000681, "candidate": 11052, "round": 14, "jobs": [10, 25], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 83.60080540005583, "candidate": 11052, "round": 15, "jobs": [14, 26], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 88.98594620008953, "candidate": 11052, "round": 16, "jobs": [3, 21], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 94.42864779999945, "candidate": 11052, "round": 17, "jobs": [13, 17], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 99.84989419998601, "candidate": 11052, "round": 18, "jobs": [7, 13], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 105.26500550005585, "candidate": 11052, "round": 19, "jobs": [2, 19], "policy": "random", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 110.1924818000989, "candidate": 11052, "round": 20, "jobs": [17, 31], "policy": "random", "status": 9, "binaries": 663, "best": 11052}

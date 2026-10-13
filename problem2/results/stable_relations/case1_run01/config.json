@@ -1,0 +1,71 @@
+{
+  "arguments": {
+    "case": 1,
+    "methods": [
+      "annealing",
+      "tabu",
+      "vns"
+    ],
+    "seed": 11,
+    "output": ".",
+    "rounds": 3,
+    "solver_seconds": 30.0,
+    "threads": 8,
+    "release_fraction": 0.25,
+    "min_attempts": 20,
+    "min_perturbations": 10,
+    "min_late_samples": 5,
+    "measure_overhead": true
+  },
+  "search": {
+    "constructions": 8,
+    "vns_failures": 50,
+    "tabu_stall": 5000,
+    "sa_moves": 1000,
+    "sa_cooling": 0.95,
+    "sa_ratio": 0.0001,
+    "generations": 5000,
+    "population": 60,
+    "archive_size": 12
+  },
+  "evidence": {
+    "min_attempts": 20,
+    "min_perturbations": 10,
+    "restore_ratio": 0.8,
+    "min_late_samples": 5,
+    "late_samples": 24,
+    "quality_ratio": 1.03
+  },
+  "source_sha256": {
+    "问题2.pdf": "975f906e4b7a3f850cfddb5d158ecb66662884a85691c15d04278cb5cfdc2cf1",
+    "问题2数据.xlsx": "dd94ba1c7812800cc4bf61b680151927caa80e1a834ded9e22a7250adced2e39"
+  },
+  "code_sha256": {
+    "compare_case1.py": "dc0eccd1d0e4da80b2624d4fce0d0627c9be447443f1bad5af10f139b9bdf7bc",
+    "data.py": "ff6bab2ee8c2c202d14b9f9a2c43719a00849afab57afbfb48c06f9f8c369613",
+    "encoding.py": "bd510921f8a9c508e64c291786de03329e41b94a27415f6e73c0c91cc600f80f",
+    "exact_case1.py": "ecc045c8ce246d26b939cc0023e8986a56d291dffe0d6fb293f8d5674981a515",
+    "exact_validation.py": "6bda117f145d263a818dc98210df339648daa10e9f78e34f9f0c3658eaf7b7ce",
+    "export.py": "41833cea54edc94c453200f1cc77b4b19fd94cf9260779c1f615208ffb7bbf1e",
+    "four_methods.py": "1bb0268cd8454d92ec5413f9387acf503a5e047605ed8d80577cd819831ed9ce",
+    "genetic.py": "a4c665cf0bb2c965ef6cc95d3064ee36e615285c86f456662f2fb6f63350593e",
+    "genetic_main.py": "8274f2bafc8571d2dab56bff2e510a60f25f683a473fa9c6cdeb77a470acc994",
+    "hybrid.py": "ec838e83f7eeb03e6758489f125b74de75322106e3b63b1615645b24da36f583",
+    "initialization.py": "c8ca203e5b8c1f5647044dde61cbea90838fe96f73a1d338da27e8132e0e14fc",
+    "local_search.py": "bba42ab57a951371e4b4f247d73b2e254aab29708e03cf9272f12ecc7eab79f0",
+    "main.py": "682cc5fdc1f076db7c378617306e3dab2c1d77364522f3bf3bb6f0ecdbc79a04",
+    "relation_tracking.py": "662f723644a970405ef575a4b18fdd17d583ed4fd2c69cf7e5e00ee308718f92",
+    "restrictions.py": "99f6efe13367e0907b79edc59639c13a6efbb56bf4adbe3ed449d88a15ebd717",
+    "schedule.py": "fcc6ecee14a3535d0250bc508bc99adf95d5038318cac3b81e7f6658e6c46df2",
+    "search.py": "fbf634013e68ca28d88716876cf126f748757dd1a9558c7c6a49d62f0aef1574",
+    "stable_constraints.py": "2e72d17de468da64bff31a7e212ab147daf166aaaf64c4178cfb6bca009cdcf7",
+    "stable_main.py": "30fd59af86533f0a2b419931b9e368a8fadd346b43faf0f4d5847ddc7df4e2bd",
+    "tests.py": "e92ce9bf18c1bfc9844cf4adb03cd25e33d4e483fd2d69e5eac9fb88a513256f",
+    "tests_exact_case1.py": "df526083b26d68600c6769179d2dc711ed58ba63b877ce8c356b7862881194a5",
+    "tests_four_methods.py": "38353e714e5d718c974d6cfcebad85ba7a1170454648491f394019dffd7cfb2b",
+    "tests_genetic.py": "6161d7e052c7fc4be28880bd9b5fbc5028dfd373d4cf361516701595c8d319ac",
+    "tests_stable.py": "6e522dcd04989f91ca555eec6dcb183875b3ac2a1617db8147f821bddbb1e5c6",
+    "validate.py": "6f094159c69a9fbda935a1b91d371c7efbf11aaee7198e16ca30d276986b13b5",
+    "__init__.py": "a77276b297be27177710e9e13ac8951fc825a94902ae18b2c3c9a93177c0b498"
+  }
+}

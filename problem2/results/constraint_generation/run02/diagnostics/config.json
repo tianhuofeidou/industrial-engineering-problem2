@@ -1,0 +1,13 @@
+{
+  "script_sha256": "ca2a191ab6ec3be4927f1d4cbf130d72a07dad719e73b0e5fde75265ea752ff2",
+  "matching_cases": [
+    0,
+    1
+  ],
+  "same_released_job_and_segment": true,
+  "pure_limit_seconds": 90,
+  "machine_diagnostic_fixes_all_reference_machines_not_claimed_as_record_supported": true,
+  "reference_and_upper_bound_unchanged": true,
+  "scope": "restricted",
+  "end_utc": "2026-10-13T05:12:30+00:00"
+}

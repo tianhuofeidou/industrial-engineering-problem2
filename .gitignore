@@ -1,0 +1,89 @@
+# 保留源码、文档和筛选后的实验记录；忽略不删除本机文件。
+# 原始课程输入由使用者自行准备。
+*.pdf
+*.xlsx
+*.xls
+*.xlsm
+
+# 实验目录默认排除文件，再按确认清单允许汇总和过程记录。
+/problem2/results/**/*
+!/problem2/results/**/
+!/problem2/results/**/*.md
+!/problem2/results/**/summary.json
+!/problem2/results/**/config.json
+!/problem2/results/**/*history*.json
+!/problem2/results/**/events.jsonl
+!/problem2/results/**/rounds.jsonl
+!/problem2/results/**/*history*.csv
+!/problem2/results/**/*结果*.csv
+!/problem2/results/**/convergence.png
+!/problem2/results/**/temperature.png
+!/problem2/results/**/best_curve_search.png
+!/problem2/results/**/best_curve.png
+!/problem2/results/**/annealing_current.png
+
+# 仅保留Case 1及Case 2最好解这两份完整调度。
+!/problem2/results/exact_case1/run01/gurobi/result.json
+!/problem2/results/exact_case1/run01/gurobi/schedule.csv
+!/problem2/results/exact_case1/run01/gurobi/gantt.svg
+!/problem2/results/overnight_windows/run01/width9/seed23/best/result.json
+!/problem2/results/overnight_windows/run01/width9/seed23/best/schedule.csv
+!/problem2/results/overnight_windows/run01/width9/seed23/best/gantt.svg
+
+# 即使名称符合允许规则，历史源码快照仍全部排除。
+/problem2/results/**/source/
+/problem2/results/**/src/
+/problem2/results/**/snapshot/
+/problem2/results/**/snapshots/
+/problem2/results/**/source_snapshot/
+/problem2/results/**/source_snapshots/
+/.backups/
+/outputs/
+/artifacts/
+*.log
+*.mps
+*.lp
+*.sol
+*.mst
+*.bas
+
+# 本地备份与压缩包。
+*.bak
+*.bak-*
+*.backup
+*~
+*.zip
+*.7z
+*.rar
+
+# Python缓存、虚拟环境及构建产物。
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# 本机配置及凭据，不提交许可证。
+.env
+.env.*
+*.lic
+*.key
+*.pem
+*.pfx
+/credentials.json
+/secrets.json
+
+# 编辑器和系统本地文件。
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

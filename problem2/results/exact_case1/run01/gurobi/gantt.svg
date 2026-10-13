@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="560" viewBox="0 0 1260 560">
+<rect width="1260" height="560" fill="white"/>
+<text x="20" y="28" font-size="19">Case 1 / Cmax = 5031.000000 s</text>
+<text x="15" y="80" font-size="14">M1</text>
+<rect x="100.0" y="60" width="0.0" height="27" fill="#94a3b8"><title>J5: 0.0000 - 0.0000 s</title></rect>
+<rect x="100.0" y="60" width="59.0339892665474" height="27" fill="#9333ea"><title>J5: 0.0000 - 270.0000 s</title></rect>
+<text x="102.0" y="78" fill="white" font-size="11">J5</text>
+<rect x="159.0339892665474" y="60" width="13.11866428145498" height="27" fill="#94a3b8"><title>J3: 270.0000 - 330.0000 s</title></rect>
+<rect x="172.15265354800238" y="60" width="39.355992844364934" height="27" fill="#16a34a"><title>J3: 330.0000 - 510.0000 s</title></rect>
+<text x="174.15265354800238" y="78" fill="white" font-size="11">J3</text>
+<rect x="211.50864639236733" y="60" width="14.430530709600477" height="27" fill="#94a3b8"><title>J1: 510.0000 - 576.0000 s</title></rect>
+<rect x="225.9391771019678" y="60" width="38.262770820910355" height="27" fill="#2563eb"><title>J1: 576.0000 - 751.0000 s</title></rect>
+<text x="227.9391771019678" y="78" fill="white" font-size="11">J1</text>
+<rect x="264.20194792287816" y="60" width="2.186444046909163" height="27" fill="#94a3b8"><title>J4: 751.0000 - 761.0000 s</title></rect>
+<rect x="266.38839196978734" y="60" width="41.5424368912741" height="27" fill="#dc2626"><title>J4: 761.0000 - 951.0000 s</title></rect>
+<text x="268.38839196978734" y="78" fill="white" font-size="11">J4</text>
+<rect x="307.9308288610614" y="60" width="6.55933214072749" height="27" fill="#94a3b8"><title>J2: 951.0000 - 981.0000 s</title></rect>
+<rect x="314.4901610017889" y="60" width="37.169548797455775" height="27" fill="#ea580c"><title>J2: 981.0000 - 1151.0000 s</title></rect>
+<text x="316.4901610017889" y="78" fill="white" font-size="11">J2</text>
+<rect x="351.65970979924464" y="60" width="4.8101769032001584" height="27" fill="#94a3b8"><title>J6: 1151.0000 - 1173.0000 s</title></rect>
+<rect x="356.46988670244485" y="60" width="116.53746770025839" height="27" fill="#0891b2"><title>J6: 1173.0000 - 1706.0000 s</title></rect>
+<text x="358.46988670244485" y="78" fill="white" font-size="11">J6</text>
+<rect x="473.00735440270324" y="60" width="5.684754521963824" height="27" fill="#94a3b8"><title>J7: 1706.0000 - 1732.0000 s</title></rect>
+<rect x="478.692108924667" y="60" width="114.35102365334923" height="27" fill="#ca8a04"><title>J7: 1732.0000 - 2255.0000 s</title></rect>
+<text x="480.692108924667" y="78" fill="white" font-size="11">J7</text>
+<text x="15" y="118" font-size="14">M2</text>
+<rect x="159.0339892665474" y="98" width="0.0" height="27" fill="#94a3b8"><title>J5: 270.0000 - 270.0000 s</title></rect>
+<rect x="159.0339892665474" y="98" width="35.857682369310275" height="27" fill="#9333ea"><title>J5: 270.0000 - 434.0000 s</title></rect>
+<text x="161.0339892665474" y="116" fill="white" font-size="11">J5</text>
+<rect x="211.50864639236733" y="98" width="13.11866428145498" height="27" fill="#94a3b8"><title>J3: 510.0000 - 570.0000 s</title></rect>
+<rect x="224.6273106738223" y="98" width="19.240707612800634" height="27" fill="#16a34a"><title>J3: 570.0000 - 658.0000 s</title></rect>
+<rect x="264.20194792287816" y="98" width="14.430530709600477" height="27" fill="#94a3b8"><title>J1: 751.0000 - 817.0000 s</title></rect>
+<rect x="278.63247863247864" y="98" width="70.84078711985688" height="27" fill="#2563eb"><title>J1: 817.0000 - 1141.0000 s</title></rect>
+<text x="280.63247863247864" y="116" fill="white" font-size="11">J1</text>
+<rect x="359.53090836811765" y="98" width="2.186444046909163" height="27" fill="#94a3b8"><title>J4: 1187.0000 - 1197.0000 s</title></rect>
+<rect x="361.7173524150268" y="98" width="69.96620950109322" height="27" fill="#dc2626"><title>J4: 1197.0000 - 1517.0000 s</title></rect>
+<text x="363.7173524150268" y="116" fill="white" font-size="11">J4</text>
+<rect x="431.68356191612" y="98" width="6.55933214072749" height="27" fill="#94a3b8"><title>J2: 1517.0000 - 1547.0000 s</title></rect>
+<rect x="438.24289405684755" y="98" width="61.22043331345657" height="27" fill="#ea580c"><title>J2: 1547.0000 - 1827.0000 s</title></rect>
+<text x="440.24289405684755" y="116" fill="white" font-size="11">J2</text>
+<rect x="549.9701848539057" y="98" width="4.8101769032001584" height="27" fill="#94a3b8"><title>J6: 2058.0000 - 2080.0000 s</title></rect>
+<rect x="554.780361757106" y="98" width="33.88988272709203" height="27" fill="#0891b2"><title>J6: 2080.0000 - 2235.0000 s</title></rect>
+<text x="556.780361757106" y="116" fill="white" font-size="11">J6</text>
+<rect x="593.0431325780163" y="98" width="5.684754521963824" height="27" fill="#94a3b8"><title>J7: 2255.0000 - 2281.0000 s</title></rect>
+<rect x="598.7278870999801" y="98" width="33.88988272709203" height="27" fill="#ca8a04"><title>J7: 2281.0000 - 2436.0000 s</title></rect>
+<text x="600.7278870999801" y="116" fill="white" font-size="11">J7</text>
+<text x="15" y="156" font-size="14">M3</text>
+<rect x="194.89167163585768" y="136" width="0.0" height="27" fill="#94a3b8"><title>J5: 434.0000 - 434.0000 s</title></rect>
+<rect x="194.89167163585768" y="136" width="24.488173325382625" height="27" fill="#9333ea"><title>J5: 434.0000 - 546.0000 s</title></rect>
+<text x="196.89167163585768" y="154" fill="white" font-size="11">J5</text>
+<rect x="243.86801828662294" y="136" width="13.11866428145498" height="27" fill="#94a3b8"><title>J3: 658.0000 - 718.0000 s</title></rect>
+<rect x="256.9866825680779" y="136" width="80.89842973563904" height="27" fill="#16a34a"><title>J3: 718.0000 - 1088.0000 s</title></rect>
+<text x="258.9866825680779" y="154" fill="white" font-size="11">J3</text>
+<rect x="349.4732657523355" y="136" width="14.430530709600477" height="27" fill="#94a3b8"><title>J1: 1141.0000 - 1207.0000 s</title></rect>
+<rect x="363.903796461936" y="136" width="85.05267342476644" height="27" fill="#2563eb"><title>J1: 1207.0000 - 1596.0000 s</title></rect>
+<text x="365.903796461936" y="154" fill="white" font-size="11">J1</text>
+<rect x="448.95646988670245" y="136" width="2.186444046909163" height="27" fill="#94a3b8"><title>J4: 1596.0000 - 1606.0000 s</title></rect>
+<rect x="451.14291393361157" y="136" width="14.649175114291392" height="27" fill="#dc2626"><title>J4: 1606.0000 - 1673.0000 s</title></rect>
+<rect x="499.4633273703041" y="136" width="6.55933214072749" height="27" fill="#94a3b8"><title>J2: 1827.0000 - 1857.0000 s</title></rect>
+<rect x="506.0226595110316" y="136" width="65.5933214072749" height="27" fill="#ea580c"><title>J2: 1857.0000 - 2157.0000 s</title></rect>
+<text x="508.0226595110316" y="154" fill="white" font-size="11">J2</text>
+<rect x="588.670244484198" y="136" width="4.8101769032001584" height="27" fill="#94a3b8"><title>J6: 2235.0000 - 2257.0000 s</title></rect>
+<rect x="593.4804213873981" y="136" width="39.13734843967402" height="27" fill="#0891b2"><title>J6: 2257.0000 - 2436.0000 s</title></rect>
+<text x="595.4804213873981" y="154" fill="white" font-size="11">J6</text>
+<rect x="632.6177698270722" y="136" width="5.684754521963824" height="27" fill="#94a3b8"><title>J7: 2436.0000 - 2462.0000 s</title></rect>
+<rect x="638.3025243490359" y="136" width="48.10176903200159" height="27" fill="#ca8a04"><title>J7: 2462.0000 - 2682.0000 s</title></rect>
+<text x="640.3025243490359" y="154" fill="white" font-size="11">J7</text>
+<text x="15" y="194" font-size="14">M4</text>
+<rect x="219.3798449612403" y="174" width="0.0" height="27" fill="#94a3b8"><title>J5: 546.0000 - 546.0000 s</title></rect>
+<rect x="219.3798449612403" y="174" width="36.29497117869211" height="27" fill="#9333ea"><title>J5: 546.0000 - 712.0000 s</title></rect>
+<text x="221.3798449612403" y="192" fill="white" font-size="11">J5</text>
+<rect x="337.88511230371694" y="174" width="13.11866428145498" height="27" fill="#94a3b8"><title>J3: 1088.0000 - 1148.0000 s</title></rect>
+<rect x="351.0037765851719" y="174" width="85.27131782945736" height="27" fill="#16a34a"><title>J3: 1148.0000 - 1538.0000 s</title></rect>
+<text x="353.0037765851719" y="192" fill="white" font-size="11">J3</text>
+<rect x="448.95646988670245" y="174" width="14.430530709600477" height="27" fill="#94a3b8"><title>J1: 1596.0000 - 1662.0000 s</title></rect>
+<rect x="463.3870005963029" y="174" width="74.77638640429338" height="27" fill="#2563eb"><title>J1: 1662.0000 - 2004.0000 s</title></rect>
+<text x="465.3870005963029" y="192" fill="white" font-size="11">J1</text>
+<rect x="538.1633870005962" y="174" width="2.186444046909163" height="27" fill="#94a3b8"><title>J4: 2004.0000 - 2014.0000 s</title></rect>
+<rect x="540.3498310475054" y="174" width="24.488173325382625" height="27" fill="#dc2626"><title>J4: 2014.0000 - 2126.0000 s</title></rect>
+<text x="542.3498310475054" y="192" fill="white" font-size="11">J4</text>
+<rect x="571.6159809183065" y="174" width="6.55933214072749" height="27" fill="#94a3b8"><title>J2: 2157.0000 - 2187.0000 s</title></rect>
+<rect x="578.1753130590339" y="174" width="83.0848737825482" height="27" fill="#ea580c"><title>J2: 2187.0000 - 2567.0000 s</title></rect>
+<text x="580.1753130590339" y="192" fill="white" font-size="11">J2</text>
+<rect x="661.9161200556549" y="174" width="4.8101769032001584" height="27" fill="#94a3b8"><title>J6: 2570.0000 - 2592.0000 s</title></rect>
+<rect x="666.7262969588551" y="174" width="12.025442258000398" height="27" fill="#0891b2"><title>J6: 2592.0000 - 2647.0000 s</title></rect>
+<rect x="686.4042933810375" y="174" width="5.684754521963824" height="27" fill="#94a3b8"><title>J7: 2682.0000 - 2708.0000 s</title></rect>
+<rect x="692.0890479030014" y="174" width="45.915324985092425" height="27" fill="#ca8a04"><title>J7: 2708.0000 - 2918.0000 s</title></rect>
+<text x="694.0890479030014" y="192" fill="white" font-size="11">J7</text>
+<text x="15" y="232" font-size="14">M5</text>
+<rect x="255.6748161399324" y="212" width="0.0" height="27" fill="#94a3b8"><title>J5: 712.0000 - 712.0000 s</title></rect>
+<rect x="255.6748161399324" y="212" width="97.51540449214868" height="27" fill="#9333ea"><title>J5: 712.0000 - 1158.0000 s</title></rect>
+<text x="257.67481613993243" y="230" fill="white" font-size="11">J5</text>
+<rect x="436.2750944146293" y="212" width="13.11866428145498" height="27" fill="#94a3b8"><title>J3: 1538.0000 - 1598.0000 s</title></rect>
+<rect x="449.39375869608426" y="212" width="87.45776187636652" height="27" fill="#16a34a"><title>J3: 1598.0000 - 1998.0000 s</title></rect>
+<text x="451.39375869608426" y="230" fill="white" font-size="11">J3</text>
+<rect x="538.1633870005962" y="212" width="14.430530709600477" height="27" fill="#94a3b8"><title>J1: 2004.0000 - 2070.0000 s</title></rect>
+<rect x="552.5939177101968" y="212" width="10.932220234545815" height="27" fill="#2563eb"><title>J1: 2070.0000 - 2120.0000 s</title></rect>
+<rect x="564.838004372888" y="212" width="2.186444046909163" height="27" fill="#94a3b8"><title>J4: 2126.0000 - 2136.0000 s</title></rect>
+<rect x="567.0244484197972" y="212" width="90.30013913734844" height="27" fill="#dc2626"><title>J4: 2136.0000 - 2549.0000 s</title></rect>
+<text x="569.0244484197972" y="230" fill="white" font-size="11">J4</text>
+<rect x="661.2601868415821" y="212" width="6.55933214072749" height="27" fill="#94a3b8"><title>J2: 2567.0000 - 2597.0000 s</title></rect>
+<rect x="667.8195189823097" y="212" width="10.932220234545815" height="27" fill="#ea580c"><title>J2: 2597.0000 - 2647.0000 s</title></rect>
+<rect x="678.7517392168555" y="212" width="4.8101769032001584" height="27" fill="#94a3b8"><title>J6: 2647.0000 - 2669.0000 s</title></rect>
+<rect x="683.5619161200557" y="212" width="85.27131782945736" height="27" fill="#0891b2"><title>J6: 2669.0000 - 3059.0000 s</title></rect>
+<text x="685.5619161200557" y="230" fill="white" font-size="11">J6</text>
+<rect x="768.833233949513" y="212" width="5.684754521963824" height="27" fill="#94a3b8"><title>J7: 3059.0000 - 3085.0000 s</title></rect>
+<rect x="774.5179884714768" y="212" width="125.06459948320413" height="27" fill="#ca8a04"><title>J7: 3085.0000 - 3657.0000 s</title></rect>
+<text x="776.5179884714768" y="230" fill="white" font-size="11">J7</text>
+<text x="15" y="270" font-size="14">M6-1</text>
+<rect x="353.1902206320811" y="250" width="0.0" height="27" fill="#94a3b8"><title>J5: 1158.0000 - 1158.0000 s</title></rect>
+<rect x="353.1902206320811" y="250" width="182.3494335122242" height="27" fill="#9333ea"><title>J5: 1158.0000 - 1992.0000 s</title></rect>
+<text x="355.1902206320811" y="268" fill="white" font-size="11">J5</text>
+<rect x="563.5261379447426" y="250" width="17.05426356589147" height="27" fill="#94a3b8"><title>J1: 2120.0000 - 2198.0000 s</title></rect>
+<rect x="580.580401510634" y="250" width="120.25442258000398" height="27" fill="#2563eb"><title>J1: 2198.0000 - 2748.0000 s</title></rect>
+<text x="582.580401510634" y="268" fill="white" font-size="11">J1</text>
+<rect x="715.2653548002385" y="250" width="2.186444046909163" height="27" fill="#94a3b8"><title>J4: 2814.0000 - 2824.0000 s</title></rect>
+<rect x="717.4517988471476" y="250" width="163.98330351818723" height="27" fill="#dc2626"><title>J4: 2824.0000 - 3574.0000 s</title></rect>
+<text x="719.4517988471476" y="268" fill="white" font-size="11">J4</text>
+<rect x="899.582587954681" y="250" width="13.11866428145498" height="27" fill="#94a3b8"><title>J7: 3657.0000 - 3717.0000 s</title></rect>
+<rect x="912.7012522361359" y="250" width="113.69509043927648" height="27" fill="#ca8a04"><title>J7: 3717.0000 - 4237.0000 s</title></rect>
+<text x="914.7012522361359" y="268" fill="white" font-size="11">J7</text>
+<text x="15" y="308" font-size="14">M6-2</text>
+<rect x="536.8515205724508" y="288" width="0.0" height="27" fill="#94a3b8"><title>J3: 1998.0000 - 1998.0000 s</title></rect>
+<rect x="536.8515205724508" y="288" width="144.30530709600475" height="27" fill="#16a34a"><title>J3: 1998.0000 - 2658.0000 s</title></rect>
+<text x="538.8515205724508" y="306" fill="white" font-size="11">J3</text>
+<rect x="699.7416020671834" y="288" width="15.305108328364142" height="27" fill="#94a3b8"><title>J2: 2743.0000 - 2813.0000 s</title></rect>
+<rect x="715.0467103955476" y="288" width="91.83064997018485" height="27" fill="#ea580c"><title>J2: 2813.0000 - 3233.0000 s</title></rect>
+<text x="717.0467103955476" y="306" fill="white" font-size="11">J2</text>
+<rect x="806.8773603657324" y="288" width="4.8101769032001584" height="27" fill="#94a3b8"><title>J6: 3233.0000 - 3255.0000 s</title></rect>
+<rect x="811.6875372689326" y="288" width="154.80023852116875" height="27" fill="#0891b2"><title>J6: 3255.0000 - 3963.0000 s</title></rect>
+<text x="813.6875372689326" y="306" fill="white" font-size="11">J6</text>
+<text x="15" y="346" font-size="14">M7</text>
+<rect x="535.5396541443054" y="326" width="0.0" height="27" fill="#94a3b8"><title>J5: 1992.0000 - 1992.0000 s</title></rect>
+<rect x="535.5396541443054" y="326" width="61.22043331345657" height="27" fill="#9333ea"><title>J5: 1992.0000 - 2272.0000 s</title></rect>
+<text x="537.5396541443054" y="344" fill="white" font-size="11">J5</text>
+<rect x="681.1568276684555" y="326" width="13.11866428145498" height="27" fill="#94a3b8"><title>J3: 2658.0000 - 2718.0000 s</title></rect>
+<rect x="694.2754919499106" y="326" width="51.16279069767442" height="27" fill="#16a34a"><title>J3: 2718.0000 - 2952.0000 s</title></rect>
+<text x="696.2754919499106" y="344" fill="white" font-size="11">J3</text>
+<rect x="745.438282647585" y="326" width="14.430530709600477" height="27" fill="#94a3b8"><title>J1: 2952.0000 - 3018.0000 s</title></rect>
+<rect x="759.8688133571854" y="326" width="56.84754521963824" height="27" fill="#2563eb"><title>J1: 3018.0000 - 3278.0000 s</title></rect>
+<text x="761.8688133571854" y="344" fill="white" font-size="11">J1</text>
+<rect x="816.7163585768237" y="326" width="12.244086662691313" height="27" fill="#94a3b8"><title>J2: 3278.0000 - 3334.0000 s</title></rect>
+<rect x="828.960445239515" y="326" width="52.47465712581992" height="27" fill="#ea580c"><title>J2: 3334.0000 - 3574.0000 s</title></rect>
+<text x="830.960445239515" y="344" fill="white" font-size="11">J2</text>
+<rect x="881.4351023653348" y="326" width="14.649175114291392" height="27" fill="#94a3b8"><title>J4: 3574.0000 - 3641.0000 s</title></rect>
+<rect x="896.0842774796263" y="326" width="70.40349831047506" height="27" fill="#dc2626"><title>J4: 3641.0000 - 3963.0000 s</title></rect>
+<text x="898.0842774796263" y="344" fill="white" font-size="11">J4</text>
+<rect x="966.4877757901013" y="326" width="2.842377260981912" height="27" fill="#94a3b8"><title>J6: 3963.0000 - 3976.0000 s</title></rect>
+<rect x="969.3301530510832" y="326" width="38.70005963029219" height="27" fill="#0891b2"><title>J6: 3976.0000 - 4153.0000 s</title></rect>
+<text x="971.3301530510832" y="344" fill="white" font-size="11">J6</text>
+<rect x="1026.3963426754124" y="326" width="5.684754521963824" height="27" fill="#94a3b8"><title>J7: 4237.0000 - 4263.0000 s</title></rect>
+<rect x="1032.0810971973763" y="326" width="61.22043331345657" height="27" fill="#ca8a04"><title>J7: 4263.0000 - 4543.0000 s</title></rect>
+<text x="1034.0810971973763" y="344" fill="white" font-size="11">J7</text>
+<text x="15" y="384" font-size="14">M8</text>
+<rect x="596.7600874577619" y="364" width="0.0" height="27" fill="#94a3b8"><title>J5: 2272.0000 - 2272.0000 s</title></rect>
+<rect x="596.7600874577619" y="364" width="96.20353806400318" height="27" fill="#9333ea"><title>J5: 2272.0000 - 2712.0000 s</title></rect>
+<text x="598.7600874577619" y="382" fill="white" font-size="11">J5</text>
+<rect x="745.438282647585" y="364" width="13.11866428145498" height="27" fill="#94a3b8"><title>J3: 2952.0000 - 3012.0000 s</title></rect>
+<rect x="758.5569469290399" y="364" width="41.5424368912741" height="27" fill="#16a34a"><title>J3: 3012.0000 - 3202.0000 s</title></rect>
+<text x="760.5569469290399" y="382" fill="white" font-size="11">J3</text>
+<rect x="816.7163585768237" y="364" width="14.430530709600477" height="27" fill="#94a3b8"><title>J1: 3278.0000 - 3344.0000 s</title></rect>
+<rect x="831.1468892864242" y="364" width="63.40687736036573" height="27" fill="#2563eb"><title>J1: 3344.0000 - 3634.0000 s</title></rect>
+<text x="833.1468892864242" y="382" fill="white" font-size="11">J1</text>
+<rect x="894.5537666467899" y="364" width="12.244086662691313" height="27" fill="#94a3b8"><title>J2: 3634.0000 - 3690.0000 s</title></rect>
+<rect x="906.7978533094812" y="364" width="19.677996422182467" height="27" fill="#ea580c"><title>J2: 3690.0000 - 3780.0000 s</title></rect>
+<rect x="966.4877757901013" y="364" width="14.649175114291392" height="27" fill="#94a3b8"><title>J4: 3963.0000 - 4030.0000 s</title></rect>
+<rect x="981.1369509043927" y="364" width="19.677996422182467" height="27" fill="#dc2626"><title>J4: 4030.0000 - 4120.0000 s</title></rect>
+<rect x="1008.0302126813755" y="364" width="2.842377260981912" height="27" fill="#94a3b8"><title>J6: 4153.0000 - 4166.0000 s</title></rect>
+<rect x="1010.8725899423573" y="364" width="74.33909759491155" height="27" fill="#0891b2"><title>J6: 4166.0000 - 4506.0000 s</title></rect>
+<text x="1012.8725899423573" y="382" fill="white" font-size="11">J6</text>
+<rect x="1093.301530510833" y="364" width="5.684754521963824" height="27" fill="#94a3b8"><title>J7: 4543.0000 - 4569.0000 s</title></rect>
+<rect x="1098.9862850327968" y="364" width="19.677996422182467" height="27" fill="#ca8a04"><title>J7: 4569.0000 - 4659.0000 s</title></rect>
+<text x="15" y="422" font-size="14">M9</text>
+<rect x="692.963625521765" y="402" width="0.0" height="27" fill="#94a3b8"><title>J5: 2712.0000 - 2712.0000 s</title></rect>
+<rect x="692.963625521765" y="402" width="34.98310475054661" height="27" fill="#9333ea"><title>J5: 2712.0000 - 2872.0000 s</title></rect>
+<text x="694.963625521765" y="420" fill="white" font-size="11">J5</text>
+<rect x="870.5028821307891" y="402" width="13.11866428145498" height="27" fill="#94a3b8"><title>J3: 3524.0000 - 3584.0000 s</title></rect>
+<rect x="883.621546412244" y="402" width="10.932220234545815" height="27" fill="#16a34a"><title>J3: 3584.0000 - 3634.0000 s</title></rect>
+<rect x="894.5537666467899" y="402" width="14.430530709600477" height="27" fill="#94a3b8"><title>J1: 3634.0000 - 3700.0000 s</title></rect>
+<rect x="908.9842973563904" y="402" width="4.372888093818326" height="27" fill="#2563eb"><title>J1: 3700.0000 - 3720.0000 s</title></rect>
+<rect x="926.4758497316636" y="402" width="12.244086662691313" height="27" fill="#94a3b8"><title>J2: 3780.0000 - 3836.0000 s</title></rect>
+<rect x="938.7199363943549" y="402" width="2.186444046909163" height="27" fill="#ea580c"><title>J2: 3836.0000 - 3846.0000 s</title></rect>
+<rect x="1000.8149473265752" y="402" width="14.649175114291392" height="27" fill="#94a3b8"><title>J4: 4120.0000 - 4187.0000 s</title></rect>
+<rect x="1015.4641224408666" y="402" width="41.5424368912741" height="27" fill="#dc2626"><title>J4: 4187.0000 - 4377.0000 s</title></rect>
+<text x="1017.4641224408666" y="420" fill="white" font-size="11">J4</text>
+<rect x="1085.211687537269" y="402" width="2.842377260981912" height="27" fill="#94a3b8"><title>J6: 4506.0000 - 4519.0000 s</title></rect>
+<rect x="1088.0540647982507" y="402" width="30.610216656728284" height="27" fill="#0891b2"><title>J6: 4519.0000 - 4659.0000 s</title></rect>
+<text x="1090.0540647982507" y="420" fill="white" font-size="11">J6</text>
+<rect x="1118.6642814549791" y="402" width="5.684754521963824" height="27" fill="#94a3b8"><title>J7: 4659.0000 - 4685.0000 s</title></rect>
+<rect x="1124.349035976943" y="402" width="41.5424368912741" height="27" fill="#ca8a04"><title>J7: 4685.0000 - 4875.0000 s</title></rect>
+<text x="1126.349035976943" y="420" fill="white" font-size="11">J7</text>
+<text x="15" y="460" font-size="14">M10</text>
+<rect x="727.9467302723117" y="440" width="0.0" height="27" fill="#94a3b8"><title>J5: 2872.0000 - 2872.0000 s</title></rect>
+<rect x="727.9467302723117" y="440" width="37.169548797455775" height="27" fill="#9333ea"><title>J5: 2872.0000 - 3042.0000 s</title></rect>
+<text x="729.9467302723117" y="458" fill="white" font-size="11">J5</text>
+<rect x="894.5537666467899" y="440" width="13.11866428145498" height="27" fill="#94a3b8"><title>J3: 3634.0000 - 3694.0000 s</title></rect>
+<rect x="907.6724309282448" y="440" width="30.610216656728284" height="27" fill="#16a34a"><title>J3: 3694.0000 - 3834.0000 s</title></rect>
+<text x="909.6724309282448" y="458" fill="white" font-size="11">J3</text>
+<rect x="938.2826475849731" y="440" width="14.430530709600477" height="27" fill="#94a3b8"><title>J1: 3834.0000 - 3900.0000 s</title></rect>
+<rect x="952.7131782945736" y="440" width="39.355992844364934" height="27" fill="#2563eb"><title>J1: 3900.0000 - 4080.0000 s</title></rect>
+<text x="954.7131782945736" y="458" fill="white" font-size="11">J1</text>
+<rect x="1030.113297555158" y="440" width="12.244086662691313" height="27" fill="#94a3b8"><title>J2: 4254.0000 - 4310.0000 s</title></rect>
+<rect x="1042.3573842178494" y="440" width="42.63565891472868" height="27" fill="#ea580c"><title>J2: 4310.0000 - 4505.0000 s</title></rect>
+<text x="1044.3573842178494" y="458" fill="white" font-size="11">J2</text>
+<rect x="1084.993043132578" y="440" width="14.649175114291392" height="27" fill="#94a3b8"><title>J4: 4505.0000 - 4572.0000 s</title></rect>
+<rect x="1099.6422182468693" y="440" width="21.86444046909163" height="27" fill="#dc2626"><title>J4: 4572.0000 - 4672.0000 s</title></rect>
+<rect x="1121.5066587159608" y="440" width="2.842377260981912" height="27" fill="#94a3b8"><title>J6: 4672.0000 - 4685.0000 s</title></rect>
+<rect x="1124.349035976943" y="440" width="41.5424368912741" height="27" fill="#0891b2"><title>J6: 4685.0000 - 4875.0000 s</title></rect>
+<text x="1126.349035976943" y="458" fill="white" font-size="11">J6</text>
+<rect x="1165.891472868217" y="440" width="5.684754521963824" height="27" fill="#94a3b8"><title>J7: 4875.0000 - 4901.0000 s</title></rect>
+<rect x="1171.5762273901807" y="440" width="28.42377260981912" height="27" fill="#ca8a04"><title>J7: 4901.0000 - 5031.0000 s</title></rect>
+<text x="1173.5762273901807" y="458" fill="white" font-size="11">J7</text>
+<text x="100.0" y="500" font-size="12">0</text>
+<text x="209.32220234545815" y="500" font-size="12">500</text>
+<text x="318.6444046909163" y="500" font-size="12">1000</text>
+<text x="427.96660703637446" y="500" font-size="12">1500</text>
+<text x="537.2888093818326" y="500" font-size="12">2000</text>
+<text x="646.6110117272908" y="500" font-size="12">2500</text>
+<text x="755.9332140727489" y="500" font-size="12">3000</text>
+<text x="865.2554164182071" y="500" font-size="12">3500</text>
+<text x="974.5776187636652" y="500" font-size="12">4000</text>
+<text x="1083.8998211091234" y="500" font-size="12">4500</text>
+<text x="1193.2220234545816" y="500" font-size="12">5000</text>
+<text x="100" y="535" font-size="14">Time (s); gray: setup; colors: J1-J7</text></svg>

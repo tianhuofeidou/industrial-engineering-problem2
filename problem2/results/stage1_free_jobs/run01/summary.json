@@ -1,0 +1,194 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "seed": 11,
+      "method": "interval",
+      "before": 11052,
+      "after": 11052,
+      "additional_seconds": 110.12803470005747,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "round_count": 69,
+      "termination": "time_budget"
+    },
+    {
+      "seed": 11,
+      "method": "guided",
+      "before": 11052,
+      "after": 11052,
+      "additional_seconds": 110.07410239998717,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "round_count": 20,
+      "termination": "time_budget"
+    },
+    {
+      "seed": 11,
+      "method": "random",
+      "before": 11052,
+      "after": 11052,
+      "additional_seconds": 110.21048010000959,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "round_count": 20,
+      "termination": "time_budget"
+    },
+    {
+      "seed": 23,
+      "method": "interval",
+      "before": 10952,
+      "after": 10873,
+      "additional_seconds": 110.11011749994941,
+      "first_improvement_seconds": 6.399825699976645,
+      "first_at_most_10890_seconds": 80.68448769999668,
+      "round_count": 58,
+      "termination": "time_budget"
+    },
+    {
+      "seed": 23,
+      "method": "guided",
+      "before": 10952,
+      "after": 10952,
+      "additional_seconds": 110.18334530002903,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "round_count": 20,
+      "termination": "time_budget"
+    },
+    {
+      "seed": 23,
+      "method": "random",
+      "before": 10952,
+      "after": 10952,
+      "additional_seconds": 110.14713239995763,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "round_count": 20,
+      "termination": "time_budget"
+    },
+    {
+      "seed": 37,
+      "method": "interval",
+      "before": 10962,
+      "after": 10932,
+      "additional_seconds": 110.13727860001381,
+      "first_improvement_seconds": 48.384407700039446,
+      "first_at_most_10890_seconds": null,
+      "round_count": 61,
+      "termination": "time_budget"
+    },
+    {
+      "seed": 37,
+      "method": "guided",
+      "before": 10962,
+      "after": 10962,
+      "additional_seconds": 110.26324540004134,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "round_count": 20,
+      "termination": "time_budget"
+    },
+    {
+      "seed": 37,
+      "method": "random",
+      "before": 10962,
+      "after": 10932,
+      "additional_seconds": 110.11066999996547,
+      "first_improvement_seconds": 28.20049229997676,
+      "first_at_most_10890_seconds": null,
+      "round_count": 20,
+      "termination": "time_budget"
+    }
+  ],
+  "prefixes": [
+    {
+      "seed": 11,
+      "initial": 11086,
+      "annealing": 11052,
+      "preparation_seconds": 47.6378670000704,
+      "initialization_seconds": 9.92237489996478,
+      "annealing_seconds": 37.093788799946196,
+      "termination": {
+        "iterations": 326000,
+        "reason": "temperature_floor",
+        "levels": 326,
+        "initial_temperature": 15398.159524501556,
+        "calibrated_temperature": 7699.079762250778,
+        "temperature_multiplier": 2,
+        "final_temperature": 0.7499877768249406,
+        "temperature_ratio": 0.0001,
+        "cooling": 0.97,
+        "moves_per_temperature": 1000,
+        "accepted": 141831,
+        "uphill_accepted": 65024
+      },
+      "quality_archive_size": 2,
+      "archive_limit": 12,
+      "uses_persistent_relation_tracker": false,
+      "complete": true
+    },
+    {
+      "seed": 23,
+      "initial": 11086,
+      "annealing": 10952,
+      "preparation_seconds": 45.61975810001604,
+      "initialization_seconds": 8.002203599899076,
+      "annealing_seconds": 37.00218359997962,
+      "termination": {
+        "iterations": 326000,
+        "reason": "temperature_floor",
+        "levels": 326,
+        "initial_temperature": 10777.815383127545,
+        "calibrated_temperature": 5388.9076915637725,
+        "temperature_multiplier": 2,
+        "final_temperature": 0.5249477890756643,
+        "temperature_ratio": 0.0001,
+        "cooling": 0.97,
+        "moves_per_temperature": 1000,
+        "accepted": 130725,
+        "uphill_accepted": 59550
+      },
+      "quality_archive_size": 5,
+      "archive_limit": 12,
+      "uses_persistent_relation_tracker": false,
+      "complete": true
+    },
+    {
+      "seed": 37,
+      "initial": 11086,
+      "annealing": 10962,
+      "preparation_seconds": 47.7625230998965,
+      "initialization_seconds": 10.615538400015794,
+      "annealing_seconds": 36.56527160003316,
+      "termination": {
+        "iterations": 326000,
+        "reason": "temperature_floor",
+        "levels": 326,
+        "initial_temperature": 16280.999287693292,
+        "calibrated_temperature": 8140.499643846646,
+        "temperature_multiplier": 2,
+        "final_temperature": 0.7929876580922617,
+        "temperature_ratio": 0.0001,
+        "cooling": 0.97,
+        "moves_per_temperature": 1000,
+        "accepted": 143535,
+        "uphill_accepted": 66267
+      },
+      "quality_archive_size": 1,
+      "archive_limit": 12,
+      "uses_persistent_relation_tracker": false,
+      "complete": true
+    }
+  ],
+  "common_preparation_seconds": 141.02014819998294,
+  "wall_seconds": 1149.0790778000373,
+  "verification": {
+    "schedules_validated": 637,
+    "models_validated": 308,
+    "same_start_per_seed": true,
+    "hashes_verified": true,
+    "original_optimality_proven": false
+  },
+  "original_optimality_proven": false
+}

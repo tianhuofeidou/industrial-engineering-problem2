@@ -1,0 +1,28 @@
+{
+  "seed": 23,
+  "initial": 11086,
+  "annealing": 10952,
+  "initialization_seconds": 7.9392727999947965,
+  "unrecorded_diagnostic_seconds": 37.14005659997929,
+  "recorded_annealing_seconds": 53.30201220000163,
+  "tracking_seconds": 12.310563236707821,
+  "samples": 1024,
+  "termination": {
+    "iterations": 326000,
+    "reason": "temperature_floor",
+    "levels": 326,
+    "initial_temperature": 10777.815383127545,
+    "calibrated_temperature": 5388.9076915637725,
+    "temperature_multiplier": 2,
+    "final_temperature": 0.5249477890756643,
+    "temperature_ratio": 0.0001,
+    "cooling": 0.97,
+    "moves_per_temperature": 1000,
+    "accepted": 130725,
+    "uphill_accepted": 59550
+  },
+  "same_without_recording": true,
+  "preparation_seconds_excluding_diagnostic": 61.886874399962835,
+  "wall_seconds_including_diagnostic": 99.02693309995811,
+  "complete": true
+}

@@ -1,0 +1,145 @@
+{
+  "complete": true,
+  "case": 1,
+  "initial": 5656,
+  "final": 5140,
+  "budget_seconds": 6.0,
+  "total_seconds": 2.145460700034164,
+  "includes_initialization": true,
+  "workers": [
+    {
+      "worker": 1,
+      "seed": 11,
+      "initial": 5656,
+      "start_offset": 1.0375853000441566,
+      "complete": true,
+      "final": 5140,
+      "seconds": 1.0453644000226632,
+      "cpu_seconds": 1.046875,
+      "end_offset": 2.0829547999892384,
+      "enumerations": 59,
+      "evaluations": 35228,
+      "perturbations": 2,
+      "solver_calls": 0,
+      "validation": {
+        "valid": true,
+        "operations": 70,
+        "tolerance": 0.0001,
+        "makespan": 5140,
+        "allows_waiting": true
+      }
+    },
+    {
+      "worker": 2,
+      "seed": 112,
+      "initial": 5985,
+      "start_offset": 1.051868100068532,
+      "complete": true,
+      "final": 5244,
+      "seconds": 0.8483743999386206,
+      "cpu_seconds": 0.84375,
+      "end_offset": 1.9002469000406563,
+      "enumerations": 46,
+      "evaluations": 27368,
+      "perturbations": 2,
+      "solver_calls": 0,
+      "validation": {
+        "valid": true,
+        "operations": 70,
+        "tolerance": 0.0001,
+        "makespan": 5244,
+        "allows_waiting": true
+      }
+    }
+  ],
+  "global_improvements": [
+    {
+      "objective": 5656,
+      "seconds": 0.6134428000077605,
+      "phase": "initialization",
+      "seed": 11
+    },
+    {
+      "worker": 1,
+      "objective": 5650,
+      "seconds": 1.248136100010015,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 5625,
+      "seconds": 1.3002391000045463,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 2,
+      "objective": 5534,
+      "seconds": 1.30075619998388,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 2,
+      "objective": 5493,
+      "seconds": 1.3228305000811815,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 2,
+      "objective": 5484,
+      "seconds": 1.3789288999978453,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 5412,
+      "seconds": 1.423560700030066,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 5387,
+      "seconds": 1.450315700029023,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 5353,
+      "seconds": 1.518239099998027,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 2,
+      "objective": 5244,
+      "seconds": 1.5370844000717625,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 5235,
+      "seconds": 1.9494883000152186,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 5140,
+      "seconds": 2.00515570002608,
+      "phase": "enumeration"
+    }
+  ],
+  "initialization_seconds": 0.021839500055648386,
+  "parent_cpu_seconds": 0.109375,
+  "worker_cpu_seconds": 1.890625,
+  "worker_wall_seconds_sum": 1.8937387999612838,
+  "worker_cpu_measurement_complete": true,
+  "scope": "heuristic",
+  "solver_calls": 0,
+  "launched_workers": 2,
+  "original_optimality_proven_by_this_run": false,
+  "validation": {
+    "valid": true,
+    "operations": 70,
+    "tolerance": 0.0001,
+    "makespan": 5140,
+    "allows_waiting": true
+  }
+}

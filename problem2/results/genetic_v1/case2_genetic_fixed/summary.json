@@ -1,0 +1,47 @@
+[
+  {
+    "case": 2,
+    "seed": 11,
+    "method": "genetic",
+    "makespan": 11184,
+    "seconds": 10.020521899976302,
+    "valid": true,
+    "known_optimum_gap": null,
+    "reached_known_optimum": null,
+    "solver_scope": null,
+    "solver_bound": null,
+    "solver_gap": null,
+    "solver_optimal": null,
+    "result": "case2/seed11/genetic/result.json"
+  },
+  {
+    "case": 2,
+    "seed": 23,
+    "method": "genetic",
+    "makespan": 11206,
+    "seconds": 10.020300599979237,
+    "valid": true,
+    "known_optimum_gap": null,
+    "reached_known_optimum": null,
+    "solver_scope": null,
+    "solver_bound": null,
+    "solver_gap": null,
+    "solver_optimal": null,
+    "result": "case2/seed23/genetic/result.json"
+  },
+  {
+    "case": 2,
+    "seed": 37,
+    "method": "genetic",
+    "makespan": 11201,
+    "seconds": 10.014931400015485,
+    "valid": true,
+    "known_optimum_gap": null,
+    "reached_known_optimum": null,
+    "solver_scope": null,
+    "solver_bound": null,
+    "solver_gap": null,
+    "solver_optimal": null,
+    "result": "case2/seed37/genetic/result.json"
+  }
+]

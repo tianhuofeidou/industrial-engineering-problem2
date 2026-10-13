@@ -1,0 +1,21 @@
+{"event": "start", "elapsed_seconds": 0.6180928000248969, "candidate": 11052, "best": 11052}
+{"event": "round", "elapsed_seconds": 6.072677899966948, "candidate": 11052, "round": 1, "jobs": [2, 13], "policy": "critical", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 11.850315400050022, "candidate": 11052, "round": 2, "jobs": [17, 34], "policy": "archive", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 17.256398000055924, "candidate": 11052, "round": 3, "jobs": [2, 8], "policy": "mixed", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 22.741966799949296, "candidate": 11052, "round": 4, "jobs": [2, 18], "policy": "critical", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 28.19913560000714, "candidate": 11052, "round": 5, "jobs": [13, 34], "policy": "archive", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 33.60145970003214, "candidate": 11052, "round": 6, "jobs": [8, 13], "policy": "mixed", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 39.01743540004827, "candidate": 11052, "round": 7, "jobs": [2, 9], "policy": "critical", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 44.45438689994626, "candidate": 11052, "round": 8, "jobs": [24, 34], "policy": "archive", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 49.880554000032134, "candidate": 11052, "round": 9, "jobs": [2, 17], "policy": "mixed", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 55.35688830004074, "candidate": 11052, "round": 10, "jobs": [2, 15], "policy": "critical", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 60.805152900051326, "candidate": 11052, "round": 11, "jobs": [19, 34], "policy": "archive", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 66.22034590004478, "candidate": 11052, "round": 12, "jobs": [2, 34], "policy": "mixed", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 71.68620420002844, "candidate": 11052, "round": 13, "jobs": [2, 5], "policy": "critical", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 77.15552090003621, "candidate": 11052, "round": 14, "jobs": [8, 34], "policy": "archive", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 82.57309590000659, "candidate": 11052, "round": 15, "jobs": [2, 19], "policy": "mixed", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 87.95172080001794, "candidate": 11052, "round": 16, "jobs": [0, 2], "policy": "critical", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 93.31742179999128, "candidate": 11052, "round": 17, "jobs": [21, 34], "policy": "archive", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 98.83377869997639, "candidate": 11052, "round": 18, "jobs": [13, 17], "policy": "mixed", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 104.54671849997249, "candidate": 11052, "round": 19, "jobs": [2, 3], "policy": "critical", "status": 9, "binaries": 663, "best": 11052}
+{"event": "round", "elapsed_seconds": 110.05721220001578, "candidate": 11052, "round": 20, "jobs": [33, 34], "policy": "archive", "status": 9, "binaries": 663, "best": 11052}

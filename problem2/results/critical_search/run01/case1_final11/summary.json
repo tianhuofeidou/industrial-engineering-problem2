@@ -1,0 +1,4258 @@
+{
+  "complete": true,
+  "case": 1,
+  "initial": 5169,
+  "final": 5031,
+  "seconds": 4.767664199986029,
+  "records": [
+    {
+      "phase": "enumeration",
+      "best": 5169,
+      "candidate": 5169,
+      "improved": false,
+      "elapsed": 0.03674860001774505,
+      "jobs": [
+        0,
+        3,
+        4
+      ],
+      "before": 5169,
+      "after": 5169,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.028291499998886138,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          6,
+          1
+        ],
+        "b": [
+          4,
+          3,
+          0,
+          2,
+          5,
+          1,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5168,
+      "candidate": 5168,
+      "improved": true,
+      "elapsed": 0.07828970003174618,
+      "jobs": [
+        0,
+        2,
+        4
+      ],
+      "before": 5169,
+      "after": 5168,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.026729400036856532,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          6,
+          1
+        ],
+        "b": [
+          4,
+          3,
+          0,
+          2,
+          5,
+          1,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5168,
+      "candidate": 5168,
+      "improved": false,
+      "elapsed": 0.10760980000486597,
+      "jobs": [
+        0,
+        2,
+        5
+      ],
+      "before": 5168,
+      "after": 5168,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.027683399966917932,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          6,
+          1
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          5,
+          1,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5168,
+      "candidate": 5168,
+      "improved": false,
+      "elapsed": 0.14028039999539033,
+      "jobs": [
+        0,
+        2,
+        4
+      ],
+      "before": 5168,
+      "after": 5168,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03122210002038628,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          6,
+          1
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          5,
+          1,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5168,
+      "candidate": 5168,
+      "improved": false,
+      "elapsed": 0.16954030003398657,
+      "jobs": [
+        2,
+        3,
+        4
+      ],
+      "before": 5168,
+      "after": 5168,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.027962699998170137,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          6,
+          1
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          5,
+          1,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5168,
+      "candidate": 5168,
+      "improved": false,
+      "elapsed": 0.20833540003513917,
+      "jobs": [
+        1,
+        2,
+        5
+      ],
+      "before": 5168,
+      "after": 5168,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03775469999527559,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          6,
+          1
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          5,
+          1,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5068,
+      "candidate": 5068,
+      "improved": true,
+      "elapsed": 0.24510970001574606,
+      "jobs": [
+        1,
+        5,
+        6
+      ],
+      "before": 5168,
+      "after": 5068,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02730580000206828,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          6,
+          1
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          5,
+          1,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5068,
+      "candidate": 5068,
+      "improved": false,
+      "elapsed": 0.27361720002954826,
+      "jobs": [
+        0,
+        1,
+        2
+      ],
+      "before": 5068,
+      "after": 5068,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.027370799973141402,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5068,
+      "candidate": 5068,
+      "improved": false,
+      "elapsed": 0.3022641999996267,
+      "jobs": [
+        1,
+        2,
+        5
+      ],
+      "before": 5068,
+      "after": 5068,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02754719997756183,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5068,
+      "candidate": 5068,
+      "improved": false,
+      "elapsed": 0.3307529999874532,
+      "jobs": [
+        0,
+        2,
+        5
+      ],
+      "before": 5068,
+      "after": 5068,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.026900400000158697,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": true,
+      "elapsed": 0.36795069999061525,
+      "jobs": [
+        0,
+        2,
+        4
+      ],
+      "before": 5068,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.026782199973240495,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.3958196000312455,
+      "jobs": [
+        0,
+        1,
+        2
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02668199996696785,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.42408620001515374,
+      "jobs": [
+        0,
+        2,
+        5
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.027162900019902736,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.45137279998743907,
+      "jobs": [
+        0,
+        2,
+        4
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.026158099994063377,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.47859220003010705,
+      "jobs": [
+        2,
+        3,
+        4
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02613379998365417,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.5058969000237994,
+      "jobs": [
+        1,
+        5,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02615330001572147,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.5493371000047773,
+      "jobs": [
+        0,
+        1,
+        5
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.04238729999633506,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.5823350999853574,
+      "jobs": [
+        1,
+        2,
+        5
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.031717300007585436,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.6149071999825537,
+      "jobs": [
+        0,
+        3,
+        4
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.031465700012631714,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.6478909000288695,
+      "jobs": [
+        0,
+        2,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03132449998520315,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.6803905999986455,
+      "jobs": [
+        0,
+        2,
+        3
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.031259299954399467,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.7127713999943808,
+      "jobs": [
+        2,
+        4,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.031010499980766326,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.7446138000232168,
+      "jobs": [
+        1,
+        2,
+        4
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03075680002802983,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.7752735000103712,
+      "jobs": [
+        2,
+        4,
+        5
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02957160002551973,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.8076357999816537,
+      "jobs": [
+        1,
+        4,
+        5
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03126429999247193,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.8385855000233278,
+      "jobs": [
+        1,
+        3,
+        5
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.0298853000276722,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.8700921999989077,
+      "jobs": [
+        3,
+        4,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03029590001096949,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.9075176999904215,
+      "jobs": [
+        1,
+        3,
+        4
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03630199999315664,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.9391432999982499,
+      "jobs": [
+        3,
+        4,
+        5
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.030211799952667207,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.9698811999987811,
+      "jobs": [
+        0,
+        5,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.0295489999698475,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 0.9999618000001647,
+      "jobs": [
+        0,
+        4,
+        5
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02898180001648143,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.0303474999964237,
+      "jobs": [
+        0,
+        3,
+        5
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02864089998183772,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.0606138000148349,
+      "jobs": [
+        1,
+        4,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.028936300019267946,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.0903376000351273,
+      "jobs": [
+        0,
+        1,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.028386899968609214,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.1202323000179604,
+      "jobs": [
+        1,
+        2,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.028446100011933595,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.1499457000172697,
+      "jobs": [
+        1,
+        3,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02832809998653829,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.179559500014875,
+      "jobs": [
+        4,
+        5,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02844520000508055,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.2094569000182673,
+      "jobs": [
+        2,
+        5,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02834279998205602,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.2388335000141524,
+      "jobs": [
+        3,
+        5,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.028076699993107468,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.26870760001475,
+      "jobs": [
+        0,
+        4,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02853710000636056,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.2990183000219986,
+      "jobs": [
+        0,
+        3,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.028832499985583127,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.329335100017488,
+      "jobs": [
+        2,
+        3,
+        6
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02838440000778064,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 1.3590671999845654,
+      "jobs": [
+        0,
+        1,
+        4
+      ],
+      "before": 5063,
+      "after": 5063,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02855479996651411,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "gurobi",
+      "best": 5063,
+      "candidate": 5063,
+      "improved": false,
+      "elapsed": 2.0155157999834046,
+      "jobs": [
+        0,
+        1,
+        2
+      ],
+      "before": 5063,
+      "after": 5063,
+      "proof": {
+        "scope": "restricted",
+        "original_optimality_proven_by_this_run": false,
+        "solver": "gurobi",
+        "version": "13.0.2",
+        "status": 2,
+        "optimal": true,
+        "runtime": 0.5520000457763672,
+        "nodes": 859.0,
+        "bound": 5063.0,
+        "solver_objective": 5063.0,
+        "gap": 0.0,
+        "seconds_requested": 30.0,
+        "threads": 8,
+        "reduction": {
+          "full_binary_variables": 282,
+          "binary_variables": 174,
+          "variables": 329,
+          "constraints": 1381,
+          "substituted_binary_variables": 108
+        },
+        "strengthening": {
+          "enabled": true,
+          "objective_lower_from_fixed_relations": 3902,
+          "additional_mandatory_arcs": 0,
+          "minimum_time_width": 1161,
+          "maximum_time_width": 2998,
+          "compact": true,
+          "skipped_fixed_pairs": 12
+        },
+        "build_timing": {
+          "environment_seconds": 2.00001522898674e-07,
+          "decisions_seconds": 0.0014108000323176384,
+          "bounds_seconds": 0.001976099971216172,
+          "variables_and_arcs_seconds": 0.013359400036279112,
+          "pair_constraints_seconds": 0.005808199988678098,
+          "warm_start_seconds": 0.0006779999821446836,
+          "model_write_seconds": 0.005280899989884347,
+          "total_build_seconds": 0.028515600017271936
+        },
+        "environment_reused": true,
+        "solver_seconds_limit": 30.0,
+        "solution_source": "decoded_solver_code",
+        "model_sha256": "7ae172488fab186182d2feb146c679268417ed0d6601a63c0bc83e9f7e192ff6",
+        "presolved": {
+          "rows": 1198,
+          "columns": 253,
+          "nonzeros": 3657
+        },
+        "total_seconds": 0.6104718000278808,
+        "cache_hit": false
+      }
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": true,
+      "elapsed": 2.052148099988699,
+      "jobs": [
+        0,
+        1,
+        3
+      ],
+      "before": 5063,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.027231400017626584,
+      "reference": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.080763100006152,
+      "jobs": [
+        1,
+        3,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02705700002843514,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.1088693999918178,
+      "jobs": [
+        0,
+        1,
+        3
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.0268433999735862,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.1375131999957375,
+      "jobs": [
+        0,
+        2,
+        3
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02717089996440336,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.165780299983453,
+      "jobs": [
+        0,
+        1,
+        2
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.026748100004624575,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.1941049000015482,
+      "jobs": [
+        0,
+        2,
+        4
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.02684080001199618,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.22268200002145,
+      "jobs": [
+        3,
+        5,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.026734600018244237,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.2521914000390097,
+      "jobs": [
+        1,
+        5,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.027414999960456043,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.286935599986464,
+      "jobs": [
+        1,
+        2,
+        3
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03301929996814579,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.324435100017581,
+      "jobs": [
+        1,
+        3,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03573830000823364,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.361987499985844,
+      "jobs": [
+        1,
+        3,
+        4
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03604279999854043,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.399369899998419,
+      "jobs": [
+        0,
+        2,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.035835099988617,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.435521700012032,
+      "jobs": [
+        0,
+        2,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03479250002419576,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.478291400009766,
+      "jobs": [
+        2,
+        4,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.041218900005333126,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.521435600006953,
+      "jobs": [
+        2,
+        3,
+        4
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.04125929996371269,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.5641009000246413,
+      "jobs": [
+        2,
+        4,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.04091430001426488,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.6061953000025824,
+      "jobs": [
+        1,
+        2,
+        4
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.040198199974838644,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.643964499991853,
+      "jobs": [
+        0,
+        1,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03590099996654317,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.6996924999984913,
+      "jobs": [
+        0,
+        1,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.05385079997358844,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.7462780000059865,
+      "jobs": [
+        0,
+        1,
+        4
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.04452309996122494,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.788753600034397,
+      "jobs": [
+        2,
+        5,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.04055030003655702,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.8255036000045948,
+      "jobs": [
+        0,
+        5,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03492760000517592,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.8618997000157833,
+      "jobs": [
+        4,
+        5,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03493200003867969,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.8984694000100717,
+      "jobs": [
+        2,
+        3,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03485799999907613,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.9354655999923125,
+      "jobs": [
+        0,
+        3,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.035341400012839586,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 2.9721322000259534,
+      "jobs": [
+        3,
+        4,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.034938499971758574,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 3.0103270999970846,
+      "jobs": [
+        1,
+        2,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03613770002266392,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 3.0527442999882624,
+      "jobs": [
+        2,
+        3,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.0401490000076592,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 3.09350280003855,
+      "jobs": [
+        1,
+        2,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03892350004753098,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 3.132662900025025,
+      "jobs": [
+        0,
+        4,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.037331300030928105,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 3.178990899992641,
+      "jobs": [
+        1,
+        4,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.04415899998275563,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 3.2186384000233375,
+      "jobs": [
+        0,
+        3,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03687420004280284,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 3.256904100009706,
+      "jobs": [
+        3,
+        4,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.036606799985747784,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "gurobi",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 4.648961300030351,
+      "jobs": [
+        1,
+        3,
+        5
+      ],
+      "before": 5031,
+      "after": 5031,
+      "proof": {
+        "scope": "restricted",
+        "original_optimality_proven_by_this_run": false,
+        "solver": "gurobi",
+        "version": "13.0.2",
+        "status": 2,
+        "optimal": true,
+        "runtime": 1.3250000476837158,
+        "nodes": 576.0,
+        "bound": 5031.0,
+        "solver_objective": 5031.0,
+        "gap": 0.0,
+        "seconds_requested": 30.0,
+        "threads": 8,
+        "reduction": {
+          "full_binary_variables": 282,
+          "binary_variables": 174,
+          "variables": 329,
+          "constraints": 1382,
+          "substituted_binary_variables": 108
+        },
+        "strengthening": {
+          "enabled": true,
+          "objective_lower_from_fixed_relations": 3672,
+          "additional_mandatory_arcs": 0,
+          "minimum_time_width": 1359,
+          "maximum_time_width": 2966,
+          "compact": true,
+          "skipped_fixed_pairs": 12
+        },
+        "build_timing": {
+          "environment_seconds": 5.00003807246685e-07,
+          "decisions_seconds": 0.0018369999597780406,
+          "bounds_seconds": 0.00033579999580979347,
+          "variables_and_arcs_seconds": 0.018106000032275915,
+          "pair_constraints_seconds": 0.00742879998870194,
+          "warm_start_seconds": 0.0013138999929651618,
+          "model_write_seconds": 0.007486599963158369,
+          "total_build_seconds": 0.03651289996923879
+        },
+        "environment_reused": true,
+        "solver_seconds_limit": 30.0,
+        "solution_source": "decoded_solver_code",
+        "model_sha256": "1c4e1ac52c5d4741321c5a7411cbaed9d90a64d2f3b855b38f458f3068a896f4",
+        "presolved": {
+          "rows": 1200,
+          "columns": 259,
+          "nonzeros": 3666
+        },
+        "total_seconds": 1.3761202999739908,
+        "cache_hit": false
+      }
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 4.6861846999963745,
+      "jobs": [
+        0,
+        3,
+        4
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03513810003641993,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 4.7231457000016235,
+      "jobs": [
+        0,
+        4,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.034634499985259026,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    },
+    {
+      "phase": "enumeration",
+      "best": 5031,
+      "candidate": 5031,
+      "improved": false,
+      "elapsed": 4.759716600005049,
+      "jobs": [
+        1,
+        4,
+        6
+      ],
+      "before": 5031,
+      "after": 5031,
+      "complete": true,
+      "evaluations": 7200,
+      "expected_evaluations": 7200,
+      "seconds": 0.03491130005568266,
+      "reference": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "scope": "restricted",
+      "original_optimality_proven_by_this_run": false,
+      "conditions": "selected_jobs_contiguous_in_A_and_B;other_relative_orders_and_machines_fixed;reference_also_retained"
+    }
+  ],
+  "improvements": [
+    {
+      "phase": "enumeration",
+      "objective": 5168,
+      "seconds": 0.06607940001413226,
+      "code": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          6,
+          1
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          5,
+          1,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "phase": "enumeration",
+      "objective": 5068,
+      "seconds": 0.23749209998641163,
+      "code": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "phase": "enumeration",
+      "objective": 5063,
+      "seconds": 0.35892450000392273,
+      "code": {
+        "a": [
+          3,
+          4,
+          2,
+          0,
+          5,
+          1,
+          6
+        ],
+        "b": [
+          3,
+          4,
+          0,
+          2,
+          1,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "phase": "enumeration",
+      "objective": 5031,
+      "seconds": 2.045078099996317,
+      "code": {
+        "a": [
+          4,
+          2,
+          0,
+          3,
+          1,
+          5,
+          6
+        ],
+        "b": [
+          4,
+          2,
+          0,
+          1,
+          3,
+          5,
+          6
+        ],
+        "machines": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    }
+  ],
+  "termination": "selected_ranges_exhausted",
+  "solver_calls": 2,
+  "perturbations": 0,
+  "range_cache": {
+    "requests": 2,
+    "solver_calls": 2,
+    "cache_hits": 0,
+    "certified_ranges": 2,
+    "events": [
+      {
+        "key": "20ebc966c532340c69f5c60260ec9fae48c3e84f47101d18b539afe141739a77",
+        "folder": "D:\\桌面\\工业工程实验\\problem2\\results\\critical_search\\run01\\case1_final11\\solver\\round001",
+        "cache_hit": false,
+        "certified": true,
+        "seconds": 0.6232381000299938
+      },
+      {
+        "key": "dfaa52267b5ec21d320b45c2657a0d97808b4e9ad58a38e58c42be7b2007cc51",
+        "folder": "D:\\桌面\\工业工程实验\\problem2\\results\\critical_search\\run01\\case1_final11\\solver\\round002",
+        "cache_hit": false,
+        "certified": true,
+        "seconds": 1.3899070000043139
+      }
+    ]
+  },
+  "scope": "restricted",
+  "original_optimality_proven_by_this_run": false,
+  "total_seconds": 5.292884500056971,
+  "includes_initialization": true
+}

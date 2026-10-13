@@ -1,0 +1,220 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "seed": 11,
+      "method": "A",
+      "before": 11052,
+      "after": 10955,
+      "additional_seconds": 110.05938580003567,
+      "first_improvement_seconds": 38.074991500005126,
+      "first_at_most_10890_seconds": null,
+      "termination": "finished",
+      "selected_relations": null
+    },
+    {
+      "seed": 11,
+      "method": "B",
+      "before": 11052,
+      "after": 11052,
+      "additional_seconds": 110.13491189992055,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "termination": "finished",
+      "selected_relations": null
+    },
+    {
+      "seed": 11,
+      "method": "C",
+      "before": 11052,
+      "after": 11052,
+      "additional_seconds": 42.99615499994252,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "termination": "unfinished_range_without_improvement",
+      "selected_relations": 435
+    },
+    {
+      "seed": 23,
+      "method": "A",
+      "before": 10952,
+      "after": 10952,
+      "additional_seconds": 110.05367299995851,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "termination": "finished",
+      "selected_relations": null
+    },
+    {
+      "seed": 23,
+      "method": "B",
+      "before": 10952,
+      "after": 10873,
+      "additional_seconds": 110.10153899993747,
+      "first_improvement_seconds": 6.401709099998698,
+      "first_at_most_10890_seconds": 79.123450199957,
+      "termination": "finished",
+      "selected_relations": null
+    },
+    {
+      "seed": 23,
+      "method": "C",
+      "before": 10952,
+      "after": 10952,
+      "additional_seconds": 44.48827980004717,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "termination": "unfinished_range_without_improvement",
+      "selected_relations": 444
+    },
+    {
+      "seed": 37,
+      "method": "A",
+      "before": 10962,
+      "after": 10942,
+      "additional_seconds": 110.02416800009087,
+      "first_improvement_seconds": 35.555668300017715,
+      "first_at_most_10890_seconds": null,
+      "termination": "finished",
+      "selected_relations": null
+    },
+    {
+      "seed": 37,
+      "method": "B",
+      "before": 10962,
+      "after": 10932,
+      "additional_seconds": 110.1382384999888,
+      "first_improvement_seconds": 46.47347059997264,
+      "first_at_most_10890_seconds": null,
+      "termination": "finished",
+      "selected_relations": null
+    },
+    {
+      "seed": 37,
+      "method": "C",
+      "before": 10962,
+      "after": 10962,
+      "additional_seconds": 42.41859609994572,
+      "first_improvement_seconds": null,
+      "first_at_most_10890_seconds": null,
+      "termination": "unfinished_range_without_improvement",
+      "selected_relations": 441
+    }
+  ],
+  "prefixes": [
+    {
+      "seed": 11,
+      "initial": 11086,
+      "annealing": 11052,
+      "initialization_seconds": 9.714287100010552,
+      "unrecorded_diagnostic_seconds": 36.90380810003262,
+      "recorded_annealing_seconds": 47.621540200081654,
+      "tracking_seconds": 10.678125005564652,
+      "samples": 287,
+      "termination": {
+        "iterations": 326000,
+        "reason": "temperature_floor",
+        "levels": 326,
+        "initial_temperature": 15398.159524501556,
+        "calibrated_temperature": 7699.079762250778,
+        "temperature_multiplier": 2,
+        "final_temperature": 0.7499877768249406,
+        "temperature_ratio": 0.0001,
+        "cooling": 0.97,
+        "moves_per_temperature": 1000,
+        "accepted": 141831,
+        "uphill_accepted": 65024
+      },
+      "same_without_recording": true,
+      "preparation_seconds_excluding_diagnostic": 58.01329009991605,
+      "wall_seconds_including_diagnostic": 94.91709959995933,
+      "complete": true
+    },
+    {
+      "seed": 23,
+      "initial": 11086,
+      "annealing": 10952,
+      "initialization_seconds": 7.9392727999947965,
+      "unrecorded_diagnostic_seconds": 37.14005659997929,
+      "recorded_annealing_seconds": 53.30201220000163,
+      "tracking_seconds": 12.310563236707821,
+      "samples": 1024,
+      "termination": {
+        "iterations": 326000,
+        "reason": "temperature_floor",
+        "levels": 326,
+        "initial_temperature": 10777.815383127545,
+        "calibrated_temperature": 5388.9076915637725,
+        "temperature_multiplier": 2,
+        "final_temperature": 0.5249477890756643,
+        "temperature_ratio": 0.0001,
+        "cooling": 0.97,
+        "moves_per_temperature": 1000,
+        "accepted": 130725,
+        "uphill_accepted": 59550
+      },
+      "same_without_recording": true,
+      "preparation_seconds_excluding_diagnostic": 61.886874399962835,
+      "wall_seconds_including_diagnostic": 99.02693309995811,
+      "complete": true
+    },
+    {
+      "seed": 37,
+      "initial": 11086,
+      "annealing": 10962,
+      "initialization_seconds": 11.562487700022757,
+      "unrecorded_diagnostic_seconds": 38.80296190001536,
+      "recorded_annealing_seconds": 51.1149318999378,
+      "tracking_seconds": 11.746314209070988,
+      "samples": 350,
+      "termination": {
+        "iterations": 326000,
+        "reason": "temperature_floor",
+        "levels": 326,
+        "initial_temperature": 16280.999287693292,
+        "calibrated_temperature": 8140.499643846646,
+        "temperature_multiplier": 2,
+        "final_temperature": 0.7929876580922617,
+        "temperature_ratio": 0.0001,
+        "cooling": 0.97,
+        "moves_per_temperature": 1000,
+        "accepted": 143535,
+        "uphill_accepted": 66267
+      },
+      "same_without_recording": true,
+      "preparation_seconds_excluding_diagnostic": 63.385870799887925,
+      "wall_seconds_including_diagnostic": 102.18883419991471,
+      "complete": true
+    }
+  ],
+  "groups": {
+    "A": {
+      "best": 10942,
+      "additional_seconds_sum": 330.13722680008505,
+      "group_seconds_including_shared_preparation": 513.4232620998519
+    },
+    "B": {
+      "best": 10873,
+      "additional_seconds_sum": 330.37468939984683,
+      "group_seconds_including_shared_preparation": 513.6607246996136
+    },
+    "C": {
+      "best": 10952,
+      "additional_seconds_sum": 129.9030308999354,
+      "group_seconds_including_shared_preparation": 313.1890661997022
+    }
+  },
+  "shared_preparation_seconds": 183.2860352997668,
+  "extra_diagnostic_seconds": 112.84682660002727,
+  "wall_seconds_including_diagnostics_and_audit": 1101.4764077999862,
+  "verification": {
+    "schedules_validated": 416,
+    "models_validated": 197,
+    "maximum_objective_difference": 1.096299456548877e-06,
+    "objective_tolerance": 0.0001,
+    "same_start_per_seed": true,
+    "source_and_input_hashes_verified": true,
+    "original_optimality_proven": false
+  },
+  "original_optimality_proven": false
+}

@@ -1,0 +1,1447 @@
+{
+  "scores": [
+    {
+      "case": 1,
+      "count": 2000,
+      "scalar_seconds": 0.031221000012010336,
+      "batch_seconds": 0.010738099983427674,
+      "ratio": 2.9074976076023074
+    },
+    {
+      "case": 2,
+      "count": 2000,
+      "scalar_seconds": 0.14167430001543835,
+      "batch_seconds": 0.0372188999899663,
+      "ratio": 3.806514970986025
+    }
+  ],
+  "comparisons": [
+    {
+      "case": 1,
+      "seed": 11,
+      "objective": 5169,
+      "baseline": {
+        "seed": 11,
+        "greedy_best": 5368,
+        "local_best": 5169,
+        "seconds": 0.03709520003758371,
+        "trace": [
+          {
+            "construction": 1,
+            "constructed": 5656,
+            "after_descent": 5656
+          },
+          {
+            "construction": 2,
+            "constructed": 6189,
+            "after_descent": 5985
+          },
+          {
+            "construction": 3,
+            "constructed": 5678,
+            "after_descent": 5678
+          },
+          {
+            "construction": 4,
+            "constructed": 5809,
+            "after_descent": 5169
+          },
+          {
+            "construction": 5,
+            "constructed": 6484,
+            "after_descent": 5950
+          },
+          {
+            "construction": 6,
+            "constructed": 6127,
+            "after_descent": 5798
+          },
+          {
+            "construction": 7,
+            "constructed": 5860,
+            "after_descent": 5860
+          },
+          {
+            "construction": 8,
+            "constructed": 5368,
+            "after_descent": 5368
+          }
+        ],
+        "complete": true,
+        "batch_descent": false,
+        "termination": "local_descent_complete",
+        "evaluations": 2113,
+        "cache_hits": 597,
+        "code": {
+          "a": [
+            3,
+            4,
+            2,
+            0,
+            5,
+            6,
+            1
+          ],
+          "b": [
+            4,
+            3,
+            0,
+            2,
+            5,
+            1,
+            6
+          ],
+          "machines": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        "local_optimum_kinds": [
+          "insert_a",
+          "insert_b",
+          "flip",
+          "swap_a",
+          "swap_b"
+        ]
+      },
+      "batched": {
+        "seed": 11,
+        "greedy_best": 5368,
+        "local_best": 5169,
+        "seconds": 0.0390313999960199,
+        "trace": [
+          {
+            "construction": 1,
+            "constructed": 5656,
+            "after_descent": 5656
+          },
+          {
+            "construction": 2,
+            "constructed": 6189,
+            "after_descent": 5985
+          },
+          {
+            "construction": 3,
+            "constructed": 5678,
+            "after_descent": 5678
+          },
+          {
+            "construction": 4,
+            "constructed": 5809,
+            "after_descent": 5169
+          },
+          {
+            "construction": 5,
+            "constructed": 6484,
+            "after_descent": 5950
+          },
+          {
+            "construction": 6,
+            "constructed": 6127,
+            "after_descent": 5798
+          },
+          {
+            "construction": 7,
+            "constructed": 5860,
+            "after_descent": 5860
+          },
+          {
+            "construction": 8,
+            "constructed": 5368,
+            "after_descent": 5368
+          }
+        ],
+        "complete": true,
+        "batch_descent": false,
+        "termination": "local_descent_complete",
+        "evaluations": 2113,
+        "cache_hits": 597,
+        "code": {
+          "a": [
+            3,
+            4,
+            2,
+            0,
+            5,
+            6,
+            1
+          ],
+          "b": [
+            4,
+            3,
+            0,
+            2,
+            5,
+            1,
+            6
+          ],
+          "machines": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        "local_optimum_kinds": [
+          "insert_a",
+          "insert_b",
+          "flip",
+          "swap_a",
+          "swap_b"
+        ]
+      },
+      "identical_complete_code": true
+    },
+    {
+      "case": 1,
+      "seed": 23,
+      "objective": 5570,
+      "baseline": {
+        "seed": 23,
+        "greedy_best": 5570,
+        "local_best": 5570,
+        "seconds": 0.03358099999604747,
+        "trace": [
+          {
+            "construction": 1,
+            "constructed": 5656,
+            "after_descent": 5656
+          },
+          {
+            "construction": 2,
+            "constructed": 5970,
+            "after_descent": 5947
+          },
+          {
+            "construction": 3,
+            "constructed": 5672,
+            "after_descent": 5672
+          },
+          {
+            "construction": 4,
+            "constructed": 5941,
+            "after_descent": 5570
+          },
+          {
+            "construction": 5,
+            "constructed": 5702,
+            "after_descent": 5702
+          },
+          {
+            "construction": 6,
+            "constructed": 5713,
+            "after_descent": 5696
+          },
+          {
+            "construction": 7,
+            "constructed": 6270,
+            "after_descent": 5943
+          },
+          {
+            "construction": 8,
+            "constructed": 6193,
+            "after_descent": 5851
+          }
+        ],
+        "complete": true,
+        "batch_descent": false,
+        "termination": "local_descent_complete",
+        "evaluations": 1827,
+        "cache_hits": 624,
+        "code": {
+          "a": [
+            2,
+            3,
+            1,
+            4,
+            6,
+            0,
+            5
+          ],
+          "b": [
+            2,
+            1,
+            3,
+            4,
+            6,
+            0,
+            5
+          ],
+          "machines": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        "local_optimum_kinds": [
+          "insert_a",
+          "insert_b",
+          "flip",
+          "swap_a",
+          "swap_b"
+        ]
+      },
+      "batched": {
+        "seed": 23,
+        "greedy_best": 5570,
+        "local_best": 5570,
+        "seconds": 0.03328570001758635,
+        "trace": [
+          {
+            "construction": 1,
+            "constructed": 5656,
+            "after_descent": 5656
+          },
+          {
+            "construction": 2,
+            "constructed": 5970,
+            "after_descent": 5947
+          },
+          {
+            "construction": 3,
+            "constructed": 5672,
+            "after_descent": 5672
+          },
+          {
+            "construction": 4,
+            "constructed": 5941,
+            "after_descent": 5570
+          },
+          {
+            "construction": 5,
+            "constructed": 5702,
+            "after_descent": 5702
+          },
+          {
+            "construction": 6,
+            "constructed": 5713,
+            "after_descent": 5696
+          },
+          {
+            "construction": 7,
+            "constructed": 6270,
+            "after_descent": 5943
+          },
+          {
+            "construction": 8,
+            "constructed": 6193,
+            "after_descent": 5851
+          }
+        ],
+        "complete": true,
+        "batch_descent": false,
+        "termination": "local_descent_complete",
+        "evaluations": 1827,
+        "cache_hits": 624,
+        "code": {
+          "a": [
+            2,
+            3,
+            1,
+            4,
+            6,
+            0,
+            5
+          ],
+          "b": [
+            2,
+            1,
+            3,
+            4,
+            6,
+            0,
+            5
+          ],
+          "machines": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        "local_optimum_kinds": [
+          "insert_a",
+          "insert_b",
+          "flip",
+          "swap_a",
+          "swap_b"
+        ]
+      },
+      "identical_complete_code": true
+    },
+    {
+      "case": 2,
+      "seed": 11,
+      "objective": 11086,
+      "baseline": {
+        "seed": 11,
+        "greedy_best": 11334,
+        "local_best": 11086,
+        "seconds": 22.1627875000122,
+        "trace": [
+          {
+            "construction": 1,
+            "constructed": 11334,
+            "after_descent": 11252
+          },
+          {
+            "construction": 2,
+            "constructed": 12557,
+            "after_descent": 11662
+          },
+          {
+            "construction": 3,
+            "constructed": 12665,
+            "after_descent": 11850
+          },
+          {
+            "construction": 4,
+            "constructed": 12303,
+            "after_descent": 11709
+          },
+          {
+            "construction": 5,
+            "constructed": 12360,
+            "after_descent": 11856
+          },
+          {
+            "construction": 6,
+            "constructed": 12888,
+            "after_descent": 12080
+          },
+          {
+            "construction": 7,
+            "constructed": 12690,
+            "after_descent": 12405
+          },
+          {
+            "construction": 8,
+            "constructed": 12278,
+            "after_descent": 12144
+          }
+        ],
+        "complete": true,
+        "batch_descent": false,
+        "termination": "local_descent_complete",
+        "evaluations": 248532,
+        "cache_hits": 11099,
+        "code": {
+          "a": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            7,
+            27,
+            9,
+            1,
+            25,
+            31,
+            21,
+            5,
+            30,
+            2,
+            32,
+            22,
+            29,
+            24,
+            6,
+            19,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "b": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            27,
+            7,
+            9,
+            25,
+            31,
+            21,
+            5,
+            1,
+            22,
+            30,
+            29,
+            2,
+            32,
+            6,
+            19,
+            24,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "machines": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "local_optimum_kinds": [
+          "insert_a",
+          "insert_b",
+          "flip",
+          "swap_a",
+          "swap_b"
+        ]
+      },
+      "batched": {
+        "seed": 11,
+        "greedy_best": 11334,
+        "local_best": 11086,
+        "seconds": 8.538026999973226,
+        "trace": [
+          {
+            "construction": 1,
+            "constructed": 11334,
+            "after_descent": 11252
+          },
+          {
+            "construction": 2,
+            "constructed": 12557,
+            "after_descent": 11662
+          },
+          {
+            "construction": 3,
+            "constructed": 12665,
+            "after_descent": 11850
+          },
+          {
+            "construction": 4,
+            "constructed": 12303,
+            "after_descent": 11709
+          },
+          {
+            "construction": 5,
+            "constructed": 12360,
+            "after_descent": 11856
+          },
+          {
+            "construction": 6,
+            "constructed": 12888,
+            "after_descent": 12080
+          },
+          {
+            "construction": 7,
+            "constructed": 12690,
+            "after_descent": 12405
+          },
+          {
+            "construction": 8,
+            "constructed": 12278,
+            "after_descent": 12144
+          }
+        ],
+        "complete": true,
+        "batch_descent": true,
+        "termination": "local_descent_complete",
+        "evaluations": 248521,
+        "cache_hits": 11110,
+        "code": {
+          "a": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            7,
+            27,
+            9,
+            1,
+            25,
+            31,
+            21,
+            5,
+            30,
+            2,
+            32,
+            22,
+            29,
+            24,
+            6,
+            19,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "b": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            27,
+            7,
+            9,
+            25,
+            31,
+            21,
+            5,
+            1,
+            22,
+            30,
+            29,
+            2,
+            32,
+            6,
+            19,
+            24,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "machines": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "local_optimum_kinds": [
+          "insert_a",
+          "insert_b",
+          "flip",
+          "swap_a",
+          "swap_b"
+        ]
+      },
+      "identical_complete_code": true
+    },
+    {
+      "case": 2,
+      "seed": 23,
+      "objective": 11086,
+      "baseline": {
+        "seed": 23,
+        "greedy_best": 11334,
+        "local_best": 11086,
+        "seconds": 19.006236999994144,
+        "trace": [
+          {
+            "construction": 1,
+            "constructed": 11334,
+            "after_descent": 11252
+          },
+          {
+            "construction": 2,
+            "constructed": 12023,
+            "after_descent": 11716
+          },
+          {
+            "construction": 3,
+            "constructed": 12476,
+            "after_descent": 12255
+          },
+          {
+            "construction": 4,
+            "constructed": 12015,
+            "after_descent": 11914
+          },
+          {
+            "construction": 5,
+            "constructed": 12637,
+            "after_descent": 11813
+          },
+          {
+            "construction": 6,
+            "constructed": 12301,
+            "after_descent": 11980
+          },
+          {
+            "construction": 7,
+            "constructed": 12514,
+            "after_descent": 12091
+          },
+          {
+            "construction": 8,
+            "constructed": 12490,
+            "after_descent": 11929
+          }
+        ],
+        "complete": true,
+        "batch_descent": false,
+        "termination": "local_descent_complete",
+        "evaluations": 206768,
+        "cache_hits": 8868,
+        "code": {
+          "a": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            7,
+            27,
+            9,
+            1,
+            25,
+            31,
+            21,
+            5,
+            30,
+            2,
+            32,
+            22,
+            29,
+            24,
+            6,
+            19,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "b": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            27,
+            7,
+            9,
+            25,
+            31,
+            21,
+            5,
+            1,
+            22,
+            30,
+            29,
+            2,
+            32,
+            6,
+            19,
+            24,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "machines": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "local_optimum_kinds": [
+          "insert_a",
+          "insert_b",
+          "flip",
+          "swap_a",
+          "swap_b"
+        ]
+      },
+      "batched": {
+        "seed": 23,
+        "greedy_best": 11334,
+        "local_best": 11086,
+        "seconds": 7.169066800037399,
+        "trace": [
+          {
+            "construction": 1,
+            "constructed": 11334,
+            "after_descent": 11252
+          },
+          {
+            "construction": 2,
+            "constructed": 12023,
+            "after_descent": 11716
+          },
+          {
+            "construction": 3,
+            "constructed": 12476,
+            "after_descent": 12255
+          },
+          {
+            "construction": 4,
+            "constructed": 12015,
+            "after_descent": 11914
+          },
+          {
+            "construction": 5,
+            "constructed": 12637,
+            "after_descent": 11813
+          },
+          {
+            "construction": 6,
+            "constructed": 12301,
+            "after_descent": 11980
+          },
+          {
+            "construction": 7,
+            "constructed": 12514,
+            "after_descent": 12091
+          },
+          {
+            "construction": 8,
+            "constructed": 12490,
+            "after_descent": 11929
+          }
+        ],
+        "complete": true,
+        "batch_descent": true,
+        "termination": "local_descent_complete",
+        "evaluations": 206758,
+        "cache_hits": 8878,
+        "code": {
+          "a": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            7,
+            27,
+            9,
+            1,
+            25,
+            31,
+            21,
+            5,
+            30,
+            2,
+            32,
+            22,
+            29,
+            24,
+            6,
+            19,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "b": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            27,
+            7,
+            9,
+            25,
+            31,
+            21,
+            5,
+            1,
+            22,
+            30,
+            29,
+            2,
+            32,
+            6,
+            19,
+            24,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "machines": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "local_optimum_kinds": [
+          "insert_a",
+          "insert_b",
+          "flip",
+          "swap_a",
+          "swap_b"
+        ]
+      },
+      "identical_complete_code": true
+    },
+    {
+      "case": 2,
+      "seed": 37,
+      "objective": 11086,
+      "baseline": {
+        "seed": 37,
+        "greedy_best": 11334,
+        "local_best": 11086,
+        "seconds": 24.42698469996685,
+        "trace": [
+          {
+            "construction": 1,
+            "constructed": 11334,
+            "after_descent": 11252
+          },
+          {
+            "construction": 2,
+            "constructed": 12057,
+            "after_descent": 11526
+          },
+          {
+            "construction": 3,
+            "constructed": 12528,
+            "after_descent": 12072
+          },
+          {
+            "construction": 4,
+            "constructed": 12314,
+            "after_descent": 11541
+          },
+          {
+            "construction": 5,
+            "constructed": 12158,
+            "after_descent": 11729
+          },
+          {
+            "construction": 6,
+            "constructed": 12505,
+            "after_descent": 11763
+          },
+          {
+            "construction": 7,
+            "constructed": 12289,
+            "after_descent": 11860
+          },
+          {
+            "construction": 8,
+            "constructed": 12220,
+            "after_descent": 12063
+          }
+        ],
+        "complete": true,
+        "batch_descent": false,
+        "termination": "local_descent_complete",
+        "evaluations": 270691,
+        "cache_hits": 12215,
+        "code": {
+          "a": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            7,
+            27,
+            9,
+            1,
+            25,
+            31,
+            21,
+            5,
+            30,
+            2,
+            32,
+            22,
+            29,
+            24,
+            6,
+            19,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "b": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            27,
+            7,
+            9,
+            25,
+            31,
+            21,
+            5,
+            1,
+            22,
+            30,
+            29,
+            2,
+            32,
+            6,
+            19,
+            24,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "machines": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "local_optimum_kinds": [
+          "insert_a",
+          "insert_b",
+          "flip",
+          "swap_a",
+          "swap_b"
+        ]
+      },
+      "batched": {
+        "seed": 37,
+        "greedy_best": 11334,
+        "local_best": 11086,
+        "seconds": 9.285077699983958,
+        "trace": [
+          {
+            "construction": 1,
+            "constructed": 11334,
+            "after_descent": 11252
+          },
+          {
+            "construction": 2,
+            "constructed": 12057,
+            "after_descent": 11526
+          },
+          {
+            "construction": 3,
+            "constructed": 12528,
+            "after_descent": 12072
+          },
+          {
+            "construction": 4,
+            "constructed": 12314,
+            "after_descent": 11541
+          },
+          {
+            "construction": 5,
+            "constructed": 12158,
+            "after_descent": 11729
+          },
+          {
+            "construction": 6,
+            "constructed": 12505,
+            "after_descent": 11763
+          },
+          {
+            "construction": 7,
+            "constructed": 12289,
+            "after_descent": 11860
+          },
+          {
+            "construction": 8,
+            "constructed": 12220,
+            "after_descent": 12063
+          }
+        ],
+        "complete": true,
+        "batch_descent": true,
+        "termination": "local_descent_complete",
+        "evaluations": 270644,
+        "cache_hits": 12262,
+        "code": {
+          "a": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            7,
+            27,
+            9,
+            1,
+            25,
+            31,
+            21,
+            5,
+            30,
+            2,
+            32,
+            22,
+            29,
+            24,
+            6,
+            19,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "b": [
+            16,
+            13,
+            17,
+            34,
+            18,
+            10,
+            27,
+            7,
+            9,
+            25,
+            31,
+            21,
+            5,
+            1,
+            22,
+            30,
+            29,
+            2,
+            32,
+            6,
+            19,
+            24,
+            28,
+            26,
+            20,
+            14,
+            4,
+            0,
+            23,
+            15,
+            11,
+            12,
+            8,
+            33,
+            3
+          ],
+          "machines": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "local_optimum_kinds": [
+          "insert_a",
+          "insert_b",
+          "flip",
+          "swap_a",
+          "swap_b"
+        ]
+      },
+      "identical_complete_code": true
+    }
+  ],
+  "validated_schedules": 210,
+  "random_code_comparisons": 4000,
+  "complete": true
+}

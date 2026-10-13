@@ -1,0 +1,2011 @@
+{
+  "complete": true,
+  "case": 1,
+  "seed": 11,
+  "source_sha256": {
+    "问题2.pdf": "975f906e4b7a3f850cfddb5d158ecb66662884a85691c15d04278cb5cfdc2cf1",
+    "问题2数据.xlsx": "dd94ba1c7812800cc4bf61b680151927caa80e1a834ded9e22a7250adced2e39"
+  },
+  "records": [
+    {
+      "method": "annealing",
+      "initial": 5169,
+      "heuristic": 5063,
+      "final": 5063,
+      "initial_seconds": 0.046129200025461614,
+      "search_seconds": 2.5332325999625027,
+      "exact_seconds": 0.367041599994991,
+      "pipeline_seconds": 2.9464033999829553,
+      "baseline_search_seconds": 1.9175216000294313,
+      "baseline_best": 5063,
+      "same_search_result_with_recording": true,
+      "evidence": "annealing\\evidence.json",
+      "refinement": {
+        "scope": "restricted",
+        "original_optimality_proven_by_this_run": false,
+        "rounds": 3,
+        "reason": "round_limit",
+        "records": [
+          {
+            "round": 1,
+            "before": 5063,
+            "after": 5063,
+            "direct_relations": 41,
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.02200007438659668,
+              "nodes": 0.0,
+              "bound": 5063.0,
+              "solver_objective": 5063.0,
+              "gap": 0.0,
+              "seconds_requested": 30.0,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 282,
+                "binary_variables": 171,
+                "variables": 326,
+                "constraints": 1285,
+                "substituted_binary_variables": 111
+              },
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "002051757fad3b44caa6e7014c972e63c1ba0ebac5b84507e70f7950679d5dfd",
+              "presolved": {
+                "rows": 135,
+                "columns": 41,
+                "nonzeros": 390
+              },
+              "total_seconds": 0.0768893999629654
+            }
+          },
+          {
+            "round": 2,
+            "before": 5063,
+            "after": 5063,
+            "direct_relations": 30,
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.025999784469604492,
+              "nodes": 0.0,
+              "bound": 5063.0,
+              "solver_objective": 5063.0,
+              "gap": 0.0,
+              "seconds_requested": 30.0,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 282,
+                "binary_variables": 197,
+                "variables": 352,
+                "constraints": 1340,
+                "substituted_binary_variables": 85
+              },
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "80d989fb5bfb4aa07625c3f49895cb6ff7ee2b785b257bc6be064950d4a0e777",
+              "presolved": {
+                "rows": 135,
+                "columns": 41,
+                "nonzeros": 390
+              },
+              "total_seconds": 0.08302419999381527
+            }
+          },
+          {
+            "round": 3,
+            "before": 5063,
+            "after": 5063,
+            "direct_relations": 22,
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.03900003433227539,
+              "nodes": 0.0,
+              "bound": 5063.0,
+              "solver_objective": 5063.0,
+              "gap": 0.0,
+              "seconds_requested": 30.0,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 282,
+                "binary_variables": 212,
+                "variables": 367,
+                "constraints": 1390,
+                "substituted_binary_variables": 70
+              },
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "aff4f183ca168057a1c7631cc18ca0b6652b2ed2a83f252b3bc0cd5e17925e07",
+              "presolved": {
+                "rows": 143,
+                "columns": 41,
+                "nonzeros": 406
+              },
+              "total_seconds": 0.11531360005028546
+            }
+          }
+        ],
+        "initial_constraints": {
+          "reference_code": {
+            "a": [
+              3,
+              4,
+              2,
+              0,
+              5,
+              1,
+              6
+            ],
+            "b": [
+              4,
+              3,
+              0,
+              2,
+              5,
+              1,
+              6
+            ],
+            "machines": [
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "selected_relations": [
+            {
+              "key": [
+                "machine",
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "adj",
+                "A",
+                2,
+                0
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "adj",
+                "A",
+                6,
+                7
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                1
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                2
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                3
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                1,
+                2
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                1,
+                3
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                1,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                1,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                2,
+                3
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                2,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                2,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                2,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                3,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                3,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                4,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                4,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                5,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "adj",
+                "B",
+                6,
+                7
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                0,
+                1
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                0,
+                3
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                0,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                0,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                0,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                1,
+                2
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                1,
+                3
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                1,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                1,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                2,
+                3
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                2,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                2,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                2,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                3,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                3,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                4,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                4,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                5,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 22
+            }
+          ],
+          "direct_relations": 41,
+          "fixed_machines": [
+            [
+              4,
+              0
+            ]
+          ],
+          "fixed_orders": [
+            [
+              "A",
+              0,
+              1,
+              1
+            ],
+            [
+              "A",
+              0,
+              2,
+              0
+            ],
+            [
+              "A",
+              0,
+              3,
+              0
+            ],
+            [
+              "A",
+              0,
+              4,
+              0
+            ],
+            [
+              "A",
+              0,
+              5,
+              1
+            ],
+            [
+              "A",
+              0,
+              6,
+              1
+            ],
+            [
+              "A",
+              1,
+              2,
+              0
+            ],
+            [
+              "A",
+              1,
+              3,
+              0
+            ],
+            [
+              "A",
+              1,
+              4,
+              0
+            ],
+            [
+              "A",
+              1,
+              6,
+              1
+            ],
+            [
+              "A",
+              2,
+              3,
+              0
+            ],
+            [
+              "A",
+              2,
+              4,
+              0
+            ],
+            [
+              "A",
+              2,
+              5,
+              1
+            ],
+            [
+              "A",
+              2,
+              6,
+              1
+            ],
+            [
+              "A",
+              3,
+              5,
+              1
+            ],
+            [
+              "A",
+              3,
+              6,
+              1
+            ],
+            [
+              "A",
+              4,
+              5,
+              1
+            ],
+            [
+              "A",
+              4,
+              6,
+              1
+            ],
+            [
+              "A",
+              5,
+              6,
+              1
+            ],
+            [
+              "B",
+              0,
+              1,
+              1
+            ],
+            [
+              "B",
+              0,
+              3,
+              0
+            ],
+            [
+              "B",
+              0,
+              4,
+              0
+            ],
+            [
+              "B",
+              0,
+              5,
+              1
+            ],
+            [
+              "B",
+              0,
+              6,
+              1
+            ],
+            [
+              "B",
+              1,
+              2,
+              0
+            ],
+            [
+              "B",
+              1,
+              3,
+              0
+            ],
+            [
+              "B",
+              1,
+              4,
+              0
+            ],
+            [
+              "B",
+              1,
+              6,
+              1
+            ],
+            [
+              "B",
+              2,
+              3,
+              0
+            ],
+            [
+              "B",
+              2,
+              4,
+              0
+            ],
+            [
+              "B",
+              2,
+              5,
+              1
+            ],
+            [
+              "B",
+              2,
+              6,
+              1
+            ],
+            [
+              "B",
+              3,
+              5,
+              1
+            ],
+            [
+              "B",
+              3,
+              6,
+              1
+            ],
+            [
+              "B",
+              4,
+              5,
+              1
+            ],
+            [
+              "B",
+              4,
+              6,
+              1
+            ],
+            [
+              "B",
+              5,
+              6,
+              1
+            ]
+          ],
+          "fixed_arcs": [
+            [
+              "A",
+              2,
+              0
+            ],
+            [
+              "A",
+              6,
+              7
+            ],
+            [
+              "B",
+              6,
+              7
+            ]
+          ],
+          "includes_inferred_machine_and_transitive_order_constraints": true
+        },
+        "seconds": 0.367041599994991,
+        "before": 5063,
+        "after": 5063
+      },
+      "valid": true
+    },
+    {
+      "method": "tabu",
+      "initial": 5169,
+      "heuristic": 5031,
+      "final": 5031,
+      "initial_seconds": 0.046129200025461614,
+      "search_seconds": 28.94119799998589,
+      "exact_seconds": 30.12315880000824,
+      "pipeline_seconds": 59.11048600001959,
+      "baseline_search_seconds": 24.336384500027634,
+      "baseline_best": 5031,
+      "same_search_result_with_recording": true,
+      "evidence": "tabu\\evidence.json",
+      "refinement": {
+        "scope": "restricted",
+        "original_optimality_proven_by_this_run": false,
+        "rounds": 1,
+        "reason": "unfinished_range_without_improvement",
+        "records": [
+          {
+            "round": 1,
+            "before": 5031,
+            "after": 5031,
+            "direct_relations": 1,
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 9,
+              "optimal": false,
+              "runtime": 30.014000177383423,
+              "nodes": 7932.0,
+              "bound": 4056.1676065642,
+              "solver_objective": 5031.0,
+              "gap": 0.1937651348510833,
+              "seconds_requested": 30.0,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 282,
+                "binary_variables": 280,
+                "variables": 435,
+                "constraints": 1720,
+                "substituted_binary_variables": 2
+              },
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "0d0f90657412bf790f9559ed72f88a0e42a392f1db516b15286cb25f26987d4d",
+              "presolved": {
+                "rows": 1574,
+                "columns": 364,
+                "nonzeros": 4992
+              },
+              "total_seconds": 30.107630100043025
+            }
+          }
+        ],
+        "initial_constraints": {
+          "reference_code": {
+            "a": [
+              4,
+              2,
+              0,
+              3,
+              1,
+              5,
+              6
+            ],
+            "b": [
+              4,
+              2,
+              0,
+              1,
+              3,
+              5,
+              6
+            ],
+            "machines": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              1,
+              0
+            ]
+          },
+          "selected_relations": [
+            {
+              "key": [
+                "order",
+                "A",
+                4,
+                6
+              ],
+              "value": 1,
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "basis": "whole_run",
+              "attempts": 33186,
+              "blocked": 8970,
+              "eligible": 24216,
+              "hot": 0,
+              "delta_sum": 36875305,
+              "delta_min": 139,
+              "perturbed": 0,
+              "restored": 0,
+              "unrestored_best_delta": null,
+              "selection_checks": 5114,
+              "selection_gap_sum": 4836794,
+              "selection_gap_min": 61
+            }
+          ],
+          "direct_relations": 1,
+          "fixed_machines": [],
+          "fixed_orders": [
+            [
+              "A",
+              4,
+              6,
+              1
+            ]
+          ],
+          "fixed_arcs": [],
+          "includes_inferred_machine_and_transitive_order_constraints": true
+        },
+        "seconds": 30.12315880000824,
+        "before": 5031,
+        "after": 5031
+      },
+      "valid": true
+    },
+    {
+      "method": "vns",
+      "initial": 5169,
+      "heuristic": 5063,
+      "final": 5063,
+      "initial_seconds": 0.046129200025461614,
+      "search_seconds": 4.767786599986721,
+      "exact_seconds": 0.3923079000087455,
+      "pipeline_seconds": 5.206223700020928,
+      "baseline_search_seconds": 2.4305802999879234,
+      "baseline_best": 5063,
+      "same_search_result_with_recording": true,
+      "evidence": "vns\\evidence.json",
+      "refinement": {
+        "scope": "restricted",
+        "original_optimality_proven_by_this_run": false,
+        "rounds": 3,
+        "reason": "round_limit",
+        "records": [
+          {
+            "round": 1,
+            "before": 5063,
+            "after": 5063,
+            "direct_relations": 35,
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.03399991989135742,
+              "nodes": 0.0,
+              "bound": 5063.0,
+              "solver_objective": 5063.0,
+              "gap": 0.0,
+              "seconds_requested": 30.0,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 282,
+                "binary_variables": 173,
+                "variables": 328,
+                "constraints": 1273,
+                "substituted_binary_variables": 109
+              },
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "36af1949e6e45ddee639c93ad36fe2b309959d16936b067ffd74c0d6264464c7",
+              "presolved": {
+                "rows": 143,
+                "columns": 41,
+                "nonzeros": 406
+              },
+              "total_seconds": 0.1017856000107713
+            }
+          },
+          {
+            "round": 2,
+            "before": 5063,
+            "after": 5063,
+            "direct_relations": 26,
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.03399991989135742,
+              "nodes": 0.0,
+              "bound": 5063.0,
+              "solver_objective": 5063.0,
+              "gap": 0.0,
+              "seconds_requested": 30.0,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 282,
+                "binary_variables": 179,
+                "variables": 334,
+                "constraints": 1283,
+                "substituted_binary_variables": 103
+              },
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "11ce4e9dd7cbc0c27d1ec679f297d8aa0f3974ea13ffa443e906fedcfee86655",
+              "presolved": {
+                "rows": 143,
+                "columns": 41,
+                "nonzeros": 406
+              },
+              "total_seconds": 0.11127130000386387
+            }
+          },
+          {
+            "round": 3,
+            "before": 5063,
+            "after": 5063,
+            "direct_relations": 19,
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.04900002479553223,
+              "nodes": 0.0,
+              "bound": 5063.0,
+              "solver_objective": 5063.0,
+              "gap": 0.0,
+              "seconds_requested": 30.0,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 282,
+                "binary_variables": 191,
+                "variables": 346,
+                "constraints": 1333,
+                "substituted_binary_variables": 91
+              },
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "88b232f71f6c25638edc13b9f60deb685a543f4e472e1d963259eb2675f5ee84",
+              "presolved": {
+                "rows": 135,
+                "columns": 41,
+                "nonzeros": 390
+              },
+              "total_seconds": 0.12289329996565357
+            }
+          }
+        ],
+        "initial_constraints": {
+          "reference_code": {
+            "a": [
+              3,
+              4,
+              2,
+              0,
+              5,
+              1,
+              6
+            ],
+            "b": [
+              3,
+              4,
+              2,
+              0,
+              1,
+              5,
+              6
+            ],
+            "machines": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "selected_relations": [
+            {
+              "key": [
+                "order",
+                "A",
+                1,
+                3
+              ],
+              "value": 0,
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "basis": "whole_run",
+              "attempts": 6772,
+              "blocked": 0,
+              "eligible": 6772,
+              "hot": 0,
+              "delta_sum": 7400208,
+              "delta_min": -1907,
+              "perturbed": 36,
+              "restored": 30,
+              "unrestored_best_delta": 491,
+              "selection_checks": 0,
+              "selection_gap_sum": 0,
+              "selection_gap_min": null
+            },
+            {
+              "key": [
+                "machine",
+                6
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "adj",
+                "A",
+                4,
+                2
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "adj",
+                "A",
+                2,
+                0
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                1
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                2
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                0,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                1,
+                2
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                1,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                2,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                2,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                2,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                3,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                3,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                4,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                4,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "A",
+                5,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                0,
+                1
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                0,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                0,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                0,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                1,
+                2
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                1,
+                3
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                1,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                2,
+                4
+              ],
+              "value": 0,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                2,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                2,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                3,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                3,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                4,
+                5
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                4,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "order",
+                "B",
+                5,
+                6
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": true,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            },
+            {
+              "key": [
+                "adj",
+                "6-1",
+                6,
+                7
+              ],
+              "value": 1,
+              "basis": "late_samples",
+              "whole_run_stable": false,
+              "compatible_with_best": true,
+              "selected": true,
+              "distinct_samples": 6
+            }
+          ],
+          "direct_relations": 35,
+          "fixed_machines": [
+            [
+              6,
+              0
+            ]
+          ],
+          "fixed_orders": [
+            [
+              "A",
+              0,
+              1,
+              1
+            ],
+            [
+              "A",
+              0,
+              2,
+              0
+            ],
+            [
+              "A",
+              0,
+              4,
+              0
+            ],
+            [
+              "A",
+              0,
+              5,
+              1
+            ],
+            [
+              "A",
+              0,
+              6,
+              1
+            ],
+            [
+              "A",
+              1,
+              2,
+              0
+            ],
+            [
+              "A",
+              1,
+              3,
+              0
+            ],
+            [
+              "A",
+              1,
+              4,
+              0
+            ],
+            [
+              "A",
+              2,
+              4,
+              0
+            ],
+            [
+              "A",
+              2,
+              5,
+              1
+            ],
+            [
+              "A",
+              2,
+              6,
+              1
+            ],
+            [
+              "A",
+              3,
+              5,
+              1
+            ],
+            [
+              "A",
+              3,
+              6,
+              1
+            ],
+            [
+              "A",
+              4,
+              5,
+              1
+            ],
+            [
+              "A",
+              4,
+              6,
+              1
+            ],
+            [
+              "A",
+              5,
+              6,
+              1
+            ],
+            [
+              "B",
+              0,
+              1,
+              1
+            ],
+            [
+              "B",
+              0,
+              4,
+              0
+            ],
+            [
+              "B",
+              0,
+              5,
+              1
+            ],
+            [
+              "B",
+              0,
+              6,
+              1
+            ],
+            [
+              "B",
+              1,
+              2,
+              0
+            ],
+            [
+              "B",
+              1,
+              3,
+              0
+            ],
+            [
+              "B",
+              1,
+              4,
+              0
+            ],
+            [
+              "B",
+              2,
+              4,
+              0
+            ],
+            [
+              "B",
+              2,
+              5,
+              1
+            ],
+            [
+              "B",
+              2,
+              6,
+              1
+            ],
+            [
+              "B",
+              3,
+              5,
+              1
+            ],
+            [
+              "B",
+              3,
+              6,
+              1
+            ],
+            [
+              "B",
+              4,
+              5,
+              1
+            ],
+            [
+              "B",
+              4,
+              6,
+              1
+            ],
+            [
+              "B",
+              5,
+              6,
+              1
+            ]
+          ],
+          "fixed_arcs": [
+            [
+              "6-1",
+              6,
+              7
+            ],
+            [
+              "A",
+              2,
+              0
+            ],
+            [
+              "A",
+              4,
+              2
+            ]
+          ],
+          "includes_inferred_machine_and_transitive_order_constraints": true
+        },
+        "seconds": 0.3923079000087455,
+        "before": 5063,
+        "after": 5063
+      },
+      "valid": true
+    }
+  ],
+  "not_an_equal_total_budget_comparison": true
+}

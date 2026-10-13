@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "case": 2,
+  "records": [
+    {
+      "seed": 11,
+      "initial": 11086,
+      "annealing": 11052,
+      "final": 10976,
+      "first_at_most_10890_seconds": null,
+      "total_seconds": 142.5077564000385,
+      "initialization_seconds": 6.648343299981207,
+      "annealing_seconds": 25.083874900010414,
+      "gurobi_seconds": 110.05020220007282,
+      "solver_rounds": 67,
+      "annealing_termination": "temperature_floor",
+      "annealing_iterations": 326000
+    },
+    {
+      "seed": 23,
+      "initial": 11086,
+      "annealing": 10952,
+      "final": 10873,
+      "first_at_most_10890_seconds": 86.8513048000168,
+      "total_seconds": 141.0955321000656,
+      "initialization_seconds": 5.816004900028929,
+      "annealing_seconds": 24.530854099895805,
+      "gurobi_seconds": 110.04408889997285,
+      "solver_rounds": 76,
+      "annealing_termination": "temperature_floor",
+      "annealing_iterations": 326000
+    },
+    {
+      "seed": 37,
+      "initial": 11086,
+      "annealing": 10962,
+      "final": 10932,
+      "first_at_most_10890_seconds": null,
+      "total_seconds": 141.99391640000977,
+      "initialization_seconds": 7.283405099995434,
+      "annealing_seconds": 23.974773099995218,
+      "gurobi_seconds": 110.06011229997966,
+      "solver_rounds": 79,
+      "annealing_termination": "temperature_floor",
+      "annealing_iterations": 326000
+    }
+  ],
+  "wall_seconds": 426.6573908999562,
+  "reached_at_most_10890": 1,
+  "runs": 3,
+  "scope": "restricted",
+  "original_optimality_proven_by_this_run": false
+}

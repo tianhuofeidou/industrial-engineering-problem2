@@ -1,0 +1,43 @@
+{
+  "case": "2",
+  "method": "greedy",
+  "seconds": 10.0,
+  "population": 60,
+  "generations": null,
+  "archive_size": 12,
+  "mutation_rate": 0.35,
+  "local_candidates": 80,
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "free_jobs": 3,
+  "solver_seconds": 10,
+  "threads": 8,
+  "output": ".",
+  "source_sha256": {
+    "问题2.pdf": "975f906e4b7a3f850cfddb5d158ecb66662884a85691c15d04278cb5cfdc2cf1",
+    "问题2数据.xlsx": "dd94ba1c7812800cc4bf61b680151927caa80e1a834ded9e22a7250adced2e39"
+  },
+  "code_sha256": {
+    "data.py": "ff6bab2ee8c2c202d14b9f9a2c43719a00849afab57afbfb48c06f9f8c369613",
+    "encoding.py": "bd510921f8a9c508e64c291786de03329e41b94a27415f6e73c0c91cc600f80f",
+    "exact_case1.py": "1987a5a2248f4fba666a4dcde146db907ad35a20ca3037eab2e35d7838160acb",
+    "exact_validation.py": "6bda117f145d263a818dc98210df339648daa10e9f78e34f9f0c3658eaf7b7ce",
+    "export.py": "41833cea54edc94c453200f1cc77b4b19fd94cf9260779c1f615208ffb7bbf1e",
+    "genetic.py": "4431c1d9b6e5532dacc235f0a021fc69bd5edc75b18019080fce4012195d9fba",
+    "genetic_main.py": "8274f2bafc8571d2dab56bff2e510a60f25f683a473fa9c6cdeb77a470acc994",
+    "hybrid.py": "9fafaf6efcef6ec9b693a598f338a0d1a3f3b1363420d8aba92cac26885558a1",
+    "initialization.py": "c8ca203e5b8c1f5647044dde61cbea90838fe96f73a1d338da27e8132e0e14fc",
+    "main.py": "682cc5fdc1f076db7c378617306e3dab2c1d77364522f3bf3bb6f0ecdbc79a04",
+    "restrictions.py": "99f6efe13367e0907b79edc59639c13a6efbb56bf4adbe3ed449d88a15ebd717",
+    "schedule.py": "fcc6ecee14a3535d0250bc508bc99adf95d5038318cac3b81e7f6658e6c46df2",
+    "search.py": "fbf634013e68ca28d88716876cf126f748757dd1a9558c7c6a49d62f0aef1574",
+    "tests.py": "e92ce9bf18c1bfc9844cf4adb03cd25e33d4e483fd2d69e5eac9fb88a513256f",
+    "tests_exact_case1.py": "df526083b26d68600c6769179d2dc711ed58ba63b877ce8c356b7862881194a5",
+    "tests_genetic.py": "c1b662a4b701e8f785af41bfa94f20117c7f47881e0b0b6d7116e7e6d83a83ae",
+    "validate.py": "6f094159c69a9fbda935a1b91d371c7efbf11aaee7198e16ca30d276986b13b5",
+    "__init__.py": "a77276b297be27177710e9e13ac8951fc825a94902ae18b2c3c9a93177c0b498"
+  }
+}

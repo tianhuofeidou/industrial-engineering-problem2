@@ -1,0 +1,47 @@
+[
+  {
+    "case": 2,
+    "seed": 11,
+    "method": "greedy",
+    "makespan": 11334,
+    "seconds": 10.000058899982832,
+    "valid": true,
+    "known_optimum_gap": null,
+    "reached_known_optimum": null,
+    "solver_scope": null,
+    "solver_bound": null,
+    "solver_gap": null,
+    "solver_optimal": null,
+    "result": "case2/seed11/greedy/result.json"
+  },
+  {
+    "case": 2,
+    "seed": 23,
+    "method": "greedy",
+    "makespan": 11334,
+    "seconds": 10.000143399985973,
+    "valid": true,
+    "known_optimum_gap": null,
+    "reached_known_optimum": null,
+    "solver_scope": null,
+    "solver_bound": null,
+    "solver_gap": null,
+    "solver_optimal": null,
+    "result": "case2/seed23/greedy/result.json"
+  },
+  {
+    "case": 2,
+    "seed": 37,
+    "method": "greedy",
+    "makespan": 11334,
+    "seconds": 10.000044899992645,
+    "valid": true,
+    "known_optimum_gap": null,
+    "reached_known_optimum": null,
+    "solver_scope": null,
+    "solver_bound": null,
+    "solver_gap": null,
+    "solver_optimal": null,
+    "result": "case2/seed37/greedy/result.json"
+  }
+]

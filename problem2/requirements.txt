@@ -1,0 +1,2 @@
+openpyxl
+numpy>=2.0

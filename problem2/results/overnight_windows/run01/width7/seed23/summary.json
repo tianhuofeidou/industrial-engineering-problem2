@@ -1,0 +1,17 @@
+{
+  "seed": 23,
+  "width": 7,
+  "initial_objective": 10952,
+  "best": 10802,
+  "completed_rounds": 1017,
+  "improvements": 16,
+  "reference_changes": 16,
+  "elapsed_seconds": 8901.715289600077,
+  "pairs_required": 841,
+  "started_utc": "2026-10-12T17:26:03.275293+00:00",
+  "updated_utc": "2026-10-12T19:54:24.990602+00:00",
+  "complete": true,
+  "final_pairs_checked": 841,
+  "local_optimal_for_this_width": true,
+  "original_optimality_proven": false
+}

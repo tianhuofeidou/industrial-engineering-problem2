@@ -1,0 +1,2752 @@
+{
+  "levels": [
+    {
+      "iteration": 1000,
+      "seconds": 0.11376239999663085,
+      "best": 11086,
+      "temperature": 5388.9076915637725,
+      "accepted": 980,
+      "current": 20817,
+      "uphill_accepted": 474
+    },
+    {
+      "iteration": 2000,
+      "seconds": 0.21672919997945428,
+      "best": 11086,
+      "temperature": 5227.240460816859,
+      "accepted": 1959,
+      "current": 22822,
+      "uphill_accepted": 948
+    },
+    {
+      "iteration": 3000,
+      "seconds": 0.32656189997214824,
+      "best": 11086,
+      "temperature": 5070.423246992353,
+      "accepted": 2935,
+      "current": 22709,
+      "uphill_accepted": 1416
+    },
+    {
+      "iteration": 4000,
+      "seconds": 0.4356605999637395,
+      "best": 11086,
+      "temperature": 4918.310549582582,
+      "accepted": 3915,
+      "current": 21398,
+      "uphill_accepted": 1871
+    },
+    {
+      "iteration": 5000,
+      "seconds": 0.5463692999910563,
+      "best": 11086,
+      "temperature": 4770.761233095104,
+      "accepted": 4883,
+      "current": 22119,
+      "uphill_accepted": 2333
+    },
+    {
+      "iteration": 6000,
+      "seconds": 0.6605771000031382,
+      "best": 11086,
+      "temperature": 4627.638396102251,
+      "accepted": 5859,
+      "current": 24783,
+      "uphill_accepted": 2821
+    },
+    {
+      "iteration": 7000,
+      "seconds": 0.7797971999971196,
+      "best": 11086,
+      "temperature": 4488.809244219184,
+      "accepted": 6826,
+      "current": 22795,
+      "uphill_accepted": 3288
+    },
+    {
+      "iteration": 8000,
+      "seconds": 0.899287199950777,
+      "best": 11086,
+      "temperature": 4354.144966892608,
+      "accepted": 7803,
+      "current": 23514,
+      "uphill_accepted": 3753
+    },
+    {
+      "iteration": 9000,
+      "seconds": 1.0314591999631375,
+      "best": 11086,
+      "temperature": 4223.52061788583,
+      "accepted": 8780,
+      "current": 23465,
+      "uphill_accepted": 4212
+    },
+    {
+      "iteration": 10000,
+      "seconds": 1.1585428999969736,
+      "best": 11086,
+      "temperature": 4096.814999349254,
+      "accepted": 9751,
+      "current": 20964,
+      "uphill_accepted": 4680
+    },
+    {
+      "iteration": 11000,
+      "seconds": 1.3071076000342146,
+      "best": 11086,
+      "temperature": 3973.9105493687766,
+      "accepted": 10725,
+      "current": 23907,
+      "uphill_accepted": 5145
+    },
+    {
+      "iteration": 12000,
+      "seconds": 1.4370503999525681,
+      "best": 11086,
+      "temperature": 3854.6932328877133,
+      "accepted": 11691,
+      "current": 21863,
+      "uphill_accepted": 5618
+    },
+    {
+      "iteration": 13000,
+      "seconds": 1.5521710999310017,
+      "best": 11086,
+      "temperature": 3739.052435901082,
+      "accepted": 12659,
+      "current": 23012,
+      "uphill_accepted": 6088
+    },
+    {
+      "iteration": 14000,
+      "seconds": 1.6983750999206677,
+      "best": 11086,
+      "temperature": 3626.8808628240495,
+      "accepted": 13616,
+      "current": 22629,
+      "uphill_accepted": 6555
+    },
+    {
+      "iteration": 15000,
+      "seconds": 1.8396956999786198,
+      "best": 11086,
+      "temperature": 3518.074436939328,
+      "accepted": 14581,
+      "current": 21414,
+      "uphill_accepted": 7009
+    },
+    {
+      "iteration": 16000,
+      "seconds": 1.9709328999742866,
+      "best": 11086,
+      "temperature": 3412.532203831148,
+      "accepted": 15549,
+      "current": 20872,
+      "uphill_accepted": 7495
+    },
+    {
+      "iteration": 17000,
+      "seconds": 2.1018042999785393,
+      "best": 11086,
+      "temperature": 3310.156237716213,
+      "accepted": 16518,
+      "current": 23037,
+      "uphill_accepted": 7961
+    },
+    {
+      "iteration": 18000,
+      "seconds": 2.2229501999681816,
+      "best": 11086,
+      "temperature": 3210.8515505847267,
+      "accepted": 17482,
+      "current": 24460,
+      "uphill_accepted": 8403
+    },
+    {
+      "iteration": 19000,
+      "seconds": 2.33321990002878,
+      "best": 11086,
+      "temperature": 3114.5260040671847,
+      "accepted": 18440,
+      "current": 24140,
+      "uphill_accepted": 8855
+    },
+    {
+      "iteration": 20000,
+      "seconds": 2.4477972999447957,
+      "best": 11086,
+      "temperature": 3021.090223945169,
+      "accepted": 19398,
+      "current": 22003,
+      "uphill_accepted": 9342
+    },
+    {
+      "iteration": 21000,
+      "seconds": 2.560378700029105,
+      "best": 11086,
+      "temperature": 2930.4575172268137,
+      "accepted": 20353,
+      "current": 22182,
+      "uphill_accepted": 9814
+    },
+    {
+      "iteration": 22000,
+      "seconds": 2.6704414000269026,
+      "best": 11086,
+      "temperature": 2842.5437917100094,
+      "accepted": 21323,
+      "current": 25058,
+      "uphill_accepted": 10275
+    },
+    {
+      "iteration": 23000,
+      "seconds": 2.7785913000116125,
+      "best": 11086,
+      "temperature": 2757.267477958709,
+      "accepted": 22279,
+      "current": 21843,
+      "uphill_accepted": 10763
+    },
+    {
+      "iteration": 24000,
+      "seconds": 2.9186724999453872,
+      "best": 11086,
+      "temperature": 2674.5494536199476,
+      "accepted": 23228,
+      "current": 19171,
+      "uphill_accepted": 11208
+    },
+    {
+      "iteration": 25000,
+      "seconds": 3.039569400018081,
+      "best": 11086,
+      "temperature": 2594.312970011349,
+      "accepted": 24189,
+      "current": 23479,
+      "uphill_accepted": 11669
+    },
+    {
+      "iteration": 26000,
+      "seconds": 3.165045699919574,
+      "best": 11086,
+      "temperature": 2516.4835809110086,
+      "accepted": 25141,
+      "current": 22456,
+      "uphill_accepted": 12131
+    },
+    {
+      "iteration": 27000,
+      "seconds": 3.2924840999767184,
+      "best": 11086,
+      "temperature": 2440.989073483678,
+      "accepted": 26089,
+      "current": 19379,
+      "uphill_accepted": 12579
+    },
+    {
+      "iteration": 28000,
+      "seconds": 3.4173886999487877,
+      "best": 11086,
+      "temperature": 2367.759401279168,
+      "accepted": 27032,
+      "current": 23707,
+      "uphill_accepted": 13033
+    },
+    {
+      "iteration": 29000,
+      "seconds": 3.537287799990736,
+      "best": 11086,
+      "temperature": 2296.726619240793,
+      "accepted": 27979,
+      "current": 21323,
+      "uphill_accepted": 13488
+    },
+    {
+      "iteration": 30000,
+      "seconds": 3.665218099951744,
+      "best": 11086,
+      "temperature": 2227.824820663569,
+      "accepted": 28919,
+      "current": 22737,
+      "uphill_accepted": 13943
+    },
+    {
+      "iteration": 31000,
+      "seconds": 3.789340600022115,
+      "best": 11086,
+      "temperature": 2160.9900760436617,
+      "accepted": 29851,
+      "current": 20107,
+      "uphill_accepted": 14363
+    },
+    {
+      "iteration": 32000,
+      "seconds": 3.899197299964726,
+      "best": 11086,
+      "temperature": 2096.160373762352,
+      "accepted": 30784,
+      "current": 21898,
+      "uphill_accepted": 14815
+    },
+    {
+      "iteration": 33000,
+      "seconds": 4.014627099968493,
+      "best": 11086,
+      "temperature": 2033.2755625494813,
+      "accepted": 31725,
+      "current": 21432,
+      "uphill_accepted": 15291
+    },
+    {
+      "iteration": 34000,
+      "seconds": 4.127790799946524,
+      "best": 11086,
+      "temperature": 1972.2772956729968,
+      "accepted": 32686,
+      "current": 23962,
+      "uphill_accepted": 15749
+    },
+    {
+      "iteration": 35000,
+      "seconds": 4.23654189996887,
+      "best": 11086,
+      "temperature": 1913.1089768028069,
+      "accepted": 33629,
+      "current": 23383,
+      "uphill_accepted": 16206
+    },
+    {
+      "iteration": 36000,
+      "seconds": 4.342285500024445,
+      "best": 11086,
+      "temperature": 1855.7157074987226,
+      "accepted": 34557,
+      "current": 22228,
+      "uphill_accepted": 16675
+    },
+    {
+      "iteration": 37000,
+      "seconds": 4.4495622999966145,
+      "best": 11086,
+      "temperature": 1800.0442362737608,
+      "accepted": 35505,
+      "current": 23756,
+      "uphill_accepted": 17130
+    },
+    {
+      "iteration": 38000,
+      "seconds": 4.556369800004177,
+      "best": 11086,
+      "temperature": 1746.0429091855478,
+      "accepted": 36441,
+      "current": 20491,
+      "uphill_accepted": 17603
+    },
+    {
+      "iteration": 39000,
+      "seconds": 4.662606099969707,
+      "best": 11086,
+      "temperature": 1693.6616219099812,
+      "accepted": 37358,
+      "current": 21666,
+      "uphill_accepted": 18034
+    },
+    {
+      "iteration": 40000,
+      "seconds": 4.78107209992595,
+      "best": 11086,
+      "temperature": 1642.8517732526818,
+      "accepted": 38293,
+      "current": 20127,
+      "uphill_accepted": 18490
+    },
+    {
+      "iteration": 41000,
+      "seconds": 4.893111899960786,
+      "best": 11086,
+      "temperature": 1593.5662200551012,
+      "accepted": 39218,
+      "current": 22710,
+      "uphill_accepted": 18937
+    },
+    {
+      "iteration": 42000,
+      "seconds": 5.001327999983914,
+      "best": 11086,
+      "temperature": 1545.7592334534481,
+      "accepted": 40129,
+      "current": 21039,
+      "uphill_accepted": 19368
+    },
+    {
+      "iteration": 43000,
+      "seconds": 5.102809299947694,
+      "best": 11086,
+      "temperature": 1499.3864564498447,
+      "accepted": 41066,
+      "current": 22269,
+      "uphill_accepted": 19830
+    },
+    {
+      "iteration": 44000,
+      "seconds": 5.206127699930221,
+      "best": 11086,
+      "temperature": 1454.4048627563493,
+      "accepted": 41992,
+      "current": 21386,
+      "uphill_accepted": 20279
+    },
+    {
+      "iteration": 45000,
+      "seconds": 5.307555599953048,
+      "best": 11086,
+      "temperature": 1410.7727168736587,
+      "accepted": 42917,
+      "current": 22877,
+      "uphill_accepted": 20722
+    },
+    {
+      "iteration": 46000,
+      "seconds": 5.416096100001596,
+      "best": 11086,
+      "temperature": 1368.449535367449,
+      "accepted": 43817,
+      "current": 22590,
+      "uphill_accepted": 21164
+    },
+    {
+      "iteration": 47000,
+      "seconds": 5.524568900000304,
+      "best": 11086,
+      "temperature": 1327.3960493064255,
+      "accepted": 44732,
+      "current": 20625,
+      "uphill_accepted": 21591
+    },
+    {
+      "iteration": 48000,
+      "seconds": 5.628382300026715,
+      "best": 11086,
+      "temperature": 1287.5741678272327,
+      "accepted": 45629,
+      "current": 22530,
+      "uphill_accepted": 22001
+    },
+    {
+      "iteration": 49000,
+      "seconds": 5.730581699986942,
+      "best": 11086,
+      "temperature": 1248.9469427924157,
+      "accepted": 46529,
+      "current": 21986,
+      "uphill_accepted": 22437
+    },
+    {
+      "iteration": 50000,
+      "seconds": 5.8316250999923795,
+      "best": 11086,
+      "temperature": 1211.4785345086432,
+      "accepted": 47429,
+      "current": 23054,
+      "uphill_accepted": 22879
+    },
+    {
+      "iteration": 51000,
+      "seconds": 5.93411249993369,
+      "best": 11086,
+      "temperature": 1175.1341784733838,
+      "accepted": 48317,
+      "current": 21627,
+      "uphill_accepted": 23312
+    },
+    {
+      "iteration": 52000,
+      "seconds": 6.034376199939288,
+      "best": 11086,
+      "temperature": 1139.8801531191823,
+      "accepted": 49224,
+      "current": 21386,
+      "uphill_accepted": 23738
+    },
+    {
+      "iteration": 53000,
+      "seconds": 6.133199300034903,
+      "best": 11086,
+      "temperature": 1105.6837485256067,
+      "accepted": 50100,
+      "current": 22668,
+      "uphill_accepted": 24172
+    },
+    {
+      "iteration": 54000,
+      "seconds": 6.2345264999894425,
+      "best": 11086,
+      "temperature": 1072.5132360698385,
+      "accepted": 50998,
+      "current": 20520,
+      "uphill_accepted": 24588
+    },
+    {
+      "iteration": 55000,
+      "seconds": 6.334378800005652,
+      "best": 11086,
+      "temperature": 1040.3378389877432,
+      "accepted": 51857,
+      "current": 21281,
+      "uphill_accepted": 24990
+    },
+    {
+      "iteration": 56000,
+      "seconds": 6.435783299966715,
+      "best": 11086,
+      "temperature": 1009.127703818111,
+      "accepted": 52730,
+      "current": 23219,
+      "uphill_accepted": 25392
+    },
+    {
+      "iteration": 57000,
+      "seconds": 6.540884300018661,
+      "best": 11086,
+      "temperature": 978.8538727035676,
+      "accepted": 53593,
+      "current": 20900,
+      "uphill_accepted": 25792
+    },
+    {
+      "iteration": 58000,
+      "seconds": 6.640965100028552,
+      "best": 11086,
+      "temperature": 949.4882565224606,
+      "accepted": 54463,
+      "current": 19911,
+      "uphill_accepted": 26207
+    },
+    {
+      "iteration": 59000,
+      "seconds": 6.7454373999498785,
+      "best": 11086,
+      "temperature": 921.0036088267867,
+      "accepted": 55334,
+      "current": 19960,
+      "uphill_accepted": 26632
+    },
+    {
+      "iteration": 60000,
+      "seconds": 6.849714100011624,
+      "best": 11086,
+      "temperature": 893.3735005619831,
+      "accepted": 56203,
+      "current": 19395,
+      "uphill_accepted": 27025
+    },
+    {
+      "iteration": 61000,
+      "seconds": 6.951157000032254,
+      "best": 11086,
+      "temperature": 866.5722955451236,
+      "accepted": 57084,
+      "current": 19477,
+      "uphill_accepted": 27452
+    },
+    {
+      "iteration": 62000,
+      "seconds": 7.052607299992815,
+      "best": 11086,
+      "temperature": 840.5751266787698,
+      "accepted": 57955,
+      "current": 20174,
+      "uphill_accepted": 27865
+    },
+    {
+      "iteration": 63000,
+      "seconds": 7.1543984999880195,
+      "best": 11086,
+      "temperature": 815.3578728784067,
+      "accepted": 58792,
+      "current": 20401,
+      "uphill_accepted": 28251
+    },
+    {
+      "iteration": 64000,
+      "seconds": 7.259576699929312,
+      "best": 11086,
+      "temperature": 790.8971366920545,
+      "accepted": 59636,
+      "current": 20514,
+      "uphill_accepted": 28655
+    },
+    {
+      "iteration": 65000,
+      "seconds": 7.363047300023027,
+      "best": 11086,
+      "temperature": 767.1702225912928,
+      "accepted": 60468,
+      "current": 21573,
+      "uphill_accepted": 29041
+    },
+    {
+      "iteration": 66000,
+      "seconds": 7.464519200031646,
+      "best": 11086,
+      "temperature": 744.155115913554,
+      "accepted": 61292,
+      "current": 20042,
+      "uphill_accepted": 29433
+    },
+    {
+      "iteration": 67000,
+      "seconds": 7.56760079995729,
+      "best": 11086,
+      "temperature": 721.8304624361474,
+      "accepted": 62140,
+      "current": 20624,
+      "uphill_accepted": 29845
+    },
+    {
+      "iteration": 68000,
+      "seconds": 7.675718999933451,
+      "best": 11086,
+      "temperature": 700.175548563063,
+      "accepted": 62988,
+      "current": 22523,
+      "uphill_accepted": 30263
+    },
+    {
+      "iteration": 69000,
+      "seconds": 7.785682899993844,
+      "best": 11086,
+      "temperature": 679.170282106171,
+      "accepted": 63810,
+      "current": 19608,
+      "uphill_accepted": 30648
+    },
+    {
+      "iteration": 70000,
+      "seconds": 7.887253599939868,
+      "best": 11086,
+      "temperature": 658.7951736429859,
+      "accepted": 64632,
+      "current": 21716,
+      "uphill_accepted": 31055
+    },
+    {
+      "iteration": 71000,
+      "seconds": 7.996753399958834,
+      "best": 11086,
+      "temperature": 639.0313184336964,
+      "accepted": 65433,
+      "current": 19430,
+      "uphill_accepted": 31425
+    },
+    {
+      "iteration": 72000,
+      "seconds": 8.099459899938665,
+      "best": 11086,
+      "temperature": 619.8603788806854,
+      "accepted": 66236,
+      "current": 17870,
+      "uphill_accepted": 31784
+    },
+    {
+      "iteration": 73000,
+      "seconds": 8.200561399920844,
+      "best": 11086,
+      "temperature": 601.2645675142649,
+      "accepted": 67062,
+      "current": 20221,
+      "uphill_accepted": 32170
+    },
+    {
+      "iteration": 74000,
+      "seconds": 8.300395600032061,
+      "best": 11086,
+      "temperature": 583.2266304888369,
+      "accepted": 67868,
+      "current": 19156,
+      "uphill_accepted": 32527
+    },
+    {
+      "iteration": 75000,
+      "seconds": 8.405341399949975,
+      "best": 11086,
+      "temperature": 565.7298315741718,
+      "accepted": 68660,
+      "current": 18008,
+      "uphill_accepted": 32903
+    },
+    {
+      "iteration": 76000,
+      "seconds": 8.506225900026038,
+      "best": 11086,
+      "temperature": 548.7579366269466,
+      "accepted": 69437,
+      "current": 19527,
+      "uphill_accepted": 33265
+    },
+    {
+      "iteration": 77000,
+      "seconds": 8.606187699944712,
+      "best": 11086,
+      "temperature": 532.2951985281383,
+      "accepted": 70219,
+      "current": 20688,
+      "uphill_accepted": 33636
+    },
+    {
+      "iteration": 78000,
+      "seconds": 8.706858200021088,
+      "best": 11086,
+      "temperature": 516.3263425722942,
+      "accepted": 70988,
+      "current": 19791,
+      "uphill_accepted": 33998
+    },
+    {
+      "iteration": 79000,
+      "seconds": 8.807754999957979,
+      "best": 11086,
+      "temperature": 500.83655229512533,
+      "accepted": 71737,
+      "current": 19751,
+      "uphill_accepted": 34338
+    },
+    {
+      "iteration": 80000,
+      "seconds": 8.928250400000252,
+      "best": 11086,
+      "temperature": 485.81145572627156,
+      "accepted": 72496,
+      "current": 20342,
+      "uphill_accepted": 34710
+    },
+    {
+      "iteration": 81000,
+      "seconds": 9.02800589997787,
+      "best": 11086,
+      "temperature": 471.2371120544834,
+      "accepted": 73213,
+      "current": 19328,
+      "uphill_accepted": 35039
+    },
+    {
+      "iteration": 82000,
+      "seconds": 9.128340899944305,
+      "best": 11086,
+      "temperature": 457.0999986928489,
+      "accepted": 73972,
+      "current": 19741,
+      "uphill_accepted": 35390
+    },
+    {
+      "iteration": 83000,
+      "seconds": 9.22933370003011,
+      "best": 11086,
+      "temperature": 443.38699873206343,
+      "accepted": 74725,
+      "current": 18010,
+      "uphill_accepted": 35753
+    },
+    {
+      "iteration": 84000,
+      "seconds": 9.336513499962166,
+      "best": 11086,
+      "temperature": 430.08538877010153,
+      "accepted": 75400,
+      "current": 17554,
+      "uphill_accepted": 36073
+    },
+    {
+      "iteration": 85000,
+      "seconds": 9.450496200006455,
+      "best": 11086,
+      "temperature": 417.18282710699845,
+      "accepted": 76130,
+      "current": 19433,
+      "uphill_accepted": 36410
+    },
+    {
+      "iteration": 86000,
+      "seconds": 9.555115600000136,
+      "best": 11086,
+      "temperature": 404.66734229378847,
+      "accepted": 76822,
+      "current": 20542,
+      "uphill_accepted": 36722
+    },
+    {
+      "iteration": 87000,
+      "seconds": 9.660236999974586,
+      "best": 11086,
+      "temperature": 392.5273220249748,
+      "accepted": 77513,
+      "current": 19329,
+      "uphill_accepted": 37032
+    },
+    {
+      "iteration": 88000,
+      "seconds": 9.768975600018166,
+      "best": 11086,
+      "temperature": 380.75150236422553,
+      "accepted": 78182,
+      "current": 18845,
+      "uphill_accepted": 37342
+    },
+    {
+      "iteration": 89000,
+      "seconds": 9.884068300016224,
+      "best": 11086,
+      "temperature": 369.32895729329874,
+      "accepted": 78882,
+      "current": 19797,
+      "uphill_accepted": 37668
+    },
+    {
+      "iteration": 90000,
+      "seconds": 9.997342400019988,
+      "best": 11086,
+      "temperature": 358.24908857449975,
+      "accepted": 79546,
+      "current": 21001,
+      "uphill_accepted": 37957
+    },
+    {
+      "iteration": 91000,
+      "seconds": 10.102686399943195,
+      "best": 11086,
+      "temperature": 347.50161591726476,
+      "accepted": 80198,
+      "current": 20295,
+      "uphill_accepted": 38265
+    },
+    {
+      "iteration": 92000,
+      "seconds": 10.206669099978171,
+      "best": 11086,
+      "temperature": 337.0765674397468,
+      "accepted": 80853,
+      "current": 19490,
+      "uphill_accepted": 38565
+    },
+    {
+      "iteration": 93000,
+      "seconds": 10.309804699965753,
+      "best": 11086,
+      "temperature": 326.96427041655437,
+      "accepted": 81486,
+      "current": 21198,
+      "uphill_accepted": 38841
+    },
+    {
+      "iteration": 94000,
+      "seconds": 10.416985300020315,
+      "best": 11086,
+      "temperature": 317.15534230405774,
+      "accepted": 82106,
+      "current": 17055,
+      "uphill_accepted": 39106
+    },
+    {
+      "iteration": 95000,
+      "seconds": 10.523180900025181,
+      "best": 11086,
+      "temperature": 307.640682034936,
+      "accepted": 82729,
+      "current": 18293,
+      "uphill_accepted": 39382
+    },
+    {
+      "iteration": 96000,
+      "seconds": 10.625954299932346,
+      "best": 11086,
+      "temperature": 298.4114615738879,
+      "accepted": 83365,
+      "current": 18531,
+      "uphill_accepted": 39668
+    },
+    {
+      "iteration": 97000,
+      "seconds": 10.731730600004084,
+      "best": 11086,
+      "temperature": 289.45911772667125,
+      "accepted": 84031,
+      "current": 18401,
+      "uphill_accepted": 39966
+    },
+    {
+      "iteration": 98000,
+      "seconds": 10.839086099993438,
+      "best": 11086,
+      "temperature": 280.7753441948711,
+      "accepted": 84620,
+      "current": 18675,
+      "uphill_accepted": 40227
+    },
+    {
+      "iteration": 99000,
+      "seconds": 10.947793500032276,
+      "best": 11086,
+      "temperature": 272.35208386902497,
+      "accepted": 85216,
+      "current": 18243,
+      "uphill_accepted": 40492
+    },
+    {
+      "iteration": 100000,
+      "seconds": 11.063540300005116,
+      "best": 11086,
+      "temperature": 264.18152135295423,
+      "accepted": 85776,
+      "current": 16473,
+      "uphill_accepted": 40712
+    },
+    {
+      "iteration": 101000,
+      "seconds": 11.167713499977253,
+      "best": 11086,
+      "temperature": 256.2560757123656,
+      "accepted": 86363,
+      "current": 17303,
+      "uphill_accepted": 40981
+    },
+    {
+      "iteration": 102000,
+      "seconds": 11.27203200000804,
+      "best": 11086,
+      "temperature": 248.5683934409946,
+      "accepted": 86916,
+      "current": 16855,
+      "uphill_accepted": 41218
+    },
+    {
+      "iteration": 103000,
+      "seconds": 11.37793389998842,
+      "best": 11086,
+      "temperature": 241.11134163776478,
+      "accepted": 87416,
+      "current": 16883,
+      "uphill_accepted": 41447
+    },
+    {
+      "iteration": 104000,
+      "seconds": 11.486743399989791,
+      "best": 11086,
+      "temperature": 233.87800138863184,
+      "accepted": 88005,
+      "current": 17352,
+      "uphill_accepted": 41709
+    },
+    {
+      "iteration": 105000,
+      "seconds": 11.597043299931102,
+      "best": 11086,
+      "temperature": 226.86166134697288,
+      "accepted": 88512,
+      "current": 16503,
+      "uphill_accepted": 41930
+    },
+    {
+      "iteration": 106000,
+      "seconds": 11.701409899978898,
+      "best": 11086,
+      "temperature": 220.05581150656369,
+      "accepted": 89036,
+      "current": 15763,
+      "uphill_accepted": 42155
+    },
+    {
+      "iteration": 107000,
+      "seconds": 11.815331400022842,
+      "best": 11086,
+      "temperature": 213.45413716136676,
+      "accepted": 89528,
+      "current": 18808,
+      "uphill_accepted": 42364
+    },
+    {
+      "iteration": 108000,
+      "seconds": 11.930753999971785,
+      "best": 11086,
+      "temperature": 207.05051304652574,
+      "accepted": 89995,
+      "current": 16827,
+      "uphill_accepted": 42553
+    },
+    {
+      "iteration": 109000,
+      "seconds": 12.04688499995973,
+      "best": 11086,
+      "temperature": 200.83899765512996,
+      "accepted": 90492,
+      "current": 16694,
+      "uphill_accepted": 42773
+    },
+    {
+      "iteration": 110000,
+      "seconds": 12.155620599980466,
+      "best": 11086,
+      "temperature": 194.81382772547605,
+      "accepted": 90998,
+      "current": 18477,
+      "uphill_accepted": 42986
+    },
+    {
+      "iteration": 111000,
+      "seconds": 12.260616699932143,
+      "best": 11086,
+      "temperature": 188.96941289371176,
+      "accepted": 91544,
+      "current": 16547,
+      "uphill_accepted": 43229
+    },
+    {
+      "iteration": 112000,
+      "seconds": 12.366698800004087,
+      "best": 11086,
+      "temperature": 183.3003305069004,
+      "accepted": 92014,
+      "current": 17420,
+      "uphill_accepted": 43428
+    },
+    {
+      "iteration": 113000,
+      "seconds": 12.472091099945828,
+      "best": 11086,
+      "temperature": 177.80132059169338,
+      "accepted": 92510,
+      "current": 16339,
+      "uphill_accepted": 43656
+    },
+    {
+      "iteration": 114000,
+      "seconds": 12.575896300026216,
+      "best": 11086,
+      "temperature": 172.46728097394256,
+      "accepted": 92974,
+      "current": 16570,
+      "uphill_accepted": 43847
+    },
+    {
+      "iteration": 115000,
+      "seconds": 12.68201540003065,
+      "best": 11086,
+      "temperature": 167.29326254472429,
+      "accepted": 93456,
+      "current": 16819,
+      "uphill_accepted": 44063
+    },
+    {
+      "iteration": 116000,
+      "seconds": 12.78661579999607,
+      "best": 11086,
+      "temperature": 162.27446466838256,
+      "accepted": 93908,
+      "current": 16851,
+      "uphill_accepted": 44250
+    },
+    {
+      "iteration": 117000,
+      "seconds": 12.901472899946384,
+      "best": 11086,
+      "temperature": 157.40623072833108,
+      "accepted": 94359,
+      "current": 16009,
+      "uphill_accepted": 44441
+    },
+    {
+      "iteration": 118000,
+      "seconds": 13.012357500032522,
+      "best": 11086,
+      "temperature": 152.68404380648116,
+      "accepted": 94783,
+      "current": 15885,
+      "uphill_accepted": 44613
+    },
+    {
+      "iteration": 119000,
+      "seconds": 13.12559319997672,
+      "best": 11086,
+      "temperature": 148.10352249228671,
+      "accepted": 95267,
+      "current": 17088,
+      "uphill_accepted": 44811
+    },
+    {
+      "iteration": 120000,
+      "seconds": 13.233782000024803,
+      "best": 11086,
+      "temperature": 143.6604168175181,
+      "accepted": 95649,
+      "current": 15935,
+      "uphill_accepted": 44963
+    },
+    {
+      "iteration": 121000,
+      "seconds": 13.339855700032786,
+      "best": 11086,
+      "temperature": 139.35060431299254,
+      "accepted": 96054,
+      "current": 15974,
+      "uphill_accepted": 45119
+    },
+    {
+      "iteration": 122000,
+      "seconds": 13.444171099923551,
+      "best": 11086,
+      "temperature": 135.17008618360276,
+      "accepted": 96401,
+      "current": 15934,
+      "uphill_accepted": 45252
+    },
+    {
+      "iteration": 123000,
+      "seconds": 13.58256969996728,
+      "best": 11086,
+      "temperature": 131.11498359809468,
+      "accepted": 96809,
+      "current": 15032,
+      "uphill_accepted": 45421
+    },
+    {
+      "iteration": 124000,
+      "seconds": 13.698002099990845,
+      "best": 11086,
+      "temperature": 127.18153409015184,
+      "accepted": 97203,
+      "current": 15041,
+      "uphill_accepted": 45583
+    },
+    {
+      "iteration": 125000,
+      "seconds": 13.802799999946728,
+      "best": 11086,
+      "temperature": 123.36608806744728,
+      "accepted": 97572,
+      "current": 14902,
+      "uphill_accepted": 45728
+    },
+    {
+      "iteration": 126000,
+      "seconds": 13.914659000001848,
+      "best": 11086,
+      "temperature": 119.66510542542386,
+      "accepted": 97904,
+      "current": 15951,
+      "uphill_accepted": 45851
+    },
+    {
+      "iteration": 127000,
+      "seconds": 14.025732100009918,
+      "best": 11086,
+      "temperature": 116.07515226266113,
+      "accepted": 98230,
+      "current": 15590,
+      "uphill_accepted": 45973
+    },
+    {
+      "iteration": 128000,
+      "seconds": 14.139904799987562,
+      "best": 11086,
+      "temperature": 112.5928976947813,
+      "accepted": 98544,
+      "current": 15863,
+      "uphill_accepted": 46091
+    },
+    {
+      "iteration": 129000,
+      "seconds": 14.246906199958175,
+      "best": 11086,
+      "temperature": 109.21511076393786,
+      "accepted": 98916,
+      "current": 15776,
+      "uphill_accepted": 46235
+    },
+    {
+      "iteration": 130000,
+      "seconds": 14.347719799960032,
+      "best": 11086,
+      "temperature": 105.93865744101971,
+      "accepted": 99196,
+      "current": 14406,
+      "uphill_accepted": 46337
+    },
+    {
+      "iteration": 131000,
+      "seconds": 14.44986189994961,
+      "best": 11086,
+      "temperature": 102.76049771778912,
+      "accepted": 99460,
+      "current": 15092,
+      "uphill_accepted": 46433
+    },
+    {
+      "iteration": 132000,
+      "seconds": 14.556307999999262,
+      "best": 11086,
+      "temperature": 99.67768278625545,
+      "accepted": 99744,
+      "current": 14582,
+      "uphill_accepted": 46531
+    },
+    {
+      "iteration": 133000,
+      "seconds": 14.657465199939907,
+      "best": 11086,
+      "temperature": 96.68735230266778,
+      "accepted": 100081,
+      "current": 14729,
+      "uphill_accepted": 46649
+    },
+    {
+      "iteration": 134000,
+      "seconds": 14.759041199926287,
+      "best": 11086,
+      "temperature": 93.78673173358774,
+      "accepted": 100360,
+      "current": 14220,
+      "uphill_accepted": 46746
+    },
+    {
+      "iteration": 135000,
+      "seconds": 14.865908499923535,
+      "best": 11086,
+      "temperature": 90.97312978158011,
+      "accepted": 100623,
+      "current": 14765,
+      "uphill_accepted": 46840
+    },
+    {
+      "iteration": 136000,
+      "seconds": 14.98444099992048,
+      "best": 11086,
+      "temperature": 88.24393588813271,
+      "accepted": 100886,
+      "current": 14451,
+      "uphill_accepted": 46927
+    },
+    {
+      "iteration": 137000,
+      "seconds": 15.095166699960828,
+      "best": 11086,
+      "temperature": 85.59661781148873,
+      "accepted": 101137,
+      "current": 14870,
+      "uphill_accepted": 47010
+    },
+    {
+      "iteration": 138000,
+      "seconds": 15.198171299998648,
+      "best": 11086,
+      "temperature": 83.02871927714406,
+      "accepted": 101383,
+      "current": 14346,
+      "uphill_accepted": 47084
+    },
+    {
+      "iteration": 139000,
+      "seconds": 15.300782999955118,
+      "best": 11086,
+      "temperature": 80.53785769882974,
+      "accepted": 101622,
+      "current": 14208,
+      "uphill_accepted": 47170
+    },
+    {
+      "iteration": 140000,
+      "seconds": 15.41096419992391,
+      "best": 11086,
+      "temperature": 78.12172196786484,
+      "accepted": 101842,
+      "current": 14062,
+      "uphill_accepted": 47254
+    },
+    {
+      "iteration": 141000,
+      "seconds": 15.513624400016852,
+      "best": 11086,
+      "temperature": 75.7780703088289,
+      "accepted": 102104,
+      "current": 14908,
+      "uphill_accepted": 47349
+    },
+    {
+      "iteration": 142000,
+      "seconds": 15.61756929999683,
+      "best": 11086,
+      "temperature": 73.50472819956403,
+      "accepted": 102330,
+      "current": 13681,
+      "uphill_accepted": 47420
+    },
+    {
+      "iteration": 143000,
+      "seconds": 15.718216700013727,
+      "best": 11086,
+      "temperature": 71.2995863535771,
+      "accepted": 102504,
+      "current": 14270,
+      "uphill_accepted": 47485
+    },
+    {
+      "iteration": 144000,
+      "seconds": 15.819759599980898,
+      "best": 11086,
+      "temperature": 69.16059876296978,
+      "accepted": 102730,
+      "current": 13832,
+      "uphill_accepted": 47568
+    },
+    {
+      "iteration": 145000,
+      "seconds": 15.93019500002265,
+      "best": 11086,
+      "temperature": 67.08578080008068,
+      "accepted": 102900,
+      "current": 13739,
+      "uphill_accepted": 47612
+    },
+    {
+      "iteration": 146000,
+      "seconds": 16.038052599993534,
+      "best": 11086,
+      "temperature": 65.07320737607826,
+      "accepted": 103101,
+      "current": 13735,
+      "uphill_accepted": 47684
+    },
+    {
+      "iteration": 147000,
+      "seconds": 16.15039850003086,
+      "best": 11086,
+      "temperature": 63.12101115479591,
+      "accepted": 103320,
+      "current": 13919,
+      "uphill_accepted": 47756
+    },
+    {
+      "iteration": 148000,
+      "seconds": 16.256170699954964,
+      "best": 11086,
+      "temperature": 61.22738082015203,
+      "accepted": 103522,
+      "current": 13738,
+      "uphill_accepted": 47819
+    },
+    {
+      "iteration": 149000,
+      "seconds": 16.356990600004792,
+      "best": 11086,
+      "temperature": 59.39055939554746,
+      "accepted": 103692,
+      "current": 13050,
+      "uphill_accepted": 47867
+    },
+    {
+      "iteration": 150000,
+      "seconds": 16.45826029998716,
+      "best": 11086,
+      "temperature": 57.608842613681034,
+      "accepted": 103857,
+      "current": 13296,
+      "uphill_accepted": 47923
+    },
+    {
+      "iteration": 151000,
+      "seconds": 16.5624555000104,
+      "best": 11086,
+      "temperature": 55.8805773352706,
+      "accepted": 104016,
+      "current": 13504,
+      "uphill_accepted": 47973
+    },
+    {
+      "iteration": 152000,
+      "seconds": 16.662588099949062,
+      "best": 11086,
+      "temperature": 54.20416001521248,
+      "accepted": 104208,
+      "current": 13466,
+      "uphill_accepted": 48035
+    },
+    {
+      "iteration": 153000,
+      "seconds": 16.778918499941938,
+      "best": 11086,
+      "temperature": 52.578035214756106,
+      "accepted": 104351,
+      "current": 13550,
+      "uphill_accepted": 48080
+    },
+    {
+      "iteration": 154000,
+      "seconds": 16.883320400025696,
+      "best": 11086,
+      "temperature": 51.00069415831342,
+      "accepted": 104491,
+      "current": 13208,
+      "uphill_accepted": 48127
+    },
+    {
+      "iteration": 155000,
+      "seconds": 16.991931300028227,
+      "best": 11086,
+      "temperature": 49.470673333564015,
+      "accepted": 104630,
+      "current": 13151,
+      "uphill_accepted": 48167
+    },
+    {
+      "iteration": 156000,
+      "seconds": 17.0996879999293,
+      "best": 11086,
+      "temperature": 47.986553133557095,
+      "accepted": 104758,
+      "current": 13073,
+      "uphill_accepted": 48206
+    },
+    {
+      "iteration": 157000,
+      "seconds": 17.20193109998945,
+      "best": 11086,
+      "temperature": 46.54695653955038,
+      "accepted": 104900,
+      "current": 13112,
+      "uphill_accepted": 48253
+    },
+    {
+      "iteration": 158000,
+      "seconds": 17.302735499921255,
+      "best": 11086,
+      "temperature": 45.15054784336387,
+      "accepted": 105025,
+      "current": 13068,
+      "uphill_accepted": 48289
+    },
+    {
+      "iteration": 159000,
+      "seconds": 17.407121900003403,
+      "best": 11086,
+      "temperature": 43.79603140806295,
+      "accepted": 105146,
+      "current": 13156,
+      "uphill_accepted": 48324
+    },
+    {
+      "iteration": 160000,
+      "seconds": 17.50995390000753,
+      "best": 11086,
+      "temperature": 42.482150465821064,
+      "accepted": 105248,
+      "current": 12842,
+      "uphill_accepted": 48355
+    },
+    {
+      "iteration": 161000,
+      "seconds": 17.617562499945052,
+      "best": 11086,
+      "temperature": 41.20768595184643,
+      "accepted": 105367,
+      "current": 12604,
+      "uphill_accepted": 48391
+    },
+    {
+      "iteration": 162000,
+      "seconds": 17.72379399999045,
+      "best": 11086,
+      "temperature": 39.971455373291036,
+      "accepted": 105461,
+      "current": 12632,
+      "uphill_accepted": 48421
+    },
+    {
+      "iteration": 163000,
+      "seconds": 17.833992999978364,
+      "best": 11086,
+      "temperature": 38.7723117120923,
+      "accepted": 105538,
+      "current": 12390,
+      "uphill_accepted": 48442
+    },
+    {
+      "iteration": 164000,
+      "seconds": 17.94397449993994,
+      "best": 11086,
+      "temperature": 37.609142360729535,
+      "accepted": 105631,
+      "current": 12672,
+      "uphill_accepted": 48469
+    },
+    {
+      "iteration": 165000,
+      "seconds": 18.046720399986953,
+      "best": 11086,
+      "temperature": 36.480868089907645,
+      "accepted": 105742,
+      "current": 12586,
+      "uphill_accepted": 48497
+    },
+    {
+      "iteration": 166000,
+      "seconds": 18.157205599942245,
+      "best": 11086,
+      "temperature": 35.386442047210416,
+      "accepted": 105828,
+      "current": 12466,
+      "uphill_accepted": 48520
+    },
+    {
+      "iteration": 167000,
+      "seconds": 18.278149800025858,
+      "best": 11086,
+      "temperature": 34.3248487857941,
+      "accepted": 105890,
+      "current": 12230,
+      "uphill_accepted": 48533
+    },
+    {
+      "iteration": 168000,
+      "seconds": 18.406669599935412,
+      "best": 11086,
+      "temperature": 33.29510332222028,
+      "accepted": 105947,
+      "current": 12145,
+      "uphill_accepted": 48551
+    },
+    {
+      "iteration": 169000,
+      "seconds": 18.533248499967158,
+      "best": 11086,
+      "temperature": 32.29625022255367,
+      "accepted": 106030,
+      "current": 12338,
+      "uphill_accepted": 48572
+    },
+    {
+      "iteration": 170000,
+      "seconds": 18.652044099988416,
+      "best": 11086,
+      "temperature": 31.327362715877054,
+      "accepted": 106110,
+      "current": 12236,
+      "uphill_accepted": 48586
+    },
+    {
+      "iteration": 171000,
+      "seconds": 18.766999799991027,
+      "best": 11086,
+      "temperature": 30.387541834400743,
+      "accepted": 106184,
+      "current": 12041,
+      "uphill_accepted": 48601
+    },
+    {
+      "iteration": 172000,
+      "seconds": 18.885906899929978,
+      "best": 11086,
+      "temperature": 29.47591557936872,
+      "accepted": 106262,
+      "current": 12267,
+      "uphill_accepted": 48622
+    },
+    {
+      "iteration": 173000,
+      "seconds": 19.0106488999445,
+      "best": 11086,
+      "temperature": 28.59163811198766,
+      "accepted": 106308,
+      "current": 12034,
+      "uphill_accepted": 48628
+    },
+    {
+      "iteration": 174000,
+      "seconds": 19.121117100003175,
+      "best": 11086,
+      "temperature": 27.73388896862803,
+      "accepted": 106375,
+      "current": 12164,
+      "uphill_accepted": 48644
+    },
+    {
+      "iteration": 175000,
+      "seconds": 19.2289477000013,
+      "best": 11086,
+      "temperature": 26.901872299569188,
+      "accepted": 106442,
+      "current": 11956,
+      "uphill_accepted": 48657
+    },
+    {
+      "iteration": 176000,
+      "seconds": 19.33442049997393,
+      "best": 11086,
+      "temperature": 26.09481613058211,
+      "accepted": 106489,
+      "current": 11946,
+      "uphill_accepted": 48671
+    },
+    {
+      "iteration": 177000,
+      "seconds": 19.4397812000243,
+      "best": 11086,
+      "temperature": 25.311971646664645,
+      "accepted": 106547,
+      "current": 12001,
+      "uphill_accepted": 48686
+    },
+    {
+      "iteration": 178000,
+      "seconds": 19.54322659992613,
+      "best": 11086,
+      "temperature": 24.552612497264704,
+      "accepted": 106592,
+      "current": 11732,
+      "uphill_accepted": 48694
+    },
+    {
+      "iteration": 179000,
+      "seconds": 19.647095500025898,
+      "best": 11086,
+      "temperature": 23.81603412234676,
+      "accepted": 106624,
+      "current": 11617,
+      "uphill_accepted": 48700
+    },
+    {
+      "iteration": 180000,
+      "seconds": 19.753079899935983,
+      "best": 11086,
+      "temperature": 23.10155309867636,
+      "accepted": 106669,
+      "current": 11730,
+      "uphill_accepted": 48708
+    },
+    {
+      "iteration": 181000,
+      "seconds": 19.879501599934883,
+      "best": 11086,
+      "temperature": 22.408506505716066,
+      "accepted": 106707,
+      "current": 11786,
+      "uphill_accepted": 48717
+    },
+    {
+      "iteration": 182000,
+      "seconds": 19.99029490002431,
+      "best": 11086,
+      "temperature": 21.73625131054458,
+      "accepted": 106745,
+      "current": 11697,
+      "uphill_accepted": 48723
+    },
+    {
+      "iteration": 183000,
+      "seconds": 20.099405899993144,
+      "best": 11086,
+      "temperature": 21.084163771228244,
+      "accepted": 106775,
+      "current": 11593,
+      "uphill_accepted": 48728
+    },
+    {
+      "iteration": 184000,
+      "seconds": 20.20890570001211,
+      "best": 11086,
+      "temperature": 20.451638858091396,
+      "accepted": 106806,
+      "current": 11653,
+      "uphill_accepted": 48733
+    },
+    {
+      "iteration": 185000,
+      "seconds": 20.31412769993767,
+      "best": 11086,
+      "temperature": 19.838089692348653,
+      "accepted": 106833,
+      "current": 11594,
+      "uphill_accepted": 48738
+    },
+    {
+      "iteration": 186000,
+      "seconds": 20.421970600029454,
+      "best": 11086,
+      "temperature": 19.242947001578194,
+      "accepted": 106880,
+      "current": 11754,
+      "uphill_accepted": 48751
+    },
+    {
+      "iteration": 187000,
+      "seconds": 20.52293139998801,
+      "best": 11086,
+      "temperature": 18.66565859153085,
+      "accepted": 106902,
+      "current": 11559,
+      "uphill_accepted": 48753
+    },
+    {
+      "iteration": 188000,
+      "seconds": 20.666502599953674,
+      "best": 11086,
+      "temperature": 18.105688833784924,
+      "accepted": 106934,
+      "current": 11588,
+      "uphill_accepted": 48762
+    },
+    {
+      "iteration": 189000,
+      "seconds": 20.770665799966082,
+      "best": 11086,
+      "temperature": 17.562518168771376,
+      "accepted": 106954,
+      "current": 11536,
+      "uphill_accepted": 48768
+    },
+    {
+      "iteration": 190000,
+      "seconds": 20.877210399950854,
+      "best": 11086,
+      "temperature": 17.035642623708235,
+      "accepted": 106978,
+      "current": 11576,
+      "uphill_accepted": 48776
+    },
+    {
+      "iteration": 191000,
+      "seconds": 20.98944669996854,
+      "best": 11086,
+      "temperature": 16.524573344996988,
+      "accepted": 106997,
+      "current": 11520,
+      "uphill_accepted": 48779
+    },
+    {
+      "iteration": 192000,
+      "seconds": 21.14056770002935,
+      "best": 11086,
+      "temperature": 16.028836144647077,
+      "accepted": 107026,
+      "current": 11574,
+      "uphill_accepted": 48785
+    },
+    {
+      "iteration": 193000,
+      "seconds": 21.24115559994243,
+      "best": 11086,
+      "temperature": 15.547971060307663,
+      "accepted": 107036,
+      "current": 11643,
+      "uphill_accepted": 48789
+    },
+    {
+      "iteration": 194000,
+      "seconds": 21.343561199959368,
+      "best": 11086,
+      "temperature": 15.081531928498434,
+      "accepted": 107052,
+      "current": 11686,
+      "uphill_accepted": 48793
+    },
+    {
+      "iteration": 195000,
+      "seconds": 21.447611499927007,
+      "best": 11086,
+      "temperature": 14.62908597064348,
+      "accepted": 107073,
+      "current": 11615,
+      "uphill_accepted": 48796
+    },
+    {
+      "iteration": 196000,
+      "seconds": 21.55405279994011,
+      "best": 11086,
+      "temperature": 14.190213391524175,
+      "accepted": 107109,
+      "current": 11567,
+      "uphill_accepted": 48803
+    },
+    {
+      "iteration": 197000,
+      "seconds": 21.697795399930328,
+      "best": 11086,
+      "temperature": 13.764506989778448,
+      "accepted": 107151,
+      "current": 11638,
+      "uphill_accepted": 48812
+    },
+    {
+      "iteration": 198000,
+      "seconds": 21.80106089997571,
+      "best": 11086,
+      "temperature": 13.351571780085095,
+      "accepted": 107187,
+      "current": 11628,
+      "uphill_accepted": 48820
+    },
+    {
+      "iteration": 199000,
+      "seconds": 21.909235500032082,
+      "best": 11086,
+      "temperature": 12.951024626682543,
+      "accepted": 107221,
+      "current": 11535,
+      "uphill_accepted": 48822
+    },
+    {
+      "iteration": 200000,
+      "seconds": 22.019354399992153,
+      "best": 11086,
+      "temperature": 12.562493887882066,
+      "accepted": 107235,
+      "current": 11528,
+      "uphill_accepted": 48824
+    },
+    {
+      "iteration": 201000,
+      "seconds": 22.171501699951477,
+      "best": 11086,
+      "temperature": 12.185619071245604,
+      "accepted": 107257,
+      "current": 11483,
+      "uphill_accepted": 48827
+    },
+    {
+      "iteration": 202000,
+      "seconds": 22.277021499932744,
+      "best": 11086,
+      "temperature": 11.820050499108236,
+      "accepted": 107278,
+      "current": 11497,
+      "uphill_accepted": 48831
+    },
+    {
+      "iteration": 203000,
+      "seconds": 22.382359299925156,
+      "best": 11086,
+      "temperature": 11.465448984134989,
+      "accepted": 107302,
+      "current": 11498,
+      "uphill_accepted": 48833
+    },
+    {
+      "iteration": 204000,
+      "seconds": 22.490044199978,
+      "best": 11086,
+      "temperature": 11.121485514610939,
+      "accepted": 107323,
+      "current": 11456,
+      "uphill_accepted": 48834
+    },
+    {
+      "iteration": 205000,
+      "seconds": 22.643658299930394,
+      "best": 11086,
+      "temperature": 10.78784094917261,
+      "accepted": 107339,
+      "current": 11360,
+      "uphill_accepted": 48835
+    },
+    {
+      "iteration": 206000,
+      "seconds": 22.743635699967854,
+      "best": 11086,
+      "temperature": 10.464205720697432,
+      "accepted": 107349,
+      "current": 11360,
+      "uphill_accepted": 48836
+    },
+    {
+      "iteration": 207000,
+      "seconds": 22.8456823999295,
+      "best": 11086,
+      "temperature": 10.150279549076508,
+      "accepted": 107357,
+      "current": 11339,
+      "uphill_accepted": 48837
+    },
+    {
+      "iteration": 208000,
+      "seconds": 22.9558723999653,
+      "best": 11086,
+      "temperature": 9.845771162604212,
+      "accepted": 107370,
+      "current": 11337,
+      "uphill_accepted": 48838
+    },
+    {
+      "iteration": 209000,
+      "seconds": 23.063289499958046,
+      "best": 11086,
+      "temperature": 9.550398027726086,
+      "accepted": 107387,
+      "current": 11315,
+      "uphill_accepted": 48841
+    },
+    {
+      "iteration": 210000,
+      "seconds": 23.175544600002468,
+      "best": 11086,
+      "temperature": 9.263886086894303,
+      "accepted": 107406,
+      "current": 11366,
+      "uphill_accepted": 48846
+    },
+    {
+      "iteration": 211000,
+      "seconds": 23.335003399988636,
+      "best": 11086,
+      "temperature": 8.985969504287473,
+      "accepted": 107424,
+      "current": 11234,
+      "uphill_accepted": 48846
+    },
+    {
+      "iteration": 212000,
+      "seconds": 23.44198799994774,
+      "best": 11086,
+      "temperature": 8.716390419158849,
+      "accepted": 107432,
+      "current": 11234,
+      "uphill_accepted": 48847
+    },
+    {
+      "iteration": 213000,
+      "seconds": 23.543553499970585,
+      "best": 11086,
+      "temperature": 8.454898706584084,
+      "accepted": 107442,
+      "current": 11234,
+      "uphill_accepted": 48847
+    },
+    {
+      "iteration": 214000,
+      "seconds": 23.644383599981666,
+      "best": 11086,
+      "temperature": 8.20125174538656,
+      "accepted": 107449,
+      "current": 11229,
+      "uphill_accepted": 48847
+    },
+    {
+      "iteration": 215000,
+      "seconds": 23.7414777999511,
+      "best": 11086,
+      "temperature": 7.955214193024964,
+      "accepted": 107459,
+      "current": 11229,
+      "uphill_accepted": 48847
+    },
+    {
+      "iteration": 216000,
+      "seconds": 23.83844910003245,
+      "best": 11086,
+      "temperature": 7.716557767234215,
+      "accepted": 107468,
+      "current": 11229,
+      "uphill_accepted": 48847
+    },
+    {
+      "iteration": 217000,
+      "seconds": 23.93975020002108,
+      "best": 11086,
+      "temperature": 7.485061034217188,
+      "accepted": 107477,
+      "current": 11229,
+      "uphill_accepted": 48847
+    },
+    {
+      "iteration": 218000,
+      "seconds": 24.04400480003096,
+      "best": 11086,
+      "temperature": 7.260509203190672,
+      "accepted": 107484,
+      "current": 11226,
+      "uphill_accepted": 48847
+    },
+    {
+      "iteration": 219000,
+      "seconds": 24.144582099979743,
+      "best": 11086,
+      "temperature": 7.042693927094952,
+      "accepted": 107489,
+      "current": 11222,
+      "uphill_accepted": 48848
+    },
+    {
+      "iteration": 220000,
+      "seconds": 24.243767599924468,
+      "best": 11086,
+      "temperature": 6.831413109282103,
+      "accepted": 107497,
+      "current": 11244,
+      "uphill_accepted": 48850
+    },
+    {
+      "iteration": 221000,
+      "seconds": 24.385842900024727,
+      "best": 11086,
+      "temperature": 6.62647071600364,
+      "accepted": 107507,
+      "current": 11214,
+      "uphill_accepted": 48850
+    },
+    {
+      "iteration": 222000,
+      "seconds": 24.48101350001525,
+      "best": 11086,
+      "temperature": 6.427676594523531,
+      "accepted": 107513,
+      "current": 11202,
+      "uphill_accepted": 48850
+    },
+    {
+      "iteration": 223000,
+      "seconds": 24.57227519992739,
+      "best": 11086,
+      "temperature": 6.234846296687825,
+      "accepted": 107523,
+      "current": 11202,
+      "uphill_accepted": 48850
+    },
+    {
+      "iteration": 224000,
+      "seconds": 24.66783199994825,
+      "best": 11086,
+      "temperature": 6.04780090778719,
+      "accepted": 107529,
+      "current": 11187,
+      "uphill_accepted": 48850
+    },
+    {
+      "iteration": 225000,
+      "seconds": 24.756973200012,
+      "best": 11086,
+      "temperature": 5.866366880553574,
+      "accepted": 107533,
+      "current": 11187,
+      "uphill_accepted": 48850
+    },
+    {
+      "iteration": 226000,
+      "seconds": 24.855704899993725,
+      "best": 11086,
+      "temperature": 5.690375874136967,
+      "accepted": 107541,
+      "current": 11187,
+      "uphill_accepted": 48850
+    },
+    {
+      "iteration": 227000,
+      "seconds": 24.95760760002304,
+      "best": 11086,
+      "temperature": 5.519664597912858,
+      "accepted": 107550,
+      "current": 11191,
+      "uphill_accepted": 48851
+    },
+    {
+      "iteration": 228000,
+      "seconds": 25.058388900011778,
+      "best": 11086,
+      "temperature": 5.354074659975471,
+      "accepted": 107563,
+      "current": 11187,
+      "uphill_accepted": 48851
+    },
+    {
+      "iteration": 229000,
+      "seconds": 25.162770199938677,
+      "best": 11086,
+      "temperature": 5.193452420176207,
+      "accepted": 107579,
+      "current": 11187,
+      "uphill_accepted": 48853
+    },
+    {
+      "iteration": 230000,
+      "seconds": 25.261333699920215,
+      "best": 11086,
+      "temperature": 5.037648847570921,
+      "accepted": 107588,
+      "current": 11187,
+      "uphill_accepted": 48853
+    },
+    {
+      "iteration": 231000,
+      "seconds": 25.39790959993843,
+      "best": 11086,
+      "temperature": 4.886519382143793,
+      "accepted": 107607,
+      "current": 11201,
+      "uphill_accepted": 48856
+    },
+    {
+      "iteration": 232000,
+      "seconds": 25.498859699931927,
+      "best": 11086,
+      "temperature": 4.739923800679479,
+      "accepted": 107621,
+      "current": 11193,
+      "uphill_accepted": 48858
+    },
+    {
+      "iteration": 233000,
+      "seconds": 25.614906599977985,
+      "best": 11086,
+      "temperature": 4.597726086659095,
+      "accepted": 107638,
+      "current": 11199,
+      "uphill_accepted": 48860
+    },
+    {
+      "iteration": 234000,
+      "seconds": 25.71493469993584,
+      "best": 11086,
+      "temperature": 4.459794304059322,
+      "accepted": 107656,
+      "current": 11208,
+      "uphill_accepted": 48862
+    },
+    {
+      "iteration": 235000,
+      "seconds": 25.813606799929403,
+      "best": 11086,
+      "temperature": 4.326000474937542,
+      "accepted": 107666,
+      "current": 11208,
+      "uphill_accepted": 48862
+    },
+    {
+      "iteration": 236000,
+      "seconds": 25.91563960001804,
+      "best": 11086,
+      "temperature": 4.196220460689416,
+      "accepted": 107677,
+      "current": 11185,
+      "uphill_accepted": 48862
+    },
+    {
+      "iteration": 237000,
+      "seconds": 26.03000249993056,
+      "best": 11086,
+      "temperature": 4.070333846868733,
+      "accepted": 107686,
+      "current": 11198,
+      "uphill_accepted": 48864
+    },
+    {
+      "iteration": 238000,
+      "seconds": 26.17387860000599,
+      "best": 11086,
+      "temperature": 3.948223831462671,
+      "accepted": 107688,
+      "current": 11198,
+      "uphill_accepted": 48864
+    },
+    {
+      "iteration": 239000,
+      "seconds": 26.274846600019373,
+      "best": 11086,
+      "temperature": 3.829777116518791,
+      "accepted": 107695,
+      "current": 11200,
+      "uphill_accepted": 48865
+    },
+    {
+      "iteration": 240000,
+      "seconds": 26.375179499969818,
+      "best": 11086,
+      "temperature": 3.7148838030232274,
+      "accepted": 107710,
+      "current": 11194,
+      "uphill_accepted": 48865
+    },
+    {
+      "iteration": 241000,
+      "seconds": 26.472799199982546,
+      "best": 11086,
+      "temperature": 3.6034372889325303,
+      "accepted": 107716,
+      "current": 11181,
+      "uphill_accepted": 48865
+    },
+    {
+      "iteration": 242000,
+      "seconds": 26.57511129998602,
+      "best": 11086,
+      "temperature": 3.495334170264554,
+      "accepted": 107725,
+      "current": 11180,
+      "uphill_accepted": 48866
+    },
+    {
+      "iteration": 243000,
+      "seconds": 26.674450999940746,
+      "best": 11086,
+      "temperature": 3.3904741451566176,
+      "accepted": 107733,
+      "current": 11182,
+      "uphill_accepted": 48867
+    },
+    {
+      "iteration": 244000,
+      "seconds": 26.77152389998082,
+      "best": 11086,
+      "temperature": 3.288759920801919,
+      "accepted": 107740,
+      "current": 11180,
+      "uphill_accepted": 48867
+    },
+    {
+      "iteration": 245000,
+      "seconds": 26.87051379994955,
+      "best": 11086,
+      "temperature": 3.1900971231778614,
+      "accepted": 107746,
+      "current": 11181,
+      "uphill_accepted": 48868
+    },
+    {
+      "iteration": 246000,
+      "seconds": 26.96924130001571,
+      "best": 11086,
+      "temperature": 3.0943942094825254,
+      "accepted": 107751,
+      "current": 11162,
+      "uphill_accepted": 48869
+    },
+    {
+      "iteration": 247000,
+      "seconds": 27.073155999998562,
+      "best": 11086,
+      "temperature": 3.0015623831980496,
+      "accepted": 107761,
+      "current": 11158,
+      "uphill_accepted": 48869
+    },
+    {
+      "iteration": 248000,
+      "seconds": 27.182628499926068,
+      "best": 11086,
+      "temperature": 2.911515511702108,
+      "accepted": 107771,
+      "current": 11143,
+      "uphill_accepted": 48869
+    },
+    {
+      "iteration": 249000,
+      "seconds": 27.285412700031884,
+      "best": 11086,
+      "temperature": 2.8241700463510444,
+      "accepted": 107774,
+      "current": 11115,
+      "uphill_accepted": 48869
+    },
+    {
+      "iteration": 250000,
+      "seconds": 27.419372799922712,
+      "best": 11086,
+      "temperature": 2.739444944960513,
+      "accepted": 107785,
+      "current": 11115,
+      "uphill_accepted": 48869
+    },
+    {
+      "iteration": 251000,
+      "seconds": 27.520284999976866,
+      "best": 11086,
+      "temperature": 2.6572615966116975,
+      "accepted": 107796,
+      "current": 11115,
+      "uphill_accepted": 48869
+    },
+    {
+      "iteration": 252000,
+      "seconds": 27.62105600000359,
+      "best": 11086,
+      "temperature": 2.5775437487133463,
+      "accepted": 107804,
+      "current": 11115,
+      "uphill_accepted": 48869
+    },
+    {
+      "iteration": 253000,
+      "seconds": 27.716529999976046,
+      "best": 11086,
+      "temperature": 2.500217436251946,
+      "accepted": 107811,
+      "current": 11115,
+      "uphill_accepted": 48869
+    },
+    {
+      "iteration": 254000,
+      "seconds": 27.81398600002285,
+      "best": 11086,
+      "temperature": 2.4252109131643875,
+      "accepted": 107820,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 255000,
+      "seconds": 27.922532199998386,
+      "best": 11086,
+      "temperature": 2.352454585769456,
+      "accepted": 107825,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 256000,
+      "seconds": 28.026798599981703,
+      "best": 11086,
+      "temperature": 2.281880948196372,
+      "accepted": 107834,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 257000,
+      "seconds": 28.13447889999952,
+      "best": 11086,
+      "temperature": 2.213424519750481,
+      "accepted": 107839,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 258000,
+      "seconds": 28.246110799955204,
+      "best": 11086,
+      "temperature": 2.1470217841579666,
+      "accepted": 107848,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 259000,
+      "seconds": 28.349271400016733,
+      "best": 11086,
+      "temperature": 2.082611130633228,
+      "accepted": 107853,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 260000,
+      "seconds": 28.45137349993456,
+      "best": 11086,
+      "temperature": 2.020132796714231,
+      "accepted": 107859,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 261000,
+      "seconds": 28.59326420002617,
+      "best": 11086,
+      "temperature": 1.9595288128128039,
+      "accepted": 107872,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 262000,
+      "seconds": 28.690855099936016,
+      "best": 11086,
+      "temperature": 1.9007429484284197,
+      "accepted": 107880,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 263000,
+      "seconds": 28.797010499984026,
+      "best": 11086,
+      "temperature": 1.8437206599755671,
+      "accepted": 107889,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 264000,
+      "seconds": 28.89988879999146,
+      "best": 11086,
+      "temperature": 1.7884090401763,
+      "accepted": 107897,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 265000,
+      "seconds": 29.007743699941784,
+      "best": 11086,
+      "temperature": 1.7347567689710108,
+      "accepted": 107906,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 266000,
+      "seconds": 29.119920999975875,
+      "best": 11086,
+      "temperature": 1.6827140659018804,
+      "accepted": 107912,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 267000,
+      "seconds": 29.22878220002167,
+      "best": 11086,
+      "temperature": 1.632232643924824,
+      "accepted": 107921,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 268000,
+      "seconds": 29.334817399969324,
+      "best": 11086,
+      "temperature": 1.5832656646070793,
+      "accepted": 107925,
+      "current": 11114,
+      "uphill_accepted": 48870
+    },
+    {
+      "iteration": 269000,
+      "seconds": 29.434281999943778,
+      "best": 11086,
+      "temperature": 1.535767694668867,
+      "accepted": 107937,
+      "current": 11115,
+      "uphill_accepted": 48871
+    },
+    {
+      "iteration": 270000,
+      "seconds": 29.53311630000826,
+      "best": 11086,
+      "temperature": 1.489694663828801,
+      "accepted": 107941,
+      "current": 11115,
+      "uphill_accepted": 48871
+    },
+    {
+      "iteration": 271000,
+      "seconds": 29.63672269997187,
+      "best": 11086,
+      "temperature": 1.445003823913937,
+      "accepted": 107950,
+      "current": 11114,
+      "uphill_accepted": 48871
+    },
+    {
+      "iteration": 272000,
+      "seconds": 29.73914970003534,
+      "best": 11086,
+      "temperature": 1.4016537091965187,
+      "accepted": 107957,
+      "current": 11114,
+      "uphill_accepted": 48871
+    },
+    {
+      "iteration": 273000,
+      "seconds": 29.88690179993864,
+      "best": 11086,
+      "temperature": 1.359604097920623,
+      "accepted": 107965,
+      "current": 11115,
+      "uphill_accepted": 48872
+    },
+    {
+      "iteration": 274000,
+      "seconds": 29.98959749995265,
+      "best": 11086,
+      "temperature": 1.3188159749830042,
+      "accepted": 107971,
+      "current": 11114,
+      "uphill_accepted": 48872
+    },
+    {
+      "iteration": 275000,
+      "seconds": 30.094824700034223,
+      "best": 11086,
+      "temperature": 1.279251495733514,
+      "accepted": 107981,
+      "current": 11115,
+      "uphill_accepted": 48873
+    },
+    {
+      "iteration": 276000,
+      "seconds": 30.198851899942383,
+      "best": 11086,
+      "temperature": 1.2408739508615085,
+      "accepted": 107993,
+      "current": 11114,
+      "uphill_accepted": 48873
+    },
+    {
+      "iteration": 277000,
+      "seconds": 30.305355899967253,
+      "best": 11086,
+      "temperature": 1.2036477323356634,
+      "accepted": 108002,
+      "current": 11114,
+      "uphill_accepted": 48873
+    },
+    {
+      "iteration": 278000,
+      "seconds": 30.423376200022176,
+      "best": 11086,
+      "temperature": 1.1675383003655935,
+      "accepted": 108012,
+      "current": 11114,
+      "uphill_accepted": 48873
+    },
+    {
+      "iteration": 279000,
+      "seconds": 30.52801130001899,
+      "best": 11086,
+      "temperature": 1.1325121513546257,
+      "accepted": 108015,
+      "current": 11114,
+      "uphill_accepted": 48873
+    },
+    {
+      "iteration": 280000,
+      "seconds": 30.62706289999187,
+      "best": 11086,
+      "temperature": 1.0985367868139868,
+      "accepted": 108017,
+      "current": 11114,
+      "uphill_accepted": 48873
+    },
+    {
+      "iteration": 281000,
+      "seconds": 30.72809029999189,
+      "best": 11086,
+      "temperature": 1.0655806832095671,
+      "accepted": 108027,
+      "current": 11114,
+      "uphill_accepted": 48873
+    },
+    {
+      "iteration": 282000,
+      "seconds": 30.828645500005223,
+      "best": 11086,
+      "temperature": 1.0336132627132801,
+      "accepted": 108039,
+      "current": 11115,
+      "uphill_accepted": 48874
+    },
+    {
+      "iteration": 283000,
+      "seconds": 30.929844100028276,
+      "best": 11086,
+      "temperature": 1.0026048648318817,
+      "accepted": 108049,
+      "current": 11115,
+      "uphill_accepted": 48874
+    },
+    {
+      "iteration": 284000,
+      "seconds": 31.076182199991308,
+      "best": 11086,
+      "temperature": 0.9725267188869252,
+      "accepted": 108054,
+      "current": 11115,
+      "uphill_accepted": 48875
+    },
+    {
+      "iteration": 285000,
+      "seconds": 31.18402279994916,
+      "best": 11086,
+      "temperature": 0.9433509173203174,
+      "accepted": 108061,
+      "current": 11115,
+      "uphill_accepted": 48876
+    },
+    {
+      "iteration": 286000,
+      "seconds": 31.285788499983028,
+      "best": 11086,
+      "temperature": 0.9150503898007079,
+      "accepted": 108065,
+      "current": 11104,
+      "uphill_accepted": 48876
+    },
+    {
+      "iteration": 287000,
+      "seconds": 31.38874179997947,
+      "best": 11086,
+      "temperature": 0.8875988781066866,
+      "accepted": 108072,
+      "current": 11105,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 288000,
+      "seconds": 31.49411049997434,
+      "best": 11086,
+      "temperature": 0.860970911763486,
+      "accepted": 108079,
+      "current": 11105,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 289000,
+      "seconds": 31.59181329992134,
+      "best": 11086,
+      "temperature": 0.8351417844105814,
+      "accepted": 108086,
+      "current": 11104,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 290000,
+      "seconds": 31.6918959999457,
+      "best": 11086,
+      "temperature": 0.8100875308782639,
+      "accepted": 108091,
+      "current": 11104,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 291000,
+      "seconds": 31.790977700031362,
+      "best": 11086,
+      "temperature": 0.785784904951916,
+      "accepted": 108095,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 292000,
+      "seconds": 31.891161800012924,
+      "best": 11086,
+      "temperature": 0.7622113578033585,
+      "accepted": 108103,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 293000,
+      "seconds": 31.986316700000316,
+      "best": 11086,
+      "temperature": 0.7393450170692577,
+      "accepted": 108104,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 294000,
+      "seconds": 32.087552699958906,
+      "best": 11086,
+      "temperature": 0.7171646665571799,
+      "accepted": 108109,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 295000,
+      "seconds": 32.18568100000266,
+      "best": 11086,
+      "temperature": 0.6956497265604645,
+      "accepted": 108118,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 296000,
+      "seconds": 32.28704919992015,
+      "best": 11086,
+      "temperature": 0.6747802347636506,
+      "accepted": 108122,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 297000,
+      "seconds": 32.39074379997328,
+      "best": 11086,
+      "temperature": 0.6545368277207411,
+      "accepted": 108133,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 298000,
+      "seconds": 32.4883088999195,
+      "best": 11086,
+      "temperature": 0.6349007228891188,
+      "accepted": 108137,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 299000,
+      "seconds": 32.59164899995085,
+      "best": 11086,
+      "temperature": 0.6158537012024452,
+      "accepted": 108142,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 300000,
+      "seconds": 32.68802260002121,
+      "best": 11086,
+      "temperature": 0.5973780901663718,
+      "accepted": 108146,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 301000,
+      "seconds": 32.82713380001951,
+      "best": 11086,
+      "temperature": 0.5794567474613807,
+      "accepted": 108150,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 302000,
+      "seconds": 32.924930899986066,
+      "best": 11086,
+      "temperature": 0.5620730450375392,
+      "accepted": 108159,
+      "current": 11094,
+      "uphill_accepted": 48877
+    },
+    {
+      "iteration": 303000,
+      "seconds": 33.02668819995597,
+      "best": 11086,
+      "temperature": 0.545210853686413,
+      "accepted": 108165,
+      "current": 11090,
+      "uphill_accepted": 48877
+    }
+  ],
+  "improvements": [
+    {
+      "seconds": 0.00012779992539435625,
+      "best": 11086,
+      "evaluations": 1
+    }
+  ],
+  "termination": {
+    "iterations": 303000,
+    "reason": "temperature_floor",
+    "levels": 303,
+    "initial_temperature": 5388.9076915637725,
+    "calibrated_temperature": 5388.9076915637725,
+    "temperature_multiplier": 1.0,
+    "final_temperature": 0.5288545280758206,
+    "temperature_ratio": 0.0001,
+    "cooling": 0.97,
+    "moves_per_temperature": 1000,
+    "accepted": 108165,
+    "uphill_accepted": 48877
+  }
+}

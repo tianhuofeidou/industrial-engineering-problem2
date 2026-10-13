@@ -1,0 +1,12 @@
+{
+  "seed": 53,
+  "initial": 11086,
+  "annealing": 11060,
+  "initialization_seconds": 6.998090000008233,
+  "plain_annealing_seconds": 34.64363679999951,
+  "recorded_annealing_seconds": 48.70060310000554,
+  "samples": 512,
+  "near_trials": 96263,
+  "same_recorded_and_plain_trajectory": true,
+  "complete": true
+}

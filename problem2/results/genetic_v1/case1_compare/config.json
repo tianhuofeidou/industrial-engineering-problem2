@@ -1,0 +1,23 @@
+{
+  "case": "1",
+  "method": "compare",
+  "seconds": 10.0,
+  "population": 60,
+  "generations": null,
+  "archive_size": 12,
+  "mutation_rate": 0.35,
+  "local_candidates": 80,
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "free_jobs": 3,
+  "solver_seconds": 10.0,
+  "threads": 8,
+  "output": ".",
+  "source_sha256": {
+    "问题2.pdf": "975f906e4b7a3f850cfddb5d158ecb66662884a85691c15d04278cb5cfdc2cf1",
+    "问题2数据.xlsx": "dd94ba1c7812800cc4bf61b680151927caa80e1a834ded9e22a7250adced2e39"
+  }
+}

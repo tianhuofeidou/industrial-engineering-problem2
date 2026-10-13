@@ -1,0 +1,110 @@
+[
+  {
+    "seed": 11,
+    "before": 5054,
+    "after": 5054.0,
+    "proof": {
+      "solver": "gurobi",
+      "version": "13.0.2",
+      "scope": "restricted",
+      "status": 9,
+      "optimal": false,
+      "bound": 4314.590778097936,
+      "gap": 0.14630178510131855,
+      "runtime": 10.016999959945679,
+      "nodes": 6122.0,
+      "seconds_requested": 10,
+      "threads": 8,
+      "free_jobs": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "original_optimality_proven_by_this_run": false,
+      "solution_source": "solver",
+      "model_sha256": "e93227e1c2e97af8c0009067b30ad8c09d57ec354fe03bb994dc71d59c0ad632",
+      "total_refinement_seconds": 10.132793500029948,
+      "total_search_and_refinement_seconds": 20.13533980003558
+    },
+    "benchmark_comparison": {
+      "available": true,
+      "optimum": 5031.0,
+      "reached_optimum": false,
+      "relative_gap": 0.0045716557344464325
+    }
+  },
+  {
+    "seed": 23,
+    "before": 5063,
+    "after": 5063.0,
+    "proof": {
+      "solver": "gurobi",
+      "version": "13.0.2",
+      "scope": "restricted",
+      "status": 9,
+      "optimal": false,
+      "bound": 4122.512308784196,
+      "gap": 0.1857570000426238,
+      "runtime": 10.039000034332275,
+      "nodes": 5136.0,
+      "seconds_requested": 10,
+      "threads": 8,
+      "free_jobs": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "original_optimality_proven_by_this_run": false,
+      "solution_source": "solver",
+      "model_sha256": "76b4303ee40afe708e11dc25ab3c6ad3b2f5e5625183aed841ea6cd23840a295",
+      "total_refinement_seconds": 10.128728199983016,
+      "total_search_and_refinement_seconds": 20.130949099955615
+    },
+    "benchmark_comparison": {
+      "available": true,
+      "optimum": 5031.0,
+      "reached_optimum": false,
+      "relative_gap": 0.006360564500099384
+    }
+  },
+  {
+    "seed": 37,
+    "before": 5063,
+    "after": 5063.0,
+    "proof": {
+      "solver": "gurobi",
+      "version": "13.0.2",
+      "scope": "restricted",
+      "status": 9,
+      "optimal": false,
+      "bound": 4054.628918602547,
+      "gap": 0.19916474054857852,
+      "runtime": 10.023000001907349,
+      "nodes": 6248.0,
+      "seconds_requested": 10,
+      "threads": 8,
+      "free_jobs": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "original_optimality_proven_by_this_run": false,
+      "solution_source": "solver",
+      "model_sha256": "76b4303ee40afe708e11dc25ab3c6ad3b2f5e5625183aed841ea6cd23840a295",
+      "total_refinement_seconds": 10.111471000011079,
+      "total_search_and_refinement_seconds": 20.115577499964274
+    },
+    "benchmark_comparison": {
+      "available": true,
+      "optimum": 5031.0,
+      "reached_optimum": false,
+      "relative_gap": 0.006360564500099384
+    }
+  }
+]

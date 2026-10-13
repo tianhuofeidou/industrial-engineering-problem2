@@ -1,0 +1,189 @@
+{
+  "complete": true,
+  "case": 2,
+  "initial": 11086,
+  "final": 10956,
+  "budget_seconds": 1800.0,
+  "total_seconds": 1800.1929252999835,
+  "includes_initialization": true,
+  "workers": [
+    {
+      "worker": 1,
+      "seed": 11,
+      "initial": 11086,
+      "start_offset": 26.93062869994901,
+      "complete": true,
+      "final": 10956,
+      "seconds": 1773.1245850000996,
+      "cpu_seconds": 1742.703125,
+      "end_offset": 1800.0552219999954,
+      "enumerations": 405,
+      "evaluations": 126854299,
+      "perturbations": 2,
+      "solver_calls": 0,
+      "validation": {
+        "valid": true,
+        "operations": 350,
+        "tolerance": 0.0001,
+        "makespan": 10956,
+        "allows_waiting": true
+      }
+    },
+    {
+      "worker": 2,
+      "seed": 112,
+      "initial": 11662,
+      "start_offset": 27.110025000059977,
+      "complete": true,
+      "final": 10963,
+      "seconds": 1772.9418887998909,
+      "cpu_seconds": 1743.203125,
+      "end_offset": 1800.0519214000087,
+      "enumerations": 404,
+      "evaluations": 126551675,
+      "perturbations": 2,
+      "solver_calls": 0,
+      "validation": {
+        "valid": true,
+        "operations": 350,
+        "tolerance": 0.0001,
+        "makespan": 10963,
+        "allows_waiting": true
+      }
+    },
+    {
+      "worker": 3,
+      "seed": 213,
+      "initial": 12072,
+      "start_offset": 27.28510500001721,
+      "complete": true,
+      "final": 11154,
+      "seconds": 1772.7636515999911,
+      "cpu_seconds": 1742.015625,
+      "end_offset": 1800.0487643999513,
+      "enumerations": 403,
+      "evaluations": 126398281,
+      "perturbations": 1,
+      "solver_calls": 0,
+      "validation": {
+        "valid": true,
+        "operations": 350,
+        "tolerance": 0.0001,
+        "makespan": 11154,
+        "allows_waiting": true
+      }
+    },
+    {
+      "worker": 4,
+      "seed": 314,
+      "initial": 11729,
+      "start_offset": 27.498215700034052,
+      "complete": true,
+      "final": 11135,
+      "seconds": 1772.5717492999975,
+      "cpu_seconds": 1742.171875,
+      "end_offset": 1800.069972599973,
+      "enumerations": 407,
+      "evaluations": 127339344,
+      "perturbations": 0,
+      "solver_calls": 0,
+      "validation": {
+        "valid": true,
+        "operations": 350,
+        "tolerance": 0.0001,
+        "makespan": 11135,
+        "allows_waiting": true
+      }
+    }
+  ],
+  "global_improvements": [
+    {
+      "objective": 11086,
+      "seconds": 9.090127900009975,
+      "phase": "initialization",
+      "seed": 11
+    },
+    {
+      "worker": 1,
+      "objective": 11081,
+      "seconds": 48.048098400002345,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 11063,
+      "seconds": 72.41117490001488,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 11057,
+      "seconds": 76.35796059994027,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 11054,
+      "seconds": 212.4208493999904,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 11038,
+      "seconds": 238.3664884000318,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 11036,
+      "seconds": 356.1670158000197,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 11012,
+      "seconds": 360.56262430001516,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 10999,
+      "seconds": 385.96369020000566,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 10994,
+      "seconds": 390.10041730001103,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 10974,
+      "seconds": 597.8951148999622,
+      "phase": "enumeration"
+    },
+    {
+      "worker": 1,
+      "objective": 10956,
+      "seconds": 660.8721609000349,
+      "phase": "enumeration"
+    }
+  ],
+  "initialization_seconds": 25.868332499987446,
+  "parent_cpu_seconds": 28.71875,
+  "worker_cpu_seconds": 6970.09375,
+  "worker_wall_seconds_sum": 7091.401874699979,
+  "worker_cpu_measurement_complete": true,
+  "scope": "heuristic",
+  "solver_calls": 0,
+  "launched_workers": 4,
+  "original_optimality_proven_by_this_run": false,
+  "validation": {
+    "valid": true,
+    "operations": 350,
+    "tolerance": 0.0001,
+    "makespan": 10956,
+    "allows_waiting": true
+  }
+}

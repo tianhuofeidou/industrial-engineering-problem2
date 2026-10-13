@@ -1,0 +1,2184 @@
+{
+  "complete": true,
+  "case": 2,
+  "mode": "search",
+  "variant": "environment",
+  "seed": 23,
+  "preparation_seconds": 0,
+  "reference_objective": 11074,
+  "total_seconds": 59.165740000025835,
+  "records": [
+    {
+      "variant": "window",
+      "before": 11074,
+      "after": 11042,
+      "exact_seconds": 59.165735899994615,
+      "refinement": {
+        "scope": "restricted",
+        "original_optimality_proven_by_this_run": false,
+        "before": 11074,
+        "after": 11042,
+        "seconds": 59.1491450999747,
+        "records": [
+          {
+            "round": 1,
+            "before": 11074,
+            "after": 11074,
+            "window_a": 0,
+            "window_b": 13,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.247999906539917,
+              "nodes": 945.0,
+              "bound": 11074.0,
+              "solver_objective": 11074.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 204,
+                "variables": 975,
+                "constraints": 16659,
+                "substituted_binary_variables": 6098
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10574,
+                "additional_mandatory_arcs": 83,
+                "minimum_time_width": 500,
+                "maximum_time_width": 2902,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 9.00006853044033e-07,
+                "decisions_seconds": 0.038347700028680265,
+                "bounds_seconds": 0.00959189998684451,
+                "variables_and_arcs_seconds": 0.07792329997755587,
+                "pair_constraints_seconds": 0.2901773000485264,
+                "warm_start_seconds": 0.011230100004468113,
+                "model_write_seconds": 0.07976370002143085,
+                "total_build_seconds": 0.5070409000036307
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "d22023cd2cd33fe884366d6a3d8e3c62852469c00b0f42f5c286b4b10be8984c",
+              "presolved": {
+                "rows": 1768,
+                "columns": 481,
+                "nonzeros": 4647
+              },
+              "total_seconds": 1.7954464000067674
+            },
+            "elapsed_seconds": 1.8283451999886893
+          },
+          {
+            "round": 2,
+            "before": 11074,
+            "after": 11074,
+            "window_a": 24,
+            "window_b": 27,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.7320001125335693,
+              "nodes": 1.0,
+              "bound": 11073.9999988925,
+              "solver_objective": 11074.0,
+              "gap": 1.0000910179663287e-10,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 191,
+                "variables": 962,
+                "constraints": 16703,
+                "substituted_binary_variables": 6111
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10314,
+                "additional_mandatory_arcs": 85,
+                "minimum_time_width": 760,
+                "maximum_time_width": 3307,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 4.999455995857716e-07,
+                "decisions_seconds": 0.028914800030179322,
+                "bounds_seconds": 0.008090200019069016,
+                "variables_and_arcs_seconds": 0.0517214999999851,
+                "pair_constraints_seconds": 0.19176379998680204,
+                "warm_start_seconds": 0.00804359995527193,
+                "model_write_seconds": 0.04853390000062063,
+                "total_build_seconds": 0.3370764999999665
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "2b3d4bb9e3cd5cab24cc57badd09a6514fc215131ee7178e28fbfaac2f29eedf",
+              "presolved": {
+                "rows": 1285,
+                "columns": 301,
+                "nonzeros": 3730
+              },
+              "total_seconds": 1.1119128999998793
+            },
+            "elapsed_seconds": 2.971785599947907
+          },
+          {
+            "round": 3,
+            "before": 11074,
+            "after": 11074,
+            "window_a": 6,
+            "window_b": 25,
+            "width": 5,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.9909999370574951,
+              "nodes": 254.0,
+              "bound": 11074.0,
+              "solver_objective": 11074.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 194,
+                "variables": 965,
+                "constraints": 16693,
+                "substituted_binary_variables": 6108
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10336,
+                "additional_mandatory_arcs": 80,
+                "minimum_time_width": 738,
+                "maximum_time_width": 4141,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 8.00006091594696e-07,
+                "decisions_seconds": 0.030280500010121614,
+                "bounds_seconds": 0.010874399973545223,
+                "variables_and_arcs_seconds": 0.06859520002035424,
+                "pair_constraints_seconds": 0.20938869996462017,
+                "warm_start_seconds": 0.010138900019228458,
+                "model_write_seconds": 0.04779469995992258,
+                "total_build_seconds": 0.377077899989672
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "ea74635ad72c84dd19e35c605bd905f70f3d2cd8d8f717b0e37dfba0fb10873a",
+              "presolved": {
+                "rows": 1672,
+                "columns": 420,
+                "nonzeros": 4427
+              },
+              "total_seconds": 1.4046977999969386
+            },
+            "elapsed_seconds": 4.405797299987171
+          },
+          {
+            "round": 4,
+            "before": 11074,
+            "after": 11074,
+            "window_a": 1,
+            "window_b": 13,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.2450001239776611,
+              "nodes": 715.0,
+              "bound": 11074.0,
+              "solver_objective": 11074.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 204,
+                "variables": 975,
+                "constraints": 16709,
+                "substituted_binary_variables": 6098
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10545,
+                "additional_mandatory_arcs": 83,
+                "minimum_time_width": 529,
+                "maximum_time_width": 3081,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 1.200009137392044e-06,
+                "decisions_seconds": 0.026390999963041395,
+                "bounds_seconds": 0.006875800027046353,
+                "variables_and_arcs_seconds": 0.05265480000525713,
+                "pair_constraints_seconds": 0.19529000000329688,
+                "warm_start_seconds": 0.007772200042381883,
+                "model_write_seconds": 0.046729100053198636,
+                "total_build_seconds": 0.3357191999675706
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "dc6068e34fded67e71953f52d66886ed58dfeb680c0819efcaa2de91fedc279c",
+              "presolved": {
+                "rows": 1840,
+                "columns": 481,
+                "nonzeros": 4827
+              },
+              "total_seconds": 1.6307326999958605
+            },
+            "elapsed_seconds": 6.069594100001268
+          },
+          {
+            "round": 5,
+            "before": 11074,
+            "after": 11074,
+            "window_a": 19,
+            "window_b": 30,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.8519999980926514,
+              "nodes": 70.0,
+              "bound": 11074.0,
+              "solver_objective": 11074.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 196,
+                "variables": 967,
+                "constraints": 16639,
+                "substituted_binary_variables": 6106
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10694,
+                "additional_mandatory_arcs": 81,
+                "minimum_time_width": 380,
+                "maximum_time_width": 3531,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 9.00006853044033e-07,
+                "decisions_seconds": 0.03895590000320226,
+                "bounds_seconds": 0.008456600015051663,
+                "variables_and_arcs_seconds": 0.07108869997318834,
+                "pair_constraints_seconds": 0.26403690001461655,
+                "warm_start_seconds": 0.009030599961988628,
+                "model_write_seconds": 0.058479600003920496,
+                "total_build_seconds": 0.4500545000191778
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "eb80ddd3d71c6f6d91cc460b8e37e2da7b8e6305a372d2c61932fff3b48cf4f2",
+              "presolved": {
+                "rows": 1338,
+                "columns": 333,
+                "nonzeros": 3760
+              },
+              "total_seconds": 1.3422789999749511
+            },
+            "elapsed_seconds": 7.448500799946487
+          },
+          {
+            "round": 6,
+            "before": 11074,
+            "after": 11068,
+            "window_a": 11,
+            "window_b": 15,
+            "width": 5,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.2599999904632568,
+              "nodes": 703.0,
+              "bound": 11067.999998893192,
+              "solver_objective": 11068.0,
+              "gap": 1.0000070096974715e-10,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 198,
+                "variables": 969,
+                "constraints": 16712,
+                "substituted_binary_variables": 6104
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10434,
+                "additional_mandatory_arcs": 84,
+                "minimum_time_width": 640,
+                "maximum_time_width": 2629,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 1.200009137392044e-06,
+                "decisions_seconds": 0.028450199984945357,
+                "bounds_seconds": 0.009041000041179359,
+                "variables_and_arcs_seconds": 0.05617960001109168,
+                "pair_constraints_seconds": 0.20006089995149523,
+                "warm_start_seconds": 0.008056199993006885,
+                "model_write_seconds": 0.047026999993249774,
+                "total_build_seconds": 0.34882070001913235
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "9899d1f264de2bb1ac45ff5023c53fd4d0bd681e2f1d4327287d7ba3b4f4173b",
+              "presolved": {
+                "rows": 1436,
+                "columns": 386,
+                "nonzeros": 3938
+              },
+              "total_seconds": 1.657610800000839
+            },
+            "elapsed_seconds": 9.140269399969839
+          },
+          {
+            "round": 7,
+            "before": 11068,
+            "after": 11064,
+            "window_a": 0,
+            "window_b": 12,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.6749999523162842,
+              "nodes": 2325.0,
+              "bound": 11064.0,
+              "solver_objective": 11064.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 204,
+                "variables": 975,
+                "constraints": 16659,
+                "substituted_binary_variables": 6098
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10574,
+                "additional_mandatory_arcs": 83,
+                "minimum_time_width": 494,
+                "maximum_time_width": 3106,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 6.00004568696022e-07,
+                "decisions_seconds": 0.03714199998648837,
+                "bounds_seconds": 0.011614000017289072,
+                "variables_and_arcs_seconds": 0.07689419999951497,
+                "pair_constraints_seconds": 0.284819399996195,
+                "warm_start_seconds": 0.007148200005758554,
+                "model_write_seconds": 0.05821119999745861,
+                "total_build_seconds": 0.4758350999909453
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "0183491b0f0b2e015b46c8110217d6eeb16df9b569d37d7e29cbc2fe9ea04ace",
+              "presolved": {
+                "rows": 1797,
+                "columns": 486,
+                "nonzeros": 4751
+              },
+              "total_seconds": 2.196139100007713
+            },
+            "elapsed_seconds": 11.371537200000603
+          },
+          {
+            "round": 8,
+            "before": 11064,
+            "after": 11054,
+            "window_a": 5,
+            "window_b": 26,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.0410001277923584,
+              "nodes": 260.0,
+              "bound": 11054.0,
+              "solver_objective": 11054.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 201,
+                "variables": 972,
+                "constraints": 16711,
+                "substituted_binary_variables": 6101
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10349,
+                "additional_mandatory_arcs": 82,
+                "minimum_time_width": 715,
+                "maximum_time_width": 3939,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 6.00004568696022e-07,
+                "decisions_seconds": 0.030129600025247782,
+                "bounds_seconds": 0.008180899953003973,
+                "variables_and_arcs_seconds": 0.05488870001863688,
+                "pair_constraints_seconds": 0.21055850002449006,
+                "warm_start_seconds": 0.007115699991118163,
+                "model_write_seconds": 0.04648849996738136,
+                "total_build_seconds": 0.35736680001718923
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "3ba1b5759bf30412db7d24112cc9146219efc7481a3de0c2cf54e48e46912ca1",
+              "presolved": {
+                "rows": 1699,
+                "columns": 453,
+                "nonzeros": 4534
+              },
+              "total_seconds": 1.4374281999771483
+            },
+            "elapsed_seconds": 12.842736799968407
+          },
+          {
+            "round": 9,
+            "before": 11054,
+            "after": 11054,
+            "window_a": 3,
+            "window_b": 15,
+            "width": 5,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.3439998626708984,
+              "nodes": 51.0,
+              "bound": 11054.0,
+              "solver_objective": 11054.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 204,
+                "variables": 975,
+                "constraints": 16719,
+                "substituted_binary_variables": 6098
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10260,
+                "additional_mandatory_arcs": 83,
+                "minimum_time_width": 794,
+                "maximum_time_width": 2604,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 8.00006091594696e-07,
+                "decisions_seconds": 0.02440070000011474,
+                "bounds_seconds": 0.007715400017332286,
+                "variables_and_arcs_seconds": 0.06584840000141412,
+                "pair_constraints_seconds": 0.19500910001806915,
+                "warm_start_seconds": 0.007694600033573806,
+                "model_write_seconds": 0.07120980002218857,
+                "total_build_seconds": 0.3718852000311017
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "aa3a8b45b3821d1336180026ed9bec2be089cfbeaa20ed524d2c5c4000630fb9",
+              "presolved": {
+                "rows": 1862,
+                "columns": 487,
+                "nonzeros": 4897
+              },
+              "total_seconds": 1.7652579999994487
+            },
+            "elapsed_seconds": 14.647575099952519
+          },
+          {
+            "round": 10,
+            "before": 11054,
+            "after": 11054,
+            "window_a": 13,
+            "window_b": 23,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.1730000972747803,
+              "nodes": 144.0,
+              "bound": 11054.0,
+              "solver_objective": 11054.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 201,
+                "variables": 972,
+                "constraints": 16711,
+                "substituted_binary_variables": 6101
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10316,
+                "additional_mandatory_arcs": 82,
+                "minimum_time_width": 738,
+                "maximum_time_width": 3528,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 7.999478839337826e-07,
+                "decisions_seconds": 0.030065300001297146,
+                "bounds_seconds": 0.008004900009837002,
+                "variables_and_arcs_seconds": 0.06084210000699386,
+                "pair_constraints_seconds": 0.19694759999401867,
+                "warm_start_seconds": 0.007131499995011836,
+                "model_write_seconds": 0.04518630000529811,
+                "total_build_seconds": 0.34818440000526607
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "0818e1419d217fba756ce57e68b56a03c7ace6f3b78846058bb2bd113c29450a",
+              "presolved": {
+                "rows": 1606,
+                "columns": 393,
+                "nonzeros": 4355
+              },
+              "total_seconds": 1.5779666000162251
+            },
+            "elapsed_seconds": 16.265234899998177
+          },
+          {
+            "round": 11,
+            "before": 11054,
+            "after": 11054,
+            "window_a": 22,
+            "window_b": 18,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.47300004959106445,
+              "nodes": 1.0,
+              "bound": 11054.0,
+              "solver_objective": 11054.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 195,
+                "variables": 966,
+                "constraints": 16713,
+                "substituted_binary_variables": 6107
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10254,
+                "additional_mandatory_arcs": 86,
+                "minimum_time_width": 800,
+                "maximum_time_width": 2841,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 1.300009898841381e-06,
+                "decisions_seconds": 0.03533179999794811,
+                "bounds_seconds": 0.009481699962634593,
+                "variables_and_arcs_seconds": 0.0820536999963224,
+                "pair_constraints_seconds": 0.29846530000213534,
+                "warm_start_seconds": 0.010789700027089566,
+                "model_write_seconds": 0.06301360001089051,
+                "total_build_seconds": 0.499143399996683
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "a201d90fc214545108248e5cb2e831c2a4bcaf136417496206e3a9bf5d3b1728",
+              "presolved": {
+                "rows": 1250,
+                "columns": 312,
+                "nonzeros": 3594
+              },
+              "total_seconds": 1.0115863000391982
+            },
+            "elapsed_seconds": 17.31474609998986
+          },
+          {
+            "round": 12,
+            "before": 11054,
+            "after": 11046,
+            "window_a": 18,
+            "window_b": 3,
+            "width": 5,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.08800005912780762,
+              "nodes": 1.0,
+              "bound": 11046.0,
+              "solver_objective": 11046.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 196,
+                "variables": 967,
+                "constraints": 16699,
+                "substituted_binary_variables": 6106
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 11034,
+                "additional_mandatory_arcs": 81,
+                "minimum_time_width": 20,
+                "maximum_time_width": 3574,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 5.00003807246685e-07,
+                "decisions_seconds": 0.025038900028448552,
+                "bounds_seconds": 0.008274499967228621,
+                "variables_and_arcs_seconds": 0.051008100039325655,
+                "pair_constraints_seconds": 0.2392600000021048,
+                "warm_start_seconds": 0.010854599997401237,
+                "model_write_seconds": 0.05339430004823953,
+                "total_build_seconds": 0.3878361000097357
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "d22ae83081b86c1c71c956af7be39ecd9a7050778539100ef4b18b8002a398b2",
+              "presolved": {
+                "rows": 584,
+                "columns": 142,
+                "nonzeros": 1658
+              },
+              "total_seconds": 0.510100900020916
+            },
+            "elapsed_seconds": 17.85392470000079
+          },
+          {
+            "round": 13,
+            "before": 11046,
+            "after": 11046,
+            "window_a": 0,
+            "window_b": 11,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.8270001411437988,
+              "nodes": 2171.0,
+              "bound": 11046.0,
+              "solver_objective": 11046.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 204,
+                "variables": 975,
+                "constraints": 16659,
+                "substituted_binary_variables": 6098
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10549,
+                "additional_mandatory_arcs": 83,
+                "minimum_time_width": 497,
+                "maximum_time_width": 2917,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 6.999471224844456e-07,
+                "decisions_seconds": 0.025683300045784563,
+                "bounds_seconds": 0.007203799963463098,
+                "variables_and_arcs_seconds": 0.049867300025653094,
+                "pair_constraints_seconds": 0.20392800000263378,
+                "warm_start_seconds": 0.0065938999759964645,
+                "model_write_seconds": 0.04730420000851154,
+                "total_build_seconds": 0.3405860999482684
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "fabf4282b0836c12cf1137317c40c197a18776e037e55bd115f54a07d792d8a3",
+              "presolved": {
+                "rows": 1763,
+                "columns": 485,
+                "nonzeros": 4667
+              },
+              "total_seconds": 2.2099114999873564
+            },
+            "elapsed_seconds": 20.09444049996091
+          },
+          {
+            "round": 14,
+            "before": 11046,
+            "after": 11046,
+            "window_a": 16,
+            "window_b": 13,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.08800005912780762,
+              "nodes": 0.0,
+              "bound": 11046.0,
+              "solver_objective": 11046.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 194,
+                "variables": 965,
+                "constraints": 16709,
+                "substituted_binary_variables": 6108
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10199,
+                "additional_mandatory_arcs": 85,
+                "minimum_time_width": 847,
+                "maximum_time_width": 4341,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 8.00006091594696e-07,
+                "decisions_seconds": 0.02475779998349026,
+                "bounds_seconds": 0.007216099998913705,
+                "variables_and_arcs_seconds": 0.048558900016359985,
+                "pair_constraints_seconds": 0.23012919997563586,
+                "warm_start_seconds": 0.006997799966484308,
+                "model_write_seconds": 0.05175939999753609,
+                "total_build_seconds": 0.3694252999848686
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "561a5ada249563f511d2d127e10f6fab33ea3ab4a9a5fe3012e77a0de151c741",
+              "presolved": {
+                "rows": 454,
+                "columns": 101,
+                "nonzeros": 1366
+              },
+              "total_seconds": 0.49194310000166297
+            },
+            "elapsed_seconds": 20.618460099969525
+          },
+          {
+            "round": 15,
+            "before": 11046,
+            "after": 11046,
+            "window_a": 19,
+            "window_b": 2,
+            "width": 5,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.042999982833862305,
+              "nodes": 0.0,
+              "bound": 11046.0,
+              "solver_objective": 11046.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 196,
+                "variables": 967,
+                "constraints": 16689,
+                "substituted_binary_variables": 6106
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 11046,
+                "additional_mandatory_arcs": 81,
+                "minimum_time_width": 0,
+                "maximum_time_width": 3244,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 6.00004568696022e-07,
+                "decisions_seconds": 0.027891699981410056,
+                "bounds_seconds": 0.006896700011566281,
+                "variables_and_arcs_seconds": 0.058792399999219924,
+                "pair_constraints_seconds": 0.208101500000339,
+                "warm_start_seconds": 0.0070615000440739095,
+                "model_write_seconds": 0.050308699952438474,
+                "total_build_seconds": 0.3590581999742426
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "edca4bb779c8859c8f517146082bd6c94062b06c5974676822db52f1130ad763",
+              "presolved": {
+                "rows": 536,
+                "columns": 125,
+                "nonzeros": 1556
+              },
+              "total_seconds": 0.43965259997639805
+            },
+            "elapsed_seconds": 21.089802099973895
+          },
+          {
+            "round": 16,
+            "before": 11046,
+            "after": 11046,
+            "window_a": 0,
+            "window_b": 10,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.3910000324249268,
+              "nodes": 1005.0,
+              "bound": 11046.0,
+              "solver_objective": 11046.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 204,
+                "variables": 975,
+                "constraints": 16659,
+                "substituted_binary_variables": 6098
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10549,
+                "additional_mandatory_arcs": 83,
+                "minimum_time_width": 497,
+                "maximum_time_width": 2958,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 9.00006853044033e-07,
+                "decisions_seconds": 0.028652999957557768,
+                "bounds_seconds": 0.010673000011593103,
+                "variables_and_arcs_seconds": 0.07620980002684519,
+                "pair_constraints_seconds": 0.257660900009796,
+                "warm_start_seconds": 0.009333000052720308,
+                "model_write_seconds": 0.05019919999176636,
+                "total_build_seconds": 0.43273579998640344
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "56ae7c40f96a8b5d872bc20879befd6659beaba84a0c18d9485a7a45caf65cd5",
+              "presolved": {
+                "rows": 1765,
+                "columns": 485,
+                "nonzeros": 4684
+              },
+              "total_seconds": 1.8632775000296533
+            },
+            "elapsed_seconds": 22.986439499945845
+          },
+          {
+            "round": 17,
+            "before": 11046,
+            "after": 11046,
+            "window_a": 29,
+            "window_b": 15,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.4510002136230469,
+              "nodes": 675.0,
+              "bound": 11046.0,
+              "solver_objective": 11046.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 196,
+                "variables": 967,
+                "constraints": 16687,
+                "substituted_binary_variables": 6106
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 11020,
+                "additional_mandatory_arcs": 80,
+                "minimum_time_width": 26,
+                "maximum_time_width": 3345,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 5.00003807246685e-07,
+                "decisions_seconds": 0.02351020002970472,
+                "bounds_seconds": 0.00676789996214211,
+                "variables_and_arcs_seconds": 0.04816590005066246,
+                "pair_constraints_seconds": 0.18650549999438226,
+                "warm_start_seconds": 0.006545200012624264,
+                "model_write_seconds": 0.04362399998353794,
+                "total_build_seconds": 0.3151250000228174
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "1c4d87130f0c1c021ffdab05347861a7b6991989ff10d3078d5a0b4e6249dbda",
+              "presolved": {
+                "rows": 578,
+                "columns": 171,
+                "nonzeros": 1814
+              },
+              "total_seconds": 0.8030216000042856
+            },
+            "elapsed_seconds": 23.820676399976946
+          },
+          {
+            "round": 18,
+            "before": 11046,
+            "after": 11046,
+            "window_a": 13,
+            "window_b": 30,
+            "width": 5,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.6989998817443848,
+              "nodes": 38.0,
+              "bound": 11046.0,
+              "solver_objective": 11046.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 201,
+                "variables": 972,
+                "constraints": 16651,
+                "substituted_binary_variables": 6101
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10667,
+                "additional_mandatory_arcs": 82,
+                "minimum_time_width": 379,
+                "maximum_time_width": 2694,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 7.00005330145359e-07,
+                "decisions_seconds": 0.034080700017511845,
+                "bounds_seconds": 0.00836059998255223,
+                "variables_and_arcs_seconds": 0.06082150002475828,
+                "pair_constraints_seconds": 0.2458782999892719,
+                "warm_start_seconds": 0.010608399985358119,
+                "model_write_seconds": 0.04958450002595782,
+                "total_build_seconds": 0.4093431999790482
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "545caaf99ae6d878a7ab9592c8be1c432406b476c44890c952a07a29a44359c5",
+              "presolved": {
+                "rows": 1380,
+                "columns": 361,
+                "nonzeros": 3736
+              },
+              "total_seconds": 1.1503252999973483
+            },
+            "elapsed_seconds": 25.006002399954014
+          },
+          {
+            "round": 19,
+            "before": 11046,
+            "after": 11046,
+            "window_a": 1,
+            "window_b": 10,
+            "width": 7,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 9,
+              "optimal": false,
+              "runtime": 5.014000177383423,
+              "nodes": 1215.0,
+              "bound": 10666.503768039931,
+              "solver_objective": 11046.0,
+              "gap": 0.034355986959991765,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 368,
+                "variables": 1139,
+                "constraints": 17345,
+                "substituted_binary_variables": 5934
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10045,
+                "additional_mandatory_arcs": 75,
+                "minimum_time_width": 1001,
+                "maximum_time_width": 3759,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 7.00005330145359e-07,
+                "decisions_seconds": 0.030792800011113286,
+                "bounds_seconds": 0.007674799999222159,
+                "variables_and_arcs_seconds": 0.07186169998021796,
+                "pair_constraints_seconds": 0.23729509999975562,
+                "warm_start_seconds": 0.00713099999120459,
+                "model_write_seconds": 0.062319999968167394,
+                "total_build_seconds": 0.41708819998893887
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "cae4e2306ca032fe744cbcf9588ebd80ac998b618000e1a698c807cd941cc312",
+              "presolved": {
+                "rows": 3277,
+                "columns": 690,
+                "nonzeros": 8909
+              },
+              "total_seconds": 5.479033400013577
+            },
+            "elapsed_seconds": 30.519101999991108
+          },
+          {
+            "round": 20,
+            "before": 11046,
+            "after": 11046,
+            "window_a": 6,
+            "window_b": 22,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.7660000324249268,
+              "nodes": 296.0,
+              "bound": 11046.0,
+              "solver_objective": 11046.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 199,
+                "variables": 970,
+                "constraints": 16705,
+                "substituted_binary_variables": 6103
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10034,
+                "additional_mandatory_arcs": 81,
+                "minimum_time_width": 1012,
+                "maximum_time_width": 3995,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 9.00006853044033e-07,
+                "decisions_seconds": 0.029074100020807236,
+                "bounds_seconds": 0.00823189999209717,
+                "variables_and_arcs_seconds": 0.06332959997234866,
+                "pair_constraints_seconds": 0.23311270005069673,
+                "warm_start_seconds": 0.006620900006964803,
+                "model_write_seconds": 0.047155799984466285,
+                "total_build_seconds": 0.3875310000148602
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "14656e3233666f0b9c993b02e29dd0806788210495e6c0a4714f8ccc7c519ed5",
+              "presolved": {
+                "rows": 1945,
+                "columns": 456,
+                "nonzeros": 5030
+              },
+              "total_seconds": 2.1990224000182934
+            },
+            "elapsed_seconds": 32.75314859999344
+          },
+          {
+            "round": 21,
+            "before": 11046,
+            "after": 11046,
+            "window_a": 19,
+            "window_b": 29,
+            "width": 5,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.9460000991821289,
+              "nodes": 5.0,
+              "bound": 11046.0,
+              "solver_objective": 11046.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 200,
+                "variables": 971,
+                "constraints": 16697,
+                "substituted_binary_variables": 6102
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10646,
+                "additional_mandatory_arcs": 82,
+                "minimum_time_width": 400,
+                "maximum_time_width": 3965,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 6.00004568696022e-07,
+                "decisions_seconds": 0.031080399989150465,
+                "bounds_seconds": 0.008595999970566481,
+                "variables_and_arcs_seconds": 0.05608170002233237,
+                "pair_constraints_seconds": 0.19332369999028742,
+                "warm_start_seconds": 0.006955099990591407,
+                "model_write_seconds": 0.04753430001437664,
+                "total_build_seconds": 0.3435784999746829
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "d196d393a9819dfbea49d35228f38d5d6f43b2f55067ce814acfebe709af489a",
+              "presolved": {
+                "rows": 1386,
+                "columns": 344,
+                "nonzeros": 3919
+              },
+              "total_seconds": 1.331394899985753
+            },
+            "elapsed_seconds": 34.11753589997534
+          },
+          {
+            "round": 22,
+            "before": 11046,
+            "after": 11046,
+            "window_a": 1,
+            "window_b": 11,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.187000036239624,
+              "nodes": 472.0,
+              "bound": 11046.0,
+              "solver_objective": 11046.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 204,
+                "variables": 975,
+                "constraints": 16709,
+                "substituted_binary_variables": 6098
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10520,
+                "additional_mandatory_arcs": 83,
+                "minimum_time_width": 526,
+                "maximum_time_width": 3165,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 5.00003807246685e-07,
+                "decisions_seconds": 0.02440210001077503,
+                "bounds_seconds": 0.006949000002350658,
+                "variables_and_arcs_seconds": 0.051415399997495115,
+                "pair_constraints_seconds": 0.2036968999891542,
+                "warm_start_seconds": 0.0068857999867759645,
+                "model_write_seconds": 0.04698630003258586,
+                "total_build_seconds": 0.3403407000005245
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "994f72b4a3db61d3231421ad2402dbf689f93682b6396d4178e91cf162f48f8d",
+              "presolved": {
+                "rows": 1818,
+                "columns": 480,
+                "nonzeros": 4816
+              },
+              "total_seconds": 1.5742371000233106
+            },
+            "elapsed_seconds": 35.72189389995765
+          },
+          {
+            "round": 23,
+            "before": 11046,
+            "after": 11042,
+            "window_a": 8,
+            "window_b": 23,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.1520001888275146,
+              "nodes": 725.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 201,
+                "variables": 972,
+                "constraints": 16711,
+                "substituted_binary_variables": 6101
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10481,
+                "additional_mandatory_arcs": 82,
+                "minimum_time_width": 565,
+                "maximum_time_width": 3606,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 7.00005330145359e-07,
+                "decisions_seconds": 0.02521369996247813,
+                "bounds_seconds": 0.008548700017854571,
+                "variables_and_arcs_seconds": 0.05640470003709197,
+                "pair_constraints_seconds": 0.19643329997779801,
+                "warm_start_seconds": 0.008084299974143505,
+                "model_write_seconds": 0.046620699984487146,
+                "total_build_seconds": 0.34131629997864366
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "e1688684468236553f0ffcb1cd4bad43804be1ec1d363b1532a0136ae44c6fc9",
+              "presolved": {
+                "rows": 1574,
+                "columns": 425,
+                "nonzeros": 4298
+              },
+              "total_seconds": 1.5387385999783874
+            },
+            "elapsed_seconds": 37.29787499998929
+          },
+          {
+            "round": 24,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 18,
+            "window_b": 7,
+            "width": 5,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.5979998111724854,
+              "nodes": 1610.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 196,
+                "variables": 967,
+                "constraints": 16699,
+                "substituted_binary_variables": 6106
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10828,
+                "additional_mandatory_arcs": 81,
+                "minimum_time_width": 214,
+                "maximum_time_width": 3540,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 1.100008375942707e-06,
+                "decisions_seconds": 0.04041620000498369,
+                "bounds_seconds": 0.011235199985094368,
+                "variables_and_arcs_seconds": 0.08157209999626502,
+                "pair_constraints_seconds": 0.28284500003792346,
+                "warm_start_seconds": 0.009614899987354875,
+                "model_write_seconds": 0.0637095999554731,
+                "total_build_seconds": 0.4893999000196345
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "cea132a9f0eac1d9ce8cb0c91c0559ada9a7017dc0333b9b567af4e751c29439",
+              "presolved": {
+                "rows": 1181,
+                "columns": 326,
+                "nonzeros": 3460
+              },
+              "total_seconds": 2.1324386000051163
+            },
+            "elapsed_seconds": 39.4678547999938
+          },
+          {
+            "round": 25,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 13,
+            "window_b": 23,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.5039999485015869,
+              "nodes": 1.0,
+              "bound": 11041.9999988957,
+              "solver_objective": 11042.0,
+              "gap": 1.0000899945170003e-10,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 201,
+                "variables": 972,
+                "constraints": 16711,
+                "substituted_binary_variables": 6101
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10303,
+                "additional_mandatory_arcs": 82,
+                "minimum_time_width": 739,
+                "maximum_time_width": 4063,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 8.00006091594696e-07,
+                "decisions_seconds": 0.029614800005219877,
+                "bounds_seconds": 0.006980100006330758,
+                "variables_and_arcs_seconds": 0.053517699998337775,
+                "pair_constraints_seconds": 0.22789270000066608,
+                "warm_start_seconds": 0.012008799996692687,
+                "model_write_seconds": 0.05314340000040829,
+                "total_build_seconds": 0.383163999998942
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "024b5c118f46b8fe7a37854ae80f31c3702bfcbb0deae2e464881dd54689fce3",
+              "presolved": {
+                "rows": 1593,
+                "columns": 391,
+                "nonzeros": 4299
+              },
+              "total_seconds": 0.933907900005579
+            },
+            "elapsed_seconds": 40.43933379999362
+          },
+          {
+            "round": 26,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 21,
+            "window_b": 29,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.253999948501587,
+              "nodes": 447.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 209,
+                "variables": 980,
+                "constraints": 16717,
+                "substituted_binary_variables": 6093
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10633,
+                "additional_mandatory_arcs": 83,
+                "minimum_time_width": 409,
+                "maximum_time_width": 3339,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 9.00006853044033e-07,
+                "decisions_seconds": 0.03765229997225106,
+                "bounds_seconds": 0.01090460002887994,
+                "variables_and_arcs_seconds": 0.07735009997850284,
+                "pair_constraints_seconds": 0.26943630003370345,
+                "warm_start_seconds": 0.009147999982815236,
+                "model_write_seconds": 0.06990109995240346,
+                "total_build_seconds": 0.4743988999980502
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "88bd01d9abe522fb00f8991ce9c9348dd86d974bca22d4a30bb458b66f68242c",
+              "presolved": {
+                "rows": 1389,
+                "columns": 345,
+                "nonzeros": 3981
+              },
+              "total_seconds": 1.7741714000003412
+            },
+            "elapsed_seconds": 42.25094679999165
+          },
+          {
+            "round": 27,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 9,
+            "window_b": 13,
+            "width": 5,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.1529998779296875,
+              "nodes": 1105.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 228,
+                "variables": 999,
+                "constraints": 16776,
+                "substituted_binary_variables": 6074
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10355,
+                "additional_mandatory_arcs": 86,
+                "minimum_time_width": 687,
+                "maximum_time_width": 2750,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 6.00004568696022e-07,
+                "decisions_seconds": 0.03663839999353513,
+                "bounds_seconds": 0.012206499988678843,
+                "variables_and_arcs_seconds": 0.08461170003283769,
+                "pair_constraints_seconds": 0.2893075000029057,
+                "warm_start_seconds": 0.01239370001712814,
+                "model_write_seconds": 0.07153929997002706,
+                "total_build_seconds": 0.5067030999925919
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "f77a5b3e2c7e37f6929a46cb254f7e122e005b6a9e81d594041aa859ac1ed692",
+              "presolved": {
+                "rows": 1636,
+                "columns": 456,
+                "nonzeros": 4550
+              },
+              "total_seconds": 1.7112564000417478
+            },
+            "elapsed_seconds": 44.004130799963605
+          },
+          {
+            "round": 28,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 13,
+            "window_b": 22,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.311999797821045,
+              "nodes": 398.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 201,
+                "variables": 972,
+                "constraints": 16711,
+                "substituted_binary_variables": 6101
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10182,
+                "additional_mandatory_arcs": 82,
+                "minimum_time_width": 860,
+                "maximum_time_width": 4049,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 7.00005330145359e-07,
+                "decisions_seconds": 0.035908800025936216,
+                "bounds_seconds": 0.008822399948257953,
+                "variables_and_arcs_seconds": 0.07133930001873523,
+                "pair_constraints_seconds": 0.3022270000074059,
+                "warm_start_seconds": 0.012192700000014156,
+                "model_write_seconds": 0.06245649995980784,
+                "total_build_seconds": 0.4929528000066057
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "1fe826b711b06f78fedb6684c839a130ed349ec7fb666c2cc7b7e819e3896efa",
+              "presolved": {
+                "rows": 1686,
+                "columns": 394,
+                "nonzeros": 4527
+              },
+              "total_seconds": 1.8484956999891438
+            },
+            "elapsed_seconds": 45.889965199981816
+          },
+          {
+            "round": 29,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 11,
+            "window_b": 19,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.5450000762939453,
+              "nodes": 1.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 194,
+                "variables": 965,
+                "constraints": 16695,
+                "substituted_binary_variables": 6108
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10310,
+                "additional_mandatory_arcs": 81,
+                "minimum_time_width": 732,
+                "maximum_time_width": 2760,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 8.00006091594696e-07,
+                "decisions_seconds": 0.028209000010974705,
+                "bounds_seconds": 0.009598499978892505,
+                "variables_and_arcs_seconds": 0.058901800017338246,
+                "pair_constraints_seconds": 0.23069729999406263,
+                "warm_start_seconds": 0.008276999986264855,
+                "model_write_seconds": 0.05602869996801019,
+                "total_build_seconds": 0.39171860000351444
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "38faee968bb23435e75cc1b0aa745cb7f28cc9ff347620dfa78666bd126596b3",
+              "presolved": {
+                "rows": 1556,
+                "columns": 385,
+                "nonzeros": 4186
+              },
+              "total_seconds": 0.9727068000356667
+            },
+            "elapsed_seconds": 46.89764809998451
+          },
+          {
+            "round": 30,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 20,
+            "window_b": 24,
+            "width": 7,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 9,
+              "optimal": false,
+              "runtime": 5.01800012588501,
+              "nodes": 4115.0,
+              "bound": 10861.3461983049,
+              "solver_objective": 11042.0,
+              "gap": 0.016360605116382893,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 374,
+                "variables": 1145,
+                "constraints": 17390,
+                "substituted_binary_variables": 5928
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10136,
+                "additional_mandatory_arcs": 80,
+                "minimum_time_width": 906,
+                "maximum_time_width": 3763,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 6.00004568696022e-07,
+                "decisions_seconds": 0.03089879994513467,
+                "bounds_seconds": 0.00822730001527816,
+                "variables_and_arcs_seconds": 0.0789698000298813,
+                "pair_constraints_seconds": 0.20153239998035133,
+                "warm_start_seconds": 0.007037999981548637,
+                "model_write_seconds": 0.049211999983526766,
+                "total_build_seconds": 0.3758842999814078
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "25df52b8b225a4188e2a448f02389e5db7731cd0797a67801105ab9de600accb",
+              "presolved": {
+                "rows": 2498,
+                "columns": 523,
+                "nonzeros": 7417
+              },
+              "total_seconds": 5.43579379998846
+            },
+            "elapsed_seconds": 52.37011339998571
+          },
+          {
+            "round": 31,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 14,
+            "window_b": 23,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.4179999828338623,
+              "nodes": 558.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 204,
+                "variables": 975,
+                "constraints": 16719,
+                "substituted_binary_variables": 6098
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10303,
+                "additional_mandatory_arcs": 83,
+                "minimum_time_width": 739,
+                "maximum_time_width": 4250,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 5.00003807246685e-07,
+                "decisions_seconds": 0.022048300015740097,
+                "bounds_seconds": 0.006305599992629141,
+                "variables_and_arcs_seconds": 0.04459449998103082,
+                "pair_constraints_seconds": 0.17089010000927374,
+                "warm_start_seconds": 0.007148200005758554,
+                "model_write_seconds": 0.04301879997365177,
+                "total_build_seconds": 0.29401020001387224
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "5d9f0e4b94e853a5b4e0c3d7f96770d1cb06e318a5b29fda5ee8e39bcdff89d8",
+              "presolved": {
+                "rows": 1618,
+                "columns": 389,
+                "nonzeros": 4416
+              },
+              "total_seconds": 1.7597722000209615
+            },
+            "elapsed_seconds": 54.164043799974024
+          },
+          {
+            "round": 32,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 9,
+            "window_b": 0,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.252000093460083,
+              "nodes": 85.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 204,
+                "variables": 975,
+                "constraints": 16659,
+                "substituted_binary_variables": 6098
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10960,
+                "additional_mandatory_arcs": 83,
+                "minimum_time_width": 82,
+                "maximum_time_width": 3066,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 1.100008375942707e-06,
+                "decisions_seconds": 0.030347399995662272,
+                "bounds_seconds": 0.00910000002477318,
+                "variables_and_arcs_seconds": 0.06674599996767938,
+                "pair_constraints_seconds": 0.24651840003207326,
+                "warm_start_seconds": 0.0086746999877505,
+                "model_write_seconds": 0.04954819998238236,
+                "total_build_seconds": 0.41094020003220066
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "e2f030b991b589ea1aef01fe01aa2c33cb1508c93f2a53554f7c70faf0b22f9d",
+              "presolved": {
+                "rows": 605,
+                "columns": 160,
+                "nonzeros": 1810
+              },
+              "total_seconds": 0.6990788000402972
+            },
+            "elapsed_seconds": 54.90148760000011
+          },
+          {
+            "round": 33,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 14,
+            "window_b": 10,
+            "width": 5,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.08500003814697266,
+              "nodes": 0.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 228,
+                "variables": 999,
+                "constraints": 16776,
+                "substituted_binary_variables": 6074
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10463,
+                "additional_mandatory_arcs": 86,
+                "minimum_time_width": 579,
+                "maximum_time_width": 2874,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 4.00003045797348e-07,
+                "decisions_seconds": 0.02214389998698607,
+                "bounds_seconds": 0.007548700028564781,
+                "variables_and_arcs_seconds": 0.0487495000124909,
+                "pair_constraints_seconds": 0.16729099996155128,
+                "warm_start_seconds": 0.007152899983339012,
+                "model_write_seconds": 0.04680940002435818,
+                "total_build_seconds": 0.29969990003155544
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "2dc2768162ab511df41644fd242363a182acde23f2df235332ec969edd34d467",
+              "presolved": null,
+              "total_seconds": 0.41702739999163896
+            },
+            "elapsed_seconds": 55.34684819995891
+          },
+          {
+            "round": 34,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 12,
+            "window_b": 23,
+            "width": 5,
+            "policy": "critical",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.1030001640319824,
+              "nodes": 132.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 196,
+                "variables": 967,
+                "constraints": 16699,
+                "substituted_binary_variables": 6106
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10303,
+                "additional_mandatory_arcs": 81,
+                "minimum_time_width": 739,
+                "maximum_time_width": 3938,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 9.00006853044033e-07,
+                "decisions_seconds": 0.026111499988473952,
+                "bounds_seconds": 0.00842289999127388,
+                "variables_and_arcs_seconds": 0.04898490000050515,
+                "pair_constraints_seconds": 0.17704999999841675,
+                "warm_start_seconds": 0.007480799977201968,
+                "model_write_seconds": 0.04643950000172481,
+                "total_build_seconds": 0.31449600000632927
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "639a53cef8a3ad9e960ee37ec45ba7370ac09b51ed5183db4884044e2c90222e",
+              "presolved": {
+                "rows": 1619,
+                "columns": 392,
+                "nonzeros": 4342
+              },
+              "total_seconds": 1.4704532999894582
+            },
+            "elapsed_seconds": 56.85450319998199
+          },
+          {
+            "round": 35,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 9,
+            "window_b": 11,
+            "width": 5,
+            "policy": "unstable",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 1.1969997882843018,
+              "nodes": 813.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 186,
+                "variables": 957,
+                "constraints": 16702,
+                "substituted_binary_variables": 6116
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10355,
+                "additional_mandatory_arcs": 88,
+                "minimum_time_width": 687,
+                "maximum_time_width": 2723,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 9.00006853044033e-07,
+                "decisions_seconds": 0.04095739999320358,
+                "bounds_seconds": 0.010734700015746057,
+                "variables_and_arcs_seconds": 0.07625099999131635,
+                "pair_constraints_seconds": 0.30839259998174384,
+                "warm_start_seconds": 0.01205439999466762,
+                "model_write_seconds": 0.05401299998629838,
+                "total_build_seconds": 0.5024103000178002
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "df5bb7633c492e76852fe533c09451a5b3aeed62e4013bb4cbcf4d754008f628",
+              "presolved": {
+                "rows": 1588,
+                "columns": 420,
+                "nonzeros": 4332
+              },
+              "total_seconds": 1.7378554999595508
+            },
+            "elapsed_seconds": 58.6329190999968
+          },
+          {
+            "round": 36,
+            "before": 11042,
+            "after": 11042,
+            "window_a": 23,
+            "window_b": 11,
+            "width": 7,
+            "policy": "random",
+            "proof": {
+              "scope": "restricted",
+              "original_optimality_proven_by_this_run": false,
+              "solver": "gurobi",
+              "version": "13.0.2",
+              "status": 2,
+              "optimal": true,
+              "runtime": 0.09399986267089844,
+              "nodes": 0.0,
+              "bound": 11042.0,
+              "solver_objective": 11042.0,
+              "gap": 0.0,
+              "seconds_requested": 5,
+              "threads": 8,
+              "reduction": {
+                "full_binary_variables": 6302,
+                "binary_variables": 354,
+                "variables": 1125,
+                "constraints": 17327,
+                "substituted_binary_variables": 5948
+              },
+              "strengthening": {
+                "enabled": true,
+                "objective_lower_from_fixed_relations": 10703,
+                "additional_mandatory_arcs": 73,
+                "minimum_time_width": 339,
+                "maximum_time_width": 3319,
+                "compact": false,
+                "skipped_fixed_pairs": 0
+              },
+              "build_timing": {
+                "environment_seconds": 3.00002284348011e-07,
+                "decisions_seconds": 0.02221530000679195,
+                "bounds_seconds": 0.0062741999863646924,
+                "variables_and_arcs_seconds": 0.057473699969705194,
+                "pair_constraints_seconds": 0.19518360000802204,
+                "warm_start_seconds": 0.008933899982366711,
+                "model_write_seconds": 0.05369460000656545,
+                "total_build_seconds": 0.34378100000321865
+              },
+              "environment_reused": true,
+              "solution_source": "decoded_solver_code",
+              "model_sha256": "7dec07d912daa1c905a8c17d1a27f3bfce3a3169ebacc92d5e3d9bd4e82714b0",
+              "presolved": {
+                "rows": 767,
+                "columns": 213,
+                "nonzeros": 2486
+              },
+              "total_seconds": 0.47574630001327023
+            },
+            "elapsed_seconds": 59.14454869995825
+          }
+        ]
+      }
+    }
+  ],
+  "same_reference_and_selection_inputs": true
+}

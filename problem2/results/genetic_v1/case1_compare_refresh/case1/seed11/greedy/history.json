@@ -1,0 +1,80 @@
+{
+  "improvements": [
+    {
+      "seconds": 0.00017409998690709472,
+      "best": 5902,
+      "evaluations": 1
+    },
+    {
+      "seconds": 0.0003524000057950616,
+      "best": 5729,
+      "evaluations": 3
+    },
+    {
+      "seconds": 0.0004437000025063753,
+      "best": 5715,
+      "evaluations": 5
+    },
+    {
+      "seconds": 0.0010939000057987869,
+      "best": 5656,
+      "evaluations": 19
+    },
+    {
+      "seconds": 0.05239580001216382,
+      "best": 5605,
+      "evaluations": 230
+    },
+    {
+      "seconds": 0.052443499967921525,
+      "best": 5554,
+      "evaluations": 231
+    },
+    {
+      "seconds": 0.07821070001227781,
+      "best": 5368,
+      "evaluations": 515
+    },
+    {
+      "seconds": 0.138842599990312,
+      "best": 5364,
+      "evaluations": 1209
+    },
+    {
+      "seconds": 0.19215650000842288,
+      "best": 5358,
+      "evaluations": 1956
+    },
+    {
+      "seconds": 0.1934822999755852,
+      "best": 5307,
+      "evaluations": 1981
+    },
+    {
+      "seconds": 0.19357669999590144,
+      "best": 5259,
+      "evaluations": 1983
+    },
+    {
+      "seconds": 0.44668900000397116,
+      "best": 5210,
+      "evaluations": 8239
+    },
+    {
+      "seconds": 0.4474809999810532,
+      "best": 5169,
+      "evaluations": 8261
+    },
+    {
+      "seconds": 1.1606539000058547,
+      "best": 5063,
+      "evaluations": 26474
+    },
+    {
+      "seconds": 1.8957865000120364,
+      "best": 5031,
+      "evaluations": 44612
+    }
+  ],
+  "generations": []
+}
