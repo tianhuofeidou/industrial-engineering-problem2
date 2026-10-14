@@ -1,0 +1,17 @@
+{
+  "authorized_start_utc": "2026-10-14T03:04:43+00:00",
+  "fixed_deadline_utc": "2026-10-14T09:04:43+00:00",
+  "computation_completed_utc": "2026-10-14T03:48:55.570230+00:00",
+  "final_verification_and_report_completed_utc": "2026-10-14T04:13:39.710690+00:00",
+  "task_wall_seconds_including_heartbeat_delay": 4136.71069,
+  "completed_models": 816,
+  "complete_fixed_blocks": 24,
+  "information_combinations": 32,
+  "independent_confirmation_models": 0,
+  "stop_reason": "no_combination_passed_predeclared_screening_gate",
+  "automation_id": "automation",
+  "automation_status": "PAUSED",
+  "scope": "restricted",
+  "new_solves_during_final_audit": 0,
+  "default_flow_changed": false
+}

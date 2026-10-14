@@ -1,0 +1,19 @@
+{
+  "seed": 71,
+  "block": "w9_0",
+  "mask": 12,
+  "factors": [
+    "stage",
+    "acceptance"
+  ],
+  "reference": 11086,
+  "baseline_objective": 11086,
+  "candidate_objective": 11080,
+  "candidate_optimal": true,
+  "candidate_labels_allowing_specific_improved_code": [
+    "m12"
+  ],
+  "candidate_graph_check_only": true,
+  "no_global_claim": true,
+  "no_independent_confirmation": true
+}

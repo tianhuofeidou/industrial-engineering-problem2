@@ -1,0 +1,1515 @@
+{
+  "reason": "no_combination_passed_predeclared_screening_gate",
+  "screening_models": 816,
+  "factorial": {
+    "complete_blocks": 24,
+    "complete_seed_count": 6,
+    "incomplete_blocks": 0,
+    "effects": [
+      {
+        "factors": [
+          "frequency"
+        ],
+        "order": 1,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          0.1875
+        ],
+        "mean_seconds": 0.046875,
+        "exploratory_cluster_bootstrap_95": [
+          0.0,
+          0.109375
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "quality"
+        ],
+        "order": 1,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          -0.15625
+        ],
+        "mean_seconds": -0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.078125,
+          0.046875
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "stage"
+        ],
+        "order": 1,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          -0.03125
+        ],
+        "mean_seconds": -0.020833333333333332,
+        "exploratory_cluster_bootstrap_95": [
+          -0.052083333333333336,
+          0.0
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "acceptance"
+        ],
+        "order": 1,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          0.15625
+        ],
+        "mean_seconds": 0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.046875,
+          0.078125
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "change_effect"
+        ],
+        "order": 1,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          0.1875
+        ],
+        "mean_seconds": 0.046875,
+        "exploratory_cluster_bootstrap_95": [
+          0.0,
+          0.109375
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "quality"
+        ],
+        "order": 2,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          0.15625
+        ],
+        "mean_seconds": 0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.046875,
+          0.078125
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "stage"
+        ],
+        "order": 2,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          0.03125
+        ],
+        "mean_seconds": 0.020833333333333332,
+        "exploratory_cluster_bootstrap_95": [
+          0.0,
+          0.052083333333333336
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "acceptance"
+        ],
+        "order": 2,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          -0.15625
+        ],
+        "mean_seconds": -0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.078125,
+          0.046875
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "change_effect"
+        ],
+        "order": 2,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          -0.1875
+        ],
+        "mean_seconds": -0.046875,
+        "exploratory_cluster_bootstrap_95": [
+          -0.109375,
+          0.0
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "quality",
+          "stage"
+        ],
+        "order": 2,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_seconds": 0.015625,
+        "exploratory_cluster_bootstrap_95": [
+          0.0,
+          0.046875
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "quality",
+          "acceptance"
+        ],
+        "order": 2,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          0.125
+        ],
+        "mean_seconds": 0.036458333333333336,
+        "exploratory_cluster_bootstrap_95": [
+          0.0,
+          0.078125
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "quality",
+          "change_effect"
+        ],
+        "order": 2,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          0.15625
+        ],
+        "mean_seconds": 0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.046875,
+          0.078125
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "stage",
+          "acceptance"
+        ],
+        "order": 2,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_seconds": -0.015625,
+        "exploratory_cluster_bootstrap_95": [
+          -0.046875,
+          0.0
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "stage",
+          "change_effect"
+        ],
+        "order": 2,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          0.03125
+        ],
+        "mean_seconds": 0.020833333333333332,
+        "exploratory_cluster_bootstrap_95": [
+          0.0,
+          0.052083333333333336
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "acceptance",
+          "change_effect"
+        ],
+        "order": 2,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          -0.15625
+        ],
+        "mean_seconds": -0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.078125,
+          0.046875
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "quality",
+          "stage"
+        ],
+        "order": 3,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_seconds": -0.015625,
+        "exploratory_cluster_bootstrap_95": [
+          -0.046875,
+          0.0
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "quality",
+          "acceptance"
+        ],
+        "order": 3,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          -0.125
+        ],
+        "mean_seconds": -0.036458333333333336,
+        "exploratory_cluster_bootstrap_95": [
+          -0.078125,
+          0.0
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "quality",
+          "change_effect"
+        ],
+        "order": 3,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          -0.15625
+        ],
+        "mean_seconds": -0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.078125,
+          0.046875
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "stage",
+          "acceptance"
+        ],
+        "order": 3,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_seconds": 0.015625,
+        "exploratory_cluster_bootstrap_95": [
+          0.0,
+          0.046875
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "stage",
+          "change_effect"
+        ],
+        "order": 3,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          -0.03125
+        ],
+        "mean_seconds": -0.020833333333333332,
+        "exploratory_cluster_bootstrap_95": [
+          -0.052083333333333336,
+          0.0
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "acceptance",
+          "change_effect"
+        ],
+        "order": 3,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          0.15625
+        ],
+        "mean_seconds": 0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.046875,
+          0.078125
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "quality",
+          "stage",
+          "acceptance"
+        ],
+        "order": 3,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          -0.03125
+        ],
+        "mean_seconds": 0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.015625,
+          0.046875
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "quality",
+          "stage",
+          "change_effect"
+        ],
+        "order": 3,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_seconds": -0.015625,
+        "exploratory_cluster_bootstrap_95": [
+          -0.046875,
+          0.0
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "quality",
+          "acceptance",
+          "change_effect"
+        ],
+        "order": 3,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          -0.125
+        ],
+        "mean_seconds": -0.036458333333333336,
+        "exploratory_cluster_bootstrap_95": [
+          -0.078125,
+          0.0
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "stage",
+          "acceptance",
+          "change_effect"
+        ],
+        "order": 3,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_seconds": 0.015625,
+        "exploratory_cluster_bootstrap_95": [
+          0.0,
+          0.046875
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "quality",
+          "stage",
+          "acceptance"
+        ],
+        "order": 4,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          0.03125
+        ],
+        "mean_seconds": -0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.046875,
+          0.015625
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "quality",
+          "stage",
+          "change_effect"
+        ],
+        "order": 4,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_seconds": 0.015625,
+        "exploratory_cluster_bootstrap_95": [
+          0.0,
+          0.046875
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "quality",
+          "acceptance",
+          "change_effect"
+        ],
+        "order": 4,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          0.125
+        ],
+        "mean_seconds": 0.036458333333333336,
+        "exploratory_cluster_bootstrap_95": [
+          0.0,
+          0.078125
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "stage",
+          "acceptance",
+          "change_effect"
+        ],
+        "order": 4,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_seconds": -0.015625,
+        "exploratory_cluster_bootstrap_95": [
+          -0.046875,
+          0.0
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "quality",
+          "stage",
+          "acceptance",
+          "change_effect"
+        ],
+        "order": 4,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          -0.09375,
+          0.0,
+          0.0,
+          0.03125
+        ],
+        "mean_seconds": -0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.046875,
+          0.015625
+        ],
+        "not_an_independent_confirmatory_test": true
+      },
+      {
+        "factors": [
+          "frequency",
+          "quality",
+          "stage",
+          "acceptance",
+          "change_effect"
+        ],
+        "order": 5,
+        "seed_contrasts": [
+          0.0,
+          0.0,
+          0.09375,
+          0.0,
+          0.0,
+          -0.03125
+        ],
+        "mean_seconds": 0.010416666666666666,
+        "exploratory_cluster_bootstrap_95": [
+          -0.015625,
+          0.046875
+        ],
+        "not_an_independent_confirmatory_test": true
+      }
+    ],
+    "ranking": [
+      {
+        "mask": 12,
+        "factors": [
+          "stage",
+          "acceptance"
+        ],
+        "mean_vs_baseline": 2.1666666666666665,
+        "mean_vs_no_information": -0.25,
+        "mean_vs_random": -0.25,
+        "seed_differences": [
+          3.0,
+          0.0,
+          -1.5,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 1,
+        "ties": 3,
+        "losses": 2,
+        "exploratory_95": [
+          -0.5,
+          6.25
+        ]
+      },
+      {
+        "mask": 2,
+        "factors": [
+          "quality"
+        ],
+        "mean_vs_baseline": 2.2083333333333335,
+        "mean_vs_no_information": -0.20833333333333334,
+        "mean_vs_random": -0.20833333333333334,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          10.25
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          5.625
+        ]
+      },
+      {
+        "mask": 6,
+        "factors": [
+          "quality",
+          "stage"
+        ],
+        "mean_vs_baseline": 2.2083333333333335,
+        "mean_vs_no_information": -0.20833333333333334,
+        "mean_vs_random": -0.20833333333333334,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          10.25
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          5.625
+        ]
+      },
+      {
+        "mask": 4,
+        "factors": [
+          "stage"
+        ],
+        "mean_vs_baseline": 2.375,
+        "mean_vs_no_information": -0.041666666666666664,
+        "mean_vs_random": -0.041666666666666664,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.25
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.125
+        ]
+      },
+      {
+        "mask": 14,
+        "factors": [
+          "quality",
+          "stage",
+          "acceptance"
+        ],
+        "mean_vs_baseline": 2.375,
+        "mean_vs_no_information": -0.041666666666666664,
+        "mean_vs_random": -0.041666666666666664,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.25
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.125
+        ]
+      },
+      {
+        "mask": 0,
+        "factors": [],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 1,
+        "factors": [
+          "frequency"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 8,
+        "factors": [
+          "acceptance"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 16,
+        "factors": [
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 3,
+        "factors": [
+          "frequency",
+          "quality"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 5,
+        "factors": [
+          "frequency",
+          "stage"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 9,
+        "factors": [
+          "frequency",
+          "acceptance"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 10,
+        "factors": [
+          "quality",
+          "acceptance"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 17,
+        "factors": [
+          "frequency",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 18,
+        "factors": [
+          "quality",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 20,
+        "factors": [
+          "stage",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 24,
+        "factors": [
+          "acceptance",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 7,
+        "factors": [
+          "frequency",
+          "quality",
+          "stage"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 11,
+        "factors": [
+          "frequency",
+          "quality",
+          "acceptance"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 13,
+        "factors": [
+          "frequency",
+          "stage",
+          "acceptance"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 19,
+        "factors": [
+          "frequency",
+          "quality",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 21,
+        "factors": [
+          "frequency",
+          "stage",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 22,
+        "factors": [
+          "quality",
+          "stage",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 25,
+        "factors": [
+          "frequency",
+          "acceptance",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 26,
+        "factors": [
+          "quality",
+          "acceptance",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 28,
+        "factors": [
+          "stage",
+          "acceptance",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 15,
+        "factors": [
+          "frequency",
+          "quality",
+          "stage",
+          "acceptance"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 23,
+        "factors": [
+          "frequency",
+          "quality",
+          "stage",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 27,
+        "factors": [
+          "frequency",
+          "quality",
+          "acceptance",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 29,
+        "factors": [
+          "frequency",
+          "stage",
+          "acceptance",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 30,
+        "factors": [
+          "quality",
+          "stage",
+          "acceptance",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      },
+      {
+        "mask": 31,
+        "factors": [
+          "frequency",
+          "quality",
+          "stage",
+          "acceptance",
+          "change_effect"
+        ],
+        "mean_vs_baseline": 2.4166666666666665,
+        "mean_vs_no_information": 0.0,
+        "mean_vs_random": 0.0,
+        "seed_differences": [
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          11.5
+        ],
+        "wins": 0,
+        "ties": 4,
+        "losses": 2,
+        "exploratory_95": [
+          0.0,
+          6.25
+        ]
+      }
+    ],
+    "selected_mask": null,
+    "selection_rule": "nonzero_mask;at_least_2_seed_wins;mean_vs_baseline_and_no_information<=-0.5;mean_vs_random<=0",
+    "training_only": true,
+    "confirmation_requires_all_24_blocks": true,
+    "three_factor_interactions_explicit": true,
+    "independent_unit": "seed;window_means_within_seed",
+    "full_factorial_no_aliasing": true
+  },
+  "confirmation": null,
+  "confirmation_rows": [],
+  "preparations": [],
+  "phase_costs": {
+    "historical_preparation_seconds": 1047.912150899996,
+    "screening_seconds": 859.8012560999487,
+    "earlier_run_elapsed_included_seconds": 327.829118,
+    "program_seconds": 533.2301898000296
+  },
+  "scope": "restricted",
+  "utc": "2026-10-14T03:48:55.568218+00:00"
+}

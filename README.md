@@ -57,7 +57,7 @@ python -B -m problem2.stage2.main --case 2 --reference problem2/results/case2_ru
 
 这里的600秒是追加预算，不包含参考解的历史计算成本。输出的 `final/result.json`、`final/schedule.csv` 和 `final/gantt.svg` 分别保存完整调度、工序时间表和甘特图。
 
-## 当前状态（2026-10-13）
+## 当前状态（2026-10-14）
 
 | 项目 | 已完成的结果 | 说明 |
 | --- | --- | --- |
@@ -66,13 +66,22 @@ python -B -m problem2.stage2.main --case 2 --reference problem2/results/case2_ru
 | Case 2历史最好可行调度 | 10702秒 | 来自不限时宽度9追加求解，首次找到约7小时3分钟；未证明全局最优，不是默认600秒结果 |
 | 二阶段联合重排 | 历史从10890改善到10847秒 | 成组枚举、局部Gurobi及扰动的组合；稳定性仍需测试 |
 | 利用退火记录缩小约束 | 已完成对照实验 | 未证明优于现有区间限制；自动固定机器出现排除更好编码的反例 |
-| 候选前驱、后继集合 | 已做样本统计 | 尚未实现或验证求解性能，未加入正式流程 |
+| 候选前驱、后继集合 | 本机独立接口及32组合全因子试验已完成 | 未显示整体收益；部分受限最优值比原区间已有可行值更差，当前规则不采用 |
+| 当前研究主线 | 区间搜索 | 研究宽度、区间选择及时间分配；没有启动新实验 |
 
 历史结果的完整证据保存在本机 `problem2/results/`；仓库只包含筛选后的报告和过程记录，以及Case 1、Case 2最好结果各一份完整调度。逐轮模型和大部分逐轮调度不包含在仓库内。文档中的历史结果用于说明已有研究，不承诺相同种子在不同机器、时限或求解器版本下返回相同调度。受限模型达到OPTIMAL只证明本轮附加条件下最优。
 
+## 当前研究方向
+
+当前研究主线为区间搜索：重点比较区间宽度、区间选择和单轮时间分配，在相同完整预算下评价改善幅度与多种子稳定性。当前退火候选相邻约束未显示整体优势，且存在限制后最优值更差的固定范围，不加入正式默认流程。退火信息可作为区间选择的研究输入，但收益须单独验证。尚未安排新的求解任务。
+
+五类退火信息的主效应与交互作用见[全因子报告](problem2/results/sa_information_doe/run02/实验记录.md)及[因子分析](problem2/results/sa_information_doe/run02/factorial_analysis.json)。24个固定范围共816模型；所有主效应的探索性区间包含0，未完成独立新种子确认，不能将信息本身判为普遍有效或无效。部分候选模型已求到受限最优，仍差于原区间已有可行值；这证明当前附加限制在这些范围内排除了达到该更好值的全部方案，详见[范围对照](problem2/results/sa_information_doe/run02/restriction_comparison.json)。
+
+本次文档提交同步研究结论和精简分析证据。新增退火记录、候选约束实验模块及对应测试仍保留在本机，未随本次提交上传；文档中的相关入口、149项测试及68个模型门禁是本机已完成实验的记录，不表示公开仓库当前源码已包含全部实验接口。
+
 ## 收录的实验记录
 
-`problem2/results/`采用允许文件清单：实验报告Markdown、`summary.json`、`config.json`、`*history*.json`、`events.jsonl`、`rounds.jsonl`、过程及对照CSV，以及5张下降或温度曲线。历史源码快照、逐轮MPS、解文件、求解日志、其他甘特图和时间表均不收录。具体规则见[.gitignore](.gitignore)。
+`problem2/results/`采用允许文件清单：实验报告Markdown、`summary.json`、`config.json`、`*history*.json`、`events.jsonl`、`rounds.jsonl`、过程及对照CSV，以及5张下降或温度曲线。历史源码快照、逐轮MPS、解文件、求解日志、其他甘特图和时间表均不收录。一般规则见[.gitignore](.gitignore)；本次另明确收录全因子试验的`report_summary.json`、`factorial_analysis.json`、三个独立核验JSON、`restriction_comparison.json`及`task_completion.json`，其余模型、完整调度和记录仍留在本机。
 
 以下两份调度各保留`result.json`、`schedule.csv`和`gantt.svg`：
 

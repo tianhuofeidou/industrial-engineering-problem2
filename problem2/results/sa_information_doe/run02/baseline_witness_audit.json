@@ -1,0 +1,27 @@
+{
+  "records": [
+    {
+      "seed": 23,
+      "block": "w9_1",
+      "baseline_objective": 10940,
+      "candidate_labels_allowing_specific_baseline_code": [],
+      "specific_encoding_only": true
+    },
+    {
+      "seed": 1019,
+      "block": "w5_0",
+      "baseline_objective": 11008,
+      "candidate_labels_allowing_specific_baseline_code": [],
+      "specific_encoding_only": true
+    },
+    {
+      "seed": 1019,
+      "block": "w9_1",
+      "baseline_objective": 10964,
+      "candidate_labels_allowing_specific_baseline_code": [],
+      "specific_encoding_only": true
+    }
+  ],
+  "posthoc_only": true,
+  "not_used_in_scoring": true
+}
