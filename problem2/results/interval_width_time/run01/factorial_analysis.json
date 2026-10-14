@@ -1,0 +1,303 @@
+{
+  "complete_seeds": [
+    2026101801,
+    2026101802,
+    2026101803,
+    2026101804,
+    2026101805,
+    2026101806,
+    2026101807,
+    2026101808
+  ],
+  "complete_seed_count": 8,
+  "incomplete_seeds": [],
+  "comparisons_to_adaptive_baseline": [
+    {
+      "method": "w5_t5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        -18.0,
+        3.0,
+        -33.0,
+        22.0,
+        0.0
+      ],
+      "mean_seconds": -3.25,
+      "median_seconds": 0.0,
+      "wins": 2,
+      "ties": 4,
+      "losses": 2,
+      "descriptive_bootstrap_95": [
+        -14.25,
+        6.375
+      ],
+      "two_sided_sign_test_p": 1.0,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "method": "w5_t15",
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        -18.0,
+        3.0,
+        -33.0,
+        22.0,
+        0.0
+      ],
+      "mean_seconds": -3.25,
+      "median_seconds": 0.0,
+      "wins": 2,
+      "ties": 4,
+      "losses": 2,
+      "descriptive_bootstrap_95": [
+        -14.25,
+        6.375
+      ],
+      "two_sided_sign_test_p": 1.0,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "method": "w5_t60",
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        -18.0,
+        3.0,
+        -33.0,
+        22.0,
+        0.0
+      ],
+      "mean_seconds": -3.25,
+      "median_seconds": 0.0,
+      "wins": 2,
+      "ties": 4,
+      "losses": 2,
+      "descriptive_bootstrap_95": [
+        -14.25,
+        6.375
+      ],
+      "two_sided_sign_test_p": 1.0,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "method": "w7_t5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        57.0,
+        -5.0,
+        3.0,
+        13.0,
+        42.0,
+        0.0
+      ],
+      "mean_seconds": 13.75,
+      "median_seconds": 1.5,
+      "wins": 1,
+      "ties": 3,
+      "losses": 4,
+      "descriptive_bootstrap_95": [
+        0.375,
+        30.125
+      ],
+      "two_sided_sign_test_p": 0.375,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "method": "w7_t15",
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        -5.0,
+        3.0,
+        63.0,
+        75.0,
+        0.0
+      ],
+      "mean_seconds": 17.0,
+      "median_seconds": 0.0,
+      "wins": 1,
+      "ties": 4,
+      "losses": 3,
+      "descriptive_bootstrap_95": [
+        -0.875,
+        40.625
+      ],
+      "two_sided_sign_test_p": 0.625,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "method": "w7_t60",
+      "seed_differences": [
+        0.0,
+        0.0,
+        72.0,
+        91.0,
+        3.0,
+        87.0,
+        118.0,
+        -35.0
+      ],
+      "mean_seconds": 42.0,
+      "median_seconds": 37.5,
+      "wins": 1,
+      "ties": 2,
+      "losses": 5,
+      "descriptive_bootstrap_95": [
+        5.621875000000003,
+        78.25
+      ],
+      "two_sided_sign_test_p": 0.21875,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    }
+  ],
+  "factor_contrasts": [
+    {
+      "contrast": "width7_minus_width5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        43.0,
+        45.0,
+        0.0,
+        87.33333333333333,
+        56.333333333333336,
+        -11.666666666666666
+      ],
+      "mean_seconds": 27.5,
+      "median_seconds": 21.5,
+      "wins": 1,
+      "ties": 3,
+      "losses": 4,
+      "descriptive_bootstrap_95": [
+        5.583333333333334,
+        51.08333333333333
+      ],
+      "two_sided_sign_test_p": 0.375,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "contrast": "time15_minus_time5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        -28.5,
+        0.0,
+        0.0,
+        25.0,
+        16.5,
+        0.0
+      ],
+      "mean_seconds": 1.625,
+      "median_seconds": 0.0,
+      "wins": 1,
+      "ties": 5,
+      "losses": 2,
+      "descriptive_bootstrap_95": [
+        -8.625,
+        11.4375
+      ],
+      "two_sided_sign_test_p": 1.0,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "contrast": "time60_minus_time5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        7.5,
+        48.0,
+        0.0,
+        37.0,
+        38.0,
+        -17.5
+      ],
+      "mean_seconds": 14.125,
+      "median_seconds": 3.75,
+      "wins": 1,
+      "ties": 3,
+      "losses": 4,
+      "descriptive_bootstrap_95": [
+        -1.0,
+        29.626562499999977
+      ],
+      "two_sided_sign_test_p": 0.375,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "contrast": "width_difference_at15_minus_at5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        -57.0,
+        0.0,
+        0.0,
+        50.0,
+        33.0,
+        0.0
+      ],
+      "mean_seconds": 3.25,
+      "median_seconds": 0.0,
+      "wins": 1,
+      "ties": 5,
+      "losses": 2,
+      "descriptive_bootstrap_95": [
+        -17.25,
+        22.875
+      ],
+      "two_sided_sign_test_p": 1.0,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "contrast": "width_difference_at60_minus_at5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        15.0,
+        96.0,
+        0.0,
+        74.0,
+        76.0,
+        -35.0
+      ],
+      "mean_seconds": 28.25,
+      "median_seconds": 7.5,
+      "wins": 1,
+      "ties": 3,
+      "losses": 4,
+      "descriptive_bootstrap_95": [
+        -2.0,
+        59.253124999999955
+      ],
+      "two_sided_sign_test_p": 0.375,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    }
+  ],
+  "lower_objective_is_better": true,
+  "two_separate_predefined_holm_families": [
+    6,
+    5
+  ],
+  "small_sample_not_significant_does_not_mean_no_effect": true,
+  "only_complete_seed_blocks_in_comparisons": true,
+  "search_paths_may_differ_after_first_changed_limit_or_width": true,
+  "scope": "restricted",
+  "original_optimality_proven": false
+}

@@ -67,21 +67,24 @@ python -B -m problem2.stage2.main --case 2 --reference problem2/results/case2_ru
 | 二阶段联合重排 | 历史从10890改善到10847秒 | 成组枚举、局部Gurobi及扰动的组合；稳定性仍需测试 |
 | 利用退火记录缩小约束 | 已完成对照实验 | 未证明优于现有区间限制；自动固定机器出现排除更好编码的反例 |
 | 候选前驱、后继集合 | 本机独立接口及32组合全因子试验已完成 | 未显示整体收益；部分受限最优值比原区间已有可行值更差，当前规则不采用 |
-| 当前研究主线 | 区间搜索 | 研究宽度、区间选择及时间分配；没有启动新实验 |
+| 课程项目正式方案 | 构造与下降 → 退火 → 区间搜索 | 保留初始宽5、每轮5秒和宽度自适应；结束本轮算法扩展实验 |
+| 区间宽度与单轮时间 | 八个新种子、56组已完成 | 延长时限未显示整体优势；固定宽5也未稳定优于自动调整 |
 
 历史结果的完整证据保存在本机 `problem2/results/`；仓库只包含筛选后的报告和过程记录，以及Case 1、Case 2最好结果各一份完整调度。逐轮模型和大部分逐轮调度不包含在仓库内。文档中的历史结果用于说明已有研究，不承诺相同种子在不同机器、时限或求解器版本下返回相同调度。受限模型达到OPTIMAL只证明本轮附加条件下最优。
 
-## 当前研究方向
+## 当前正式方案
 
-当前研究主线为区间搜索：重点比较区间宽度、区间选择和单轮时间分配，在相同完整预算下评价改善幅度与多种子稳定性。当前退火候选相邻约束未显示整体优势，且存在限制后最优值更差的固定范围，不加入正式默认流程。退火信息可作为区间选择的研究输入，但收益须单独验证。尚未安排新的求解任务。
+课程项目正式方案已确定：贪心构造＋完整局部下降 → 模拟退火 → Gurobi区间搜索。保留模拟退火，区间初始宽度5、每轮求解最多5秒，沿用当前宽度自适应规则；二阶段作为可选追加改善方法。当前候选相邻约束不采用，不统一延长到15或60秒。结束本轮算法扩展实验，后续工作转为模型、代码、参数、结果验证和课程报告的一致性整理，没有安排新的求解任务。定版不代表不存在优化空间，也不构成Case 2全局最优证明。
+
+区间宽度与单轮时间的[56组实验报告](problem2/results/interval_width_time/run01/实验记录.md)及[因子分析](problem2/results/interval_width_time/run01/factorial_analysis.json)显示：宽5在5/15/60秒下八种子的最终值逐项相同；宽7/60秒虽有个别收益，平均比原自动调整差42秒。固定宽5比基线平均好3.25秒，但仅2胜4平2负，尚无稳定优势，不直接替换自动调整。154项测试、14个三工件门禁通过，4639模型和9331份350工序调度验证通过；结果仅对应本次八个新种子、180秒追加预算和受限范围。
 
 五类退火信息的主效应与交互作用见[全因子报告](problem2/results/sa_information_doe/run02/实验记录.md)及[因子分析](problem2/results/sa_information_doe/run02/factorial_analysis.json)。24个固定范围共816模型；所有主效应的探索性区间包含0，未完成独立新种子确认，不能将信息本身判为普遍有效或无效。部分候选模型已求到受限最优，仍差于原区间已有可行值；这证明当前附加限制在这些范围内排除了达到该更好值的全部方案，详见[范围对照](problem2/results/sa_information_doe/run02/restriction_comparison.json)。
 
-本次文档提交同步研究结论和精简分析证据。新增退火记录、候选约束实验模块及对应测试仍保留在本机，未随本次提交上传；文档中的相关入口、149项测试及68个模型门禁是本机已完成实验的记录，不表示公开仓库当前源码已包含全部实验接口。
+公开仓库同步正式方案说明和精简实验分析证据。新增退火记录、候选约束、区间宽度与时间实验模块及对应测试仍保留在本机，未随本次文档提交上传；相关实验入口、源码快照及测试/门禁计数描述本机已完成的对应实验，不表示公开仓库当前源码已包含全部研究接口。
 
 ## 收录的实验记录
 
-`problem2/results/`采用允许文件清单：实验报告Markdown、`summary.json`、`config.json`、`*history*.json`、`events.jsonl`、`rounds.jsonl`、过程及对照CSV，以及5张下降或温度曲线。历史源码快照、逐轮MPS、解文件、求解日志、其他甘特图和时间表均不收录。一般规则见[.gitignore](.gitignore)；本次另明确收录全因子试验的`report_summary.json`、`factorial_analysis.json`、三个独立核验JSON、`restriction_comparison.json`及`task_completion.json`，其余模型、完整调度和记录仍留在本机。
+`problem2/results/`采用允许文件清单：实验报告Markdown、`summary.json`、`config.json`、`*history*.json`、`events.jsonl`、`rounds.jsonl`、过程及对照CSV，以及5张下降或温度曲线。历史源码快照、逐轮MPS、解文件、求解日志、其他甘特图和时间表均不收录。一般规则见[.gitignore](.gitignore)；本次另明确收录全因子试验的`report_summary.json`、`factorial_analysis.json`、三个独立核验JSON、`restriction_comparison.json`及`task_completion.json`，另收录区间宽度/时间试验的`config.json`、`report_summary.json`、`factorial_analysis.json`、`verification.json`、`final_review.json`及`task_completion.json`，其余模型、完整调度和记录仍留在本机。
 
 以下两份调度各保留`result.json`、`schedule.csv`和`gantt.svg`：
 

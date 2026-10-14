@@ -1,0 +1,20 @@
+{
+  "complete": true,
+  "fixed_start_utc": "2026-10-14T04:37:40+00:00",
+  "fixed_end_utc": "2026-10-14T08:37:40+00:00",
+  "computation_and_first_verification_completed_utc": "2026-10-14T07:42:38.602413+00:00",
+  "final_review_documentation_completed_utc": "2026-10-14T07:54:51.731453+00:00",
+  "task_wall_seconds_including_monitor_wait": 11831.731453,
+  "completed_groups": 56,
+  "complete_seeds": 8,
+  "models_verified": 4639,
+  "schedules_verified": 9331,
+  "additional_final_schedules_rechecked": 56,
+  "independent_file_review_seconds": 36.59273519995622,
+  "scope": "restricted",
+  "formal_defaults_modified": false,
+  "new_solves_during_final_review": 0,
+  "automation_id": "automation",
+  "automation_status": "PAUSED",
+  "committed_or_pushed": false
+}

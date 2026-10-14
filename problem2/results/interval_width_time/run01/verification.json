@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "schedules_validated": 9331,
+  "models_validated": 4639,
+  "each_schedule_operations": 350,
+  "same_start_each_seed": true,
+  "source_input_model_hashes_verified": true,
+  "scope": "restricted",
+  "seconds": 100.32955000002403
+}
