@@ -1,0 +1,43 @@
+{
+  "new_searches": 0,
+  "new_solver_calls": 0,
+  "schedules": [
+    {
+      "name": "当前方案10873",
+      "source": "problem2/results/reproduce_10890/multiple_seeds_run01/seed23/final/result.json",
+      "validation": {
+        "valid": true,
+        "operations": 350,
+        "tolerance": 0.0001,
+        "makespan": 10873,
+        "allows_waiting": true
+      },
+      "encoding_recalculated": true
+    },
+    {
+      "name": "历史最好10702",
+      "source": "problem2/results/overnight_windows/run01/width9/seed23/best/result.json",
+      "validation": {
+        "valid": true,
+        "operations": 350,
+        "tolerance": 0.0001,
+        "makespan": 10702,
+        "allows_waiting": true
+      },
+      "encoding_recalculated": true
+    },
+    {
+      "name": "Case1最优5031",
+      "source": "problem2/results/exact_case1/run01/gurobi/result.json",
+      "validation": {
+        "valid": true,
+        "operations": 70,
+        "tolerance": 0.0001,
+        "makespan": 5031.0,
+        "allows_waiting": true
+      },
+      "encoding_recalculated": true
+    }
+  ],
+  "total_operations": 770
+}

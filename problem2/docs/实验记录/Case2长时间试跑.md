@@ -35,4 +35,4 @@ python -B -m problem2.audit_research --output problem2/results/long_budget
 
 额外核查全局改善值单调、各记录编码与目标一致、温度按0.97下降、初温为校准值2倍、每条初始解与最终结果的完整350道工序。受限OPTIMAL只证明本轮附加限制下最优，Case 2仍无全局证明。种子之间、长时间方案与旧方案的计算预算不同，不将一次更好的结果直接解释成提高初温的独立效果。
 
-修改前备份见[清单](../../.backups/20261011-long-budget/manifest.json)。本次结果与下降时刻在[实验目录](../results/long_budget/run01/)保留，已完成[实验记录与下降曲线](../results/long_budget/run01/实验记录.md)。
+修改前备份见[清单](../../../.backups/20261011-long-budget/manifest.json)。本次结果与下降时刻在[实验目录](../../results/long_budget/run01)保留，已完成[实验记录与下降曲线](../../results/long_budget/run01/实验记录.md)。

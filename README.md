@@ -4,6 +4,8 @@
 
 本仓库保留源码、测试、文字文档，以及筛选后的实验报告、汇总、运行参数、历史轨迹和曲线。课程原题、Excel输入、逐轮模型及求解器许可证不随仓库上传，运行输入由使用者自行准备。
 
+目录入口见[项目总索引](项目索引.md)；研究结论见[实验记录索引](problem2/docs/实验记录索引.md)，原始批次见[结果归档索引](problem2/results/README.md)。课程汇报素材见[PPT制作交接入口](PPT制作/README.md)。
+
 ## 算法流程
 
 一阶段从原始Excel出发，执行“多次贪心构造与完整局部下降 → 模拟退火 → Gurobi区间重排”，得到完整可行调度。精确阶段每轮只放开前后段各一段连续工件和相关机器归属，固定其余关系，求解后再选择其他区间。
@@ -97,11 +99,11 @@ python -B -m problem2.stage2.main --case 2 --reference problem2/results/case2_ru
 
 | 路径 | 内容 |
 | --- | --- |
-| [problem2/common](problem2/common) | 数据、编码解码、评分、精确模型、验证及导出 |
-| [problem2/stage1](problem2/stage1) | 构造、局部下降、退火、区间求解及正式一阶段入口 |
-| [problem2/stage2](problem2/stage2) | 联合重排、扰动和并行多起点研究 |
-| [problem2/tests](problem2/tests) | 单元测试；集成对照以小实例穷举核验求解器 |
-| [problem2/experiments](problem2/experiments) | 历史方法和独立对照入口 |
+| [problem2/common](problem2/common/README.md) | 数据、编码解码、评分、精确模型、验证及导出 |
+| [problem2/stage1](problem2/stage1/README.md) | 构造、局部下降、退火、区间求解及正式一阶段入口 |
+| [problem2/stage2](problem2/stage2/README.md) | 联合重排、扰动和并行多起点研究 |
+| [problem2/tests](problem2/tests/README.md) | 单元测试；集成对照以小实例穷举核验求解器 |
+| [problem2/experiments](problem2/experiments/README.md) | 历史方法和独立对照入口 |
 | [文档索引](problem2/docs/README.md) | 推荐阅读顺序与实验说明分类 |
 
 想快速读懂代码，先看运行说明，再沿 `stage1/main.py → common/encoding.py → stage1/windows.py → common/solver.py` 阅读。用AI辅助时可以让它沿这个调用顺序解释编码、时间递推、每轮固定条件，并核对算法设计文档；不要只让它总结所有历史文件。

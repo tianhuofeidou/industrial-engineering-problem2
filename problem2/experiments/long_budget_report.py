@@ -50,7 +50,7 @@ def report(folder):
         assert term['uphill_accepted'] <= term['accepted'] <= term['iterations']
     setup = next(r['elapsed_seconds'] for r in rows if r['phase']=='initialization' and r['event']=='start')
     lines = ['# Case 2高温长时间试跑记录（2026-10-11）', '',
-             '方案、温度公式和预算说明见[设计](../../../docs/Case2长时间试跑.md)。此前10912调度作为已验证参考解保留，未重新计入本次计算成本。', '',
+             '方案、温度公式和预算说明见[设计](../../../docs/实验记录/Case2长时间试跑.md)。此前10912调度作为已验证参考解保留，未重新计入本次计算成本。', '',
              f"本次最好可行值 **{summary['best']}**，参考值{summary['reference_objective']}，下降{summary['reference_objective']-summary['best']}秒。没有Case 2全局最优证明。", '',
              f"30分钟总任务预算包含准备和末尾验证。过程记录结束于{summary['elapsed_seconds']:.3f}秒；准备{setup:.3f}秒，实际搜索及阶段导出约{summary['elapsed_seconds']-setup:.3f}秒。另预留90秒作独立验证与曲线输出。", '',
              '## 全局最好值的下降时刻', '',

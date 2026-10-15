@@ -1,0 +1,28 @@
+{
+  "case": 2,
+  "seed": 23,
+  "seconds": 600.0,
+  "annealing_seconds": 90.0,
+  "solver_seconds": 110.0,
+  "per_round": 5.0,
+  "max_rounds": 80,
+  "width": 5,
+  "threads": 8,
+  "batch_descent": true,
+  "range_cache": false,
+  "uses_saved_reference": false,
+  "includes_initialization": true,
+  "search": {
+    "constructions": 8,
+    "vns_failures": 50,
+    "tabu_stall": 5000,
+    "sa_moves": 1000,
+    "sa_cooling": 0.97,
+    "sa_ratio": 0.0001,
+    "sa_temperature_multiplier": 2,
+    "generations": 5000,
+    "population": 60,
+    "archive_size": 12
+  },
+  "scope": "restricted"
+}

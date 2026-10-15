@@ -1,0 +1,41 @@
+{
+  "seed": 23,
+  "width": 9,
+  "threads": 4,
+  "initial_objective": 10952,
+  "first_10702": {
+    "round": 109,
+    "seed": 23,
+    "width": 9,
+    "window_a": 1,
+    "window_b": 13,
+    "policy": "critical",
+    "before": 10711,
+    "after": 10702,
+    "improved": true,
+    "optimal_in_range": true,
+    "solve_seconds": 154.20700001716614,
+    "model_sha256": "e96d5efe9d92fd1c82c56fb7a20ac4104bffd4474cfdc4e32d926c280e024e1c",
+    "elapsed_seconds": 25397.50210490008,
+    "final_reference_pairs_checked": 0
+  },
+  "stopped_elapsed_seconds": 31588.533437,
+  "status": "stopped_by_user",
+  "completed_rounds": 123,
+  "final_reference_checked_pairs": 14,
+  "final_reference_pairs_required": 729,
+  "whole_width9_neighborhood_completed": false,
+  "scope": "restricted",
+  "original_optimality_proven": false,
+  "round109_proof": {
+    "scope": "restricted",
+    "optimal": true,
+    "runtime": 154.20700001716614,
+    "bound": 10702.0,
+    "gap": 0.0,
+    "model_sha256": "e96d5efe9d92fd1c82c56fb7a20ac4104bffd4474cfdc4e32d926c280e024e1c",
+    "threads": 4
+  },
+  "time_excludes_historical_preparation": true,
+  "concurrent_width_runs_not_fair_speed_comparison": true
+}

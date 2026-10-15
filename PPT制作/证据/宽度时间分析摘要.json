@@ -1,0 +1,221 @@
+{
+  "groups": [
+    {
+      "组别": "w5_t5",
+      "种子数": 8,
+      "平均最终目标秒": 10955.25,
+      "对基线平均差秒": -3.25,
+      "胜": 2,
+      "平": 4,
+      "负": 2,
+      "Holm校正p": 1.0
+    },
+    {
+      "组别": "w5_t15",
+      "种子数": 8,
+      "平均最终目标秒": 10955.25,
+      "对基线平均差秒": -3.25,
+      "胜": 2,
+      "平": 4,
+      "负": 2,
+      "Holm校正p": 1.0
+    },
+    {
+      "组别": "w5_t60",
+      "种子数": 8,
+      "平均最终目标秒": 10955.25,
+      "对基线平均差秒": -3.25,
+      "胜": 2,
+      "平": 4,
+      "负": 2,
+      "Holm校正p": 1.0
+    },
+    {
+      "组别": "w7_t5",
+      "种子数": 8,
+      "平均最终目标秒": 10972.25,
+      "对基线平均差秒": 13.75,
+      "胜": 1,
+      "平": 3,
+      "负": 4,
+      "Holm校正p": 1.0
+    },
+    {
+      "组别": "w7_t15",
+      "种子数": 8,
+      "平均最终目标秒": 10975.5,
+      "对基线平均差秒": 17.0,
+      "胜": 1,
+      "平": 4,
+      "负": 3,
+      "Holm校正p": 1.0
+    },
+    {
+      "组别": "w7_t60",
+      "种子数": 8,
+      "平均最终目标秒": 11000.5,
+      "对基线平均差秒": 42.0,
+      "胜": 1,
+      "平": 2,
+      "负": 5,
+      "Holm校正p": 1.0
+    },
+    {
+      "组别": "adaptive5_t5",
+      "种子数": 8,
+      "平均最终目标秒": 10958.5,
+      "对基线平均差秒": 0,
+      "胜": 0,
+      "平": 8,
+      "负": 0,
+      "Holm校正p": 1.0
+    }
+  ],
+  "factor_contrasts": [
+    {
+      "contrast": "width7_minus_width5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        43.0,
+        45.0,
+        0.0,
+        87.33333333333333,
+        56.333333333333336,
+        -11.666666666666666
+      ],
+      "mean_seconds": 27.5,
+      "median_seconds": 21.5,
+      "wins": 1,
+      "ties": 3,
+      "losses": 4,
+      "descriptive_bootstrap_95": [
+        5.583333333333334,
+        51.08333333333333
+      ],
+      "two_sided_sign_test_p": 0.375,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "contrast": "time15_minus_time5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        -28.5,
+        0.0,
+        0.0,
+        25.0,
+        16.5,
+        0.0
+      ],
+      "mean_seconds": 1.625,
+      "median_seconds": 0.0,
+      "wins": 1,
+      "ties": 5,
+      "losses": 2,
+      "descriptive_bootstrap_95": [
+        -8.625,
+        11.4375
+      ],
+      "two_sided_sign_test_p": 1.0,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "contrast": "time60_minus_time5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        7.5,
+        48.0,
+        0.0,
+        37.0,
+        38.0,
+        -17.5
+      ],
+      "mean_seconds": 14.125,
+      "median_seconds": 3.75,
+      "wins": 1,
+      "ties": 3,
+      "losses": 4,
+      "descriptive_bootstrap_95": [
+        -1.0,
+        29.626562499999977
+      ],
+      "two_sided_sign_test_p": 0.375,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "contrast": "width_difference_at15_minus_at5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        -57.0,
+        0.0,
+        0.0,
+        50.0,
+        33.0,
+        0.0
+      ],
+      "mean_seconds": 3.25,
+      "median_seconds": 0.0,
+      "wins": 1,
+      "ties": 5,
+      "losses": 2,
+      "descriptive_bootstrap_95": [
+        -17.25,
+        22.875
+      ],
+      "two_sided_sign_test_p": 1.0,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    },
+    {
+      "contrast": "width_difference_at60_minus_at5",
+      "seed_differences": [
+        0.0,
+        0.0,
+        15.0,
+        96.0,
+        0.0,
+        74.0,
+        76.0,
+        -35.0
+      ],
+      "mean_seconds": 28.25,
+      "median_seconds": 7.5,
+      "wins": 1,
+      "ties": 3,
+      "losses": 4,
+      "descriptive_bootstrap_95": [
+        -2.0,
+        59.253124999999955
+      ],
+      "two_sided_sign_test_p": 0.375,
+      "independent_unit": "new_seed",
+      "holm_adjusted_p": 1.0
+    }
+  ],
+  "costs": {
+    "preparation_seconds": 376.1548853999702,
+    "branch_seconds": 10029.215511900256,
+    "worker_wall_seconds": 10448.161986500258,
+    "audit_seconds": 100.32955000002403,
+    "program_seconds": 10550.471768199932,
+    "task_wall_seconds_including_implementation": 11098.578476
+  },
+  "verification": {
+    "complete": true,
+    "schedules_validated": 9331,
+    "models_validated": 4639,
+    "each_schedule_operations": 350,
+    "same_start_each_seed": true,
+    "source_input_model_hashes_verified": true,
+    "scope": "restricted",
+    "seconds": 100.32955000002403
+  },
+  "scope": "restricted",
+  "fixed_width5_three_limits_same_final_per_seed": true
+}

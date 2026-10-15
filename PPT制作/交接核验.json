@@ -1,0 +1,23 @@
+{
+  "local_links_checked": 176,
+  "heading_links_checked": 1,
+  "broken_links": [],
+  "unchanged_existing_python_files": 107,
+  "unchanged_original_inputs": 2,
+  "source_files_sha_verified": 35,
+  "schedule_operations_revalidated": 770,
+  "schedule_json_and_csv_match_original": true,
+  "svg_count": 13,
+  "png_count": 13,
+  "planned_pages": 9,
+  "planned_seconds": 600,
+  "new_solver_calls": 0,
+  "new_searches": 0,
+  "commit_or_push": false,
+  "only_existing_navigation_files_changed": [
+    "README.md",
+    "项目索引.md",
+    "problem2/docs/README.md"
+  ],
+  "visual_review": "13 images reviewed; overlapping terminal time ticks corrected; text canvas bounds checked"
+}
