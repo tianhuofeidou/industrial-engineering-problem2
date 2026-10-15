@@ -1,0 +1,4 @@
+﻿种子,初始化目标秒,退火目标秒,最终目标秒,完整实际运行秒,证明范围,来源
+11,11086,11052,10976,142.5077564000385,restricted,problem2/results/reproduce_10890/multiple_seeds_run01/seed11/summary.json
+23,11086,10952,10873,141.0955321000656,restricted,problem2/results/reproduce_10890/multiple_seeds_run01/seed23/summary.json
+37,11086,10962,10932,141.99391640000977,restricted,problem2/results/reproduce_10890/multiple_seeds_run01/seed37/summary.json

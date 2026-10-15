@@ -1,0 +1,99 @@
+{
+  "files": [
+    {
+      "rows": 350,
+      "name": "当前方案10873_工序表.csv",
+      "sha256": "3062fdc315c4f3cd24ba27f3939f6bac887dd6919d23e79d77222a116b33a641",
+      "plaintext_header": true,
+      "columns": 8
+    },
+    {
+      "rows": 350,
+      "name": "历史最好10702_工序表.csv",
+      "sha256": "19713487f8f7cb90a091527d70d293283caa8b1ee6d088378bbd043f7f3ed404",
+      "plaintext_header": true,
+      "columns": 8
+    },
+    {
+      "rows": 70,
+      "name": "Case1最优5031_工序表.csv",
+      "sha256": "ead7117e5677d1dbb49e26c0b0b5c732db75219e4694d8c687cdfac02ffe2f06",
+      "plaintext_header": true,
+      "columns": 8
+    },
+    {
+      "rows": 3,
+      "name": "展示数据.csv",
+      "sha256": "3d4ec9200ebef675a8f9dc05adb4363c8752d7dd7d429d5e17882d855f5675f2",
+      "plaintext_header": true,
+      "columns": 7
+    },
+    {
+      "rows": 417,
+      "name": "当前方案10873_改善曲线.csv",
+      "sha256": "8c6c242cba80e2b32ca0cee37d14955dac0f871bb489c8ebdaa6551ff7e89b13",
+      "plaintext_header": true,
+      "columns": 4
+    },
+    {
+      "rows": 3,
+      "name": "当前方案10873_阶段结果.csv",
+      "sha256": "adff3286a3f17bc533e2f30e4a65d6055a6974f3f55b5207c6ebdb5d0786d193",
+      "plaintext_header": true,
+      "columns": 3
+    },
+    {
+      "rows": 3,
+      "name": "当前配置三个种子.csv",
+      "sha256": "1f41a4247d204721dfe9c8d21c8c6809774609f5a9dbf0bdbe81c634cb757514",
+      "plaintext_header": true,
+      "columns": 7
+    },
+    {
+      "rows": 17,
+      "name": "10702_改善节点.csv",
+      "sha256": "3e945d4266355a41041ccb8a7c64483e97dd7e2386b10aee21438f64a5125bdf",
+      "plaintext_header": true,
+      "columns": 3
+    },
+    {
+      "rows": 3,
+      "name": "完整模型180秒诊断.csv",
+      "sha256": "7401f2d1922666e25297917a43d9e1f83e8fc47bf87b13012061e1a0716e0919",
+      "plaintext_header": true,
+      "columns": 8
+    },
+    {
+      "rows": 6,
+      "name": "是否保留退火_三种子.csv",
+      "sha256": "5f9fec37a5287938ad8916636dc2b0bf3121c25954814b700aa78708f5b90709",
+      "plaintext_header": true,
+      "columns": 7
+    },
+    {
+      "rows": 56,
+      "name": "宽度时间实验_56组.csv",
+      "sha256": "841c5303ce41441bc8f439c7a19d63edb7d7221b552ba9b4603263926498c5c1",
+      "plaintext_header": true,
+      "columns": 13
+    },
+    {
+      "rows": 7,
+      "name": "宽度时间实验_七组汇总.csv",
+      "sha256": "fb47c99d8e2df0f8443b0f41fbf0c93dca7aba1f2944d786c2d12c87eec55f91",
+      "plaintext_header": true,
+      "columns": 8
+    }
+  ],
+  "old_csv_read": false,
+  "path_volume": "D",
+  "reader": "PowerShell .NET ReadAllBytes and Import-Csv",
+  "main_objectives_checked": true,
+  "files_checked": 12,
+  "interval_rows_compared": 56,
+  "all_file_hashes_match_node": true,
+  "passed": true,
+  "rows_checked": 1285.0,
+  "full_schedule_operations_compared": 770,
+  "seven_group_differences_checked": true
+}

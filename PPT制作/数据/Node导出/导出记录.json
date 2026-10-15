@@ -1,0 +1,223 @@
+{
+  "writer": "Node.js",
+  "node_version": "v24.19.0",
+  "encoding": "UTF-8 BOM",
+  "line_ending": "CRLF",
+  "source_sha256": {
+    "PPT制作/数据/当前方案10873_完整调度.json": "05844ab0927fca85e388598822ae90b7465dd9a8730411318ae12df0d8a44c23",
+    "PPT制作/数据/历史最好10702_完整调度.json": "155dbd914f4dd215716d1eec38c0a52fa1570e4bb15c8c1ecf5ad7e70da24c22",
+    "PPT制作/数据/Case1最优5031_完整调度.json": "728b5c325b9e1ec7fd5b88d37efe63fa33fd4d2c37a12a64e1b93040f523b610",
+    "problem2/results/reproduce_10890/multiple_seeds_run01/seed23/summary.json": "0dc2b334390bb980756ad55571538c5ed4db6492ddb724a100d0bbc084aeb148",
+    "problem2/results/overnight_windows/run01/width9/seed23/checkpoint.json": "bcaf62a770c1481110aa7069287b044f309b22427eba18a38ac5eb4683f712f9",
+    "problem2/results/overnight_windows/run01/width9/seed23/rounds.jsonl": "bb6fa6e866d2a3a1f1c9fd8058fc02aba75a554b30c5478eeae048d8bbb3607e",
+    "problem2/results/reproduce_10890/multiple_seeds_run01/seed23/history.json": "69ddf257a204ca5c12d158b7e60b1ef39973a4c20f27e88fa8bb8c618dd0c1d6",
+    "problem2/results/reproduce_10890/multiple_seeds_run01/seed11/summary.json": "15e4cff0162729693112823e7224c044e8cd9d96a3811c25be2ae34a0244a363",
+    "problem2/results/reproduce_10890/multiple_seeds_run01/seed37/summary.json": "9e12e8281fd8877167d28d6471df70455006625a31466ce1aa00b74128919ae7",
+    "problem2/results/sa_start_full/run01/summary.json": "bf37b9fa3231fb036ec4eea382dcbe741d01e339b71b3e975c82a0322e4ff432",
+    "problem2/results/annealing_ablation/run01/summary.json": "d31c48f81fce6796e984ce1d26ae9e067ac33dad212c253d69fadb3988fe2f98",
+    "problem2/results/interval_width_time/run01/report_summary.json": "2e49dc8d6e4f68847b1678f32bd91aef45328254f1ec3a76b45124de71d0bd31"
+  },
+  "files": [
+    {
+      "name": "当前方案10873_工序表.csv",
+      "rows": 350,
+      "columns": 8,
+      "headers": [
+        "工件",
+        "工位",
+        "机器",
+        "到达秒",
+        "换模开始秒",
+        "换模结束秒",
+        "加工开始秒",
+        "完成秒"
+      ],
+      "sha256": "3062fdc315c4f3cd24ba27f3939f6bac887dd6919d23e79d77222a116b33a641",
+      "bytes": 11938
+    },
+    {
+      "name": "历史最好10702_工序表.csv",
+      "rows": 350,
+      "columns": 8,
+      "headers": [
+        "工件",
+        "工位",
+        "机器",
+        "到达秒",
+        "换模开始秒",
+        "换模结束秒",
+        "加工开始秒",
+        "完成秒"
+      ],
+      "sha256": "19713487f8f7cb90a091527d70d293283caa8b1ee6d088378bbd043f7f3ed404",
+      "bytes": 11934
+    },
+    {
+      "name": "Case1最优5031_工序表.csv",
+      "rows": 70,
+      "columns": 8,
+      "headers": [
+        "工件",
+        "工位",
+        "机器",
+        "到达秒",
+        "换模开始秒",
+        "换模结束秒",
+        "加工开始秒",
+        "完成秒"
+      ],
+      "sha256": "ead7117e5677d1dbb49e26c0b0b5c732db75219e4694d8c687cdfac02ffe2f06",
+      "bytes": 2352
+    },
+    {
+      "name": "展示数据.csv",
+      "rows": 3,
+      "columns": 7,
+      "headers": [
+        "结果",
+        "工件数",
+        "目标秒",
+        "时间秒",
+        "时间口径",
+        "证明范围",
+        "主展示位置"
+      ],
+      "sha256": "3d4ec9200ebef675a8f9dc05adb4363c8752d7dd7d429d5e17882d855f5675f2",
+      "bytes": 550
+    },
+    {
+      "name": "当前方案10873_改善曲线.csv",
+      "rows": 417,
+      "columns": 4,
+      "headers": [
+        "阶段",
+        "事件",
+        "累计运行秒",
+        "最好目标秒"
+      ],
+      "sha256": "8c6c242cba80e2b32ca0cee37d14955dac0f871bb489c8ebdaa6551ff7e89b13",
+      "bytes": 21407
+    },
+    {
+      "name": "当前方案10873_阶段结果.csv",
+      "rows": 3,
+      "columns": 3,
+      "headers": [
+        "阶段",
+        "目标秒",
+        "阶段实际秒"
+      ],
+      "sha256": "adff3286a3f17bc533e2f30e4a65d6055a6974f3f55b5207c6ebdb5d0786d193",
+      "bytes": 168
+    },
+    {
+      "name": "当前配置三个种子.csv",
+      "rows": 3,
+      "columns": 7,
+      "headers": [
+        "种子",
+        "初始化目标秒",
+        "退火目标秒",
+        "最终目标秒",
+        "完整实际运行秒",
+        "证明范围",
+        "来源"
+      ],
+      "sha256": "1f41a4247d204721dfe9c8d21c8c6809774609f5a9dbf0bdbe81c634cb757514",
+      "bytes": 480
+    },
+    {
+      "name": "10702_改善节点.csv",
+      "rows": 17,
+      "columns": 3,
+      "headers": [
+        "轮次",
+        "累计追加秒",
+        "最好目标秒"
+      ],
+      "sha256": "3e945d4266355a41041ccb8a7c64483e97dd7e2386b10aee21438f64a5125bdf",
+      "bytes": 509
+    },
+    {
+      "name": "完整模型180秒诊断.csv",
+      "rows": 3,
+      "columns": 8,
+      "headers": [
+        "种子",
+        "初始秒",
+        "最终秒",
+        "实际求解秒",
+        "全局下界秒",
+        "gap",
+        "状态",
+        "scope"
+      ],
+      "sha256": "7401f2d1922666e25297917a43d9e1f83e8fc47bf87b13012061e1a0716e0919",
+      "bytes": 316
+    },
+    {
+      "name": "是否保留退火_三种子.csv",
+      "rows": 6,
+      "columns": 7,
+      "headers": [
+        "种子",
+        "方法",
+        "初始秒",
+        "进入求解器目标秒",
+        "最终秒",
+        "追加实际秒",
+        "含初始化实际秒"
+      ],
+      "sha256": "5f9fec37a5287938ad8916636dc2b0bf3121c25954814b700aa78708f5b90709",
+      "bytes": 510
+    },
+    {
+      "name": "宽度时间实验_56组.csv",
+      "rows": 56,
+      "columns": 13,
+      "headers": [
+        "seed",
+        "method",
+        "width",
+        "per_round_seconds",
+        "adaptive_width",
+        "before",
+        "after",
+        "budget_seconds",
+        "additional_seconds",
+        "preparation_seconds",
+        "round_count",
+        "total_seconds_including_preparation",
+        "scope"
+      ],
+      "sha256": "841c5303ce41441bc8f439c7a19d63edb7d7221b552ba9b4603263926498c5c1",
+      "bytes": 6660
+    },
+    {
+      "name": "宽度时间实验_七组汇总.csv",
+      "rows": 7,
+      "columns": 8,
+      "headers": [
+        "组别",
+        "种子数",
+        "平均最终目标秒",
+        "对基线平均差秒",
+        "胜",
+        "平",
+        "负",
+        "Holm校正p"
+      ],
+      "sha256": "fb47c99d8e2df0f8443b0f41fbf0c93dca7aba1f2944d786c2d12c87eec55f91",
+      "bytes": 311
+    }
+  ],
+  "new_searches": 0,
+  "new_solver_calls": 0,
+  "old_csv_read": false,
+  "old_csv_overwritten": false,
+  "git_commit_or_push": false,
+  "artifact_table_values_reconciled": true,
+  "independent_readback": "passed: PowerShell byte hashes, CSV headers, row counts, 770 operations, 56 experiment rows",
+  "git_readonly_content_hashes_match": true,
+  "record_scope": "CSV generation and readback before the separately authorized Git publication"
+}
