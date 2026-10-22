@@ -1,6 +1,6 @@
 # 题目2运行与开发说明
 
-正式一阶段入口为 `problem2.stage1.main`，二阶段研究入口为 `problem2.stage2.main`。所有命令从项目根目录执行。项目概况和当前结果见[根目录README](../README.md)，规则及数学递推见[算法设计](docs/算法设计.md)，其他材料见[文档索引](docs/README.md)。
+正式一阶段入口为 `problem2.stage1.main`；已有二阶段研究入口为 `problem2.stage2.main`，新增区间/自由工件切换入口为 `problem2.stage2.neighborhood_main`（2026-10-21，仅本地）。所有命令从项目根目录执行。项目概况和当前结果见[根目录README](../README.md)，规则及数学递推见[算法设计](docs/算法设计.md)，其他材料见[文档索引](docs/README.md)。
 
 目录与文件职责见[项目总索引](../项目索引.md)；实验选择依据见[实验记录索引](docs/实验记录索引.md)。各目录的README分别提供模块、入口、测试和输出导航。
 
@@ -105,6 +105,15 @@ python -B -m problem2.stage2.main --help
 
 另有 `problem2.stage2.multistart` 进行不同起点的多进程枚举与扰动搜索，该入口不调用Gurobi。具体流程见[并行多起点说明](docs/并行多起点搜索.md)，不要把它与单进程方案当作相同CPU预算。
 
+### 区间/自由工件切换与续跑（独立研究）
+
+```powershell
+python -B -m problem2.stage2.neighborhood_main --case 2 --reference 你的结果目录/final/result.json --seconds 600 --output problem2/results/stage2_neighborhoods/new01
+python -B -m problem2.stage2.neighborhood_main --case 2 --resume problem2/results/stage2_neighborhoods/new01/checkpoint.json --seconds 600 --output problem2/results/stage2_neighborhoods/new02
+```
+
+该入口复用现有窗口和自由工件模型，停滞后切换，始终保留严格最好参考解；本版不启用扰动。同参考解中已证明的范围跳过，超时范围有限重试；续跑检查输入/源码/参数并要求新输出目录。参数、成本和证明范围见[stage2说明](stage2/README.md)。这是白天开发验证版：168项测试与小实例模型通过，Case2短验证10650→10650，尚无长预算性能对照。正式默认未切换，夜间实验尚未启动。
+
 ## Case 1完整精确模型
 
 只处理题目2的7工件Case 1。先由Gurobi生成完整模型，再让COPT读取同一份MPS并使用Gurobi可行解作初始解：
@@ -173,3 +182,30 @@ python -B -m problem2.tests.test_research --integration --compact
 仓库收录实验报告、汇总JSON、运行参数、历史轨迹、事件记录、过程CSV和少量曲线；Case 1的5031秒调度和Case 2的10702秒调度各保留完整JSON、CSV和甘特图。收录范围见根目录[说明](../README.md)和[忽略规则](../.gitignore)。
 
 原始数据、备份、历史源码快照和绝大多数逐轮模型及调度仍只保留在本机。设计文档中未被收录的 `results/` 链接以及PDF、Excel链接属于本地归档引用；缺少原始输入和原MPS时，不能在另一台电脑复核全部历史模型。
+
+## 大组扰动重建开发原型（2026-10-21，仅本地）
+
+独立入口`python -B -m problem2.stage2.perturb_rebuild`从已验证完整结果开始，选择5/7/9工件扰动并逐件联合插入A、B及换机，复用完整批量评分。它不调用Gurobi，未修改正式默认或并入已有二阶段流程；参数与新输出目录要求见[stage2说明](stage2/README.md)。[本地run02](results/perturb_rebuild_gate/run02/实验记录.md)通过186项测试及三个短验证，但没有刷新10650，也未进行夜间性能比较。
+
+## 二阶段质量搜索研究（2026-10-21，仅本地）
+
+独立入口`python -B -m problem2.stage2.iterated_search --case 2 --reference 你的结果目录/final/result.json --seconds 120 --seed 23 --output problem2/results/iterated_new01`。从已有解开始，扰动重建后释放全体工件下降，当前解可受控变差、历史最好独立保留；不调用Gurobi，未接精修及完整状态续跑。参数见[stage2说明](stage2/README.md)。
+
+本轮从同10650的三种子各120秒得到10628/10650/10650；最终B版同种子回归得到同一10628，197项测试及完整调度核验通过。见[质量报告](results/iterated_quality/run02/实验记录.md)。历史参考成本另计，不是默认600秒全流程，不构成稳定胜出或全局最优证明。
+
+## 2026-10-21：双工件联合调整研究
+
+独立入口`python -B -m problem2.stage2.pair_search`在部分原下降预算中尝试双工件联合调整，参数和范围见[stage2说明](stage2/README.md)。从10650出发原搜索/双工件为10628/10650，从10628出发为10628/10627；同种子23、每份180秒，两个相关起点不算独立多实例。本批最好10627，达到低于10628的本轮目标，不证明稳定胜出或全局最优。 207项测试与9个小实例穷举范围通过，[完整记录](results/pair_quality/run01/实验记录.md)区分机制验证与Case2表现。正式默认和原入口默认下降保持原样，历史准备另计；目前仅本地未提交。
+
+## 2026-10-22：一阶段20分钟档退火分配
+
+实验把总预算固定在1200秒，把退火上限从约125秒提高到480秒：`ComparisonConfig(constructions=8, sa_moves=1000, sa_temperature_multiplier=0.5, sa_cooling=0.998)`，`run()`使用`annealing_seconds=480`、`solver_seconds=1200`、`per_round=30`、`max_rounds=100000`、`width=5`、`threads=8`、`range_cache=False`。到终温后从已有最好编码升温重启，周期种子为原种子加1000003×(周期−1)；这套分配由结果目录内的独立driver在当前进程替换退火调用实现，**正式入口默认参数与119份算法/测试源码未改**，直接运行`problem2.stage1.main`不会使用480秒退火与重启逻辑。
+
+[run01](results/stage1_sa_allocation/run01/实验记录.md)为种子2026102101，[run02](results/stage1_sa_allocation/run02/实验记录.md)补2026102102、2026102103。三种子最终10592/10738/10726，历史原配置同种子为10650/10729/10862；均值由10747.0降到10685.33，最好由10650降到10592，最差由10862降到10738，2胜1负、平均−61.67秒。历史原配置来自8小时参数研究已保存运行，本次未重跑，两者预算相差约12秒，且退火时间、降温轨迹与精修预算同时改变，不能把收益单独归因于退火时间。种子2101参与过配置选择，只有2102、2103属新样本；同种子仅三份，不构成参数最优或稳定胜出证明。
+
+## 2026-10-22：十小时夜间二阶段混合搜索
+
+[stage2_overnight_hybrid/run01](results/stage2_overnight_hybrid/run01/实验记录.md)从一阶段保存的10650出发，串联现有函数而不改119份源码：每轮随机选5/7/9个工件大组扰动，所选工件A/B/机器联合重建最多45秒，全工件下降与单件联合插入合计最多120秒；随后逐个运行宽5/7/9区间精修。跨轮允许最好值3%内按温度接受较差当前解，全程最好完整编码始终保留；已证明范围按相同参考编码去重。
+
+实际总墙钟35388.746秒，完成308轮、924个受限模型，最终最好**10454**、当前搜索解10470，最好值首次登记于任务起点后27140.02秒（该时间为发现时间上界）。与历史10627差−173秒，与用户报告但未独立核验的外部10407差47秒。最终独立核验True，350工序、原生求解日志与MPS哈希均核对；全部Gurobi结果scope=restricted，不构成原题全局最优证明。控制器检查点保存完整状态，未实现无条件重启续跑；本次无严格等预算方法对照，各阶段改善不能当作方法独立排名。
+

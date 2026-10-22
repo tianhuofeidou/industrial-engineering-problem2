@@ -64,3 +64,27 @@ python -B -m unittest discover -s problem2/tests -t .
 |[test_width_comparison.py](test_width_comparison.py)|固定宽度不自动改变；区间穷举与全部允许编码一致。|独立入口；运行前核对参数与预算|已跟踪|
 
 `__init__.py`是包标识，`__main__.py`只提供历史命令兼容。测试替换函数时指向实际定义模块，避免只修改兼容转发模块。
+
+## 二阶段区间/自由工件切换（2026-10-21新增，仅本地）
+
+[test_stage2_neighborhoods.py](test_stage2_neighborhoods.py)有14项测试：自由工件可跨远距离移动、全部288编码的范围过滤、切换与严格改善、受限最优去重与超时重试、截止保留、检查点及续跑、拒绝覆盖、相对输出路径、错误结果拒绝和求解失败保留最好解。运行`python -B -m unittest problem2.tests.test_stage2_neighborhoods -v`。
+
+本次完整discover为168项全部通过。真实Gurobi门禁另见[run02报告](../results/stage2_neighborhoods_gate/run02/实验记录.md)：10个三工件模型、Case2首段及续跑，不包含在上述单元测试计数中。run01保留路径问题的诊断产物，不替代修复后门禁；不得把短验证当作长预算性能实验。
+
+## 自由工件选组诊断（2026-10-21新增，仅本地）
+
+[test_group_selection_study.py](test_group_selection_study.py)新增8项，核查默认候选前缀、同池选择、随机状态、共享模型、固定参考、不覆盖、截止及失败保留。命令`python -B -m unittest problem2.tests.test_group_selection_study -v`。本轮完整discover为176项全部通过；真实Case2的9个不同范围另见[run01报告](../results/free_job_selection/run01/实验记录.md)，不把这些模型计入单元测试数。
+
+## 大组扰动重建（2026-10-21新增，仅本地）
+
+[test_perturb_rebuild.py](test_perturb_rebuild.py)新增10项，涵盖完整候选范围、非连续大组扰动、全工序批量/逐个评分与修复等价、缓存清理、已完成批次到时保留、异常/过期/拒绝覆盖及复现。完整discover在最终版本下186项全部通过；[run02门禁](../results/perturb_rebuild_gate/run02/实验记录.md)另含2450候选计时和5/7/9工件各一轮短验证，不调用Gurobi。
+
+## 当前搜索解与历史最好解分离（2026-10-21新增，仅本地）
+
+[test_iterated_search.py](test_iterated_search.py)新增11项，核查全工件候选范围、四类扰动、当前/最好分离、较差解限幅与接受、继续沿当前解探索、随机复现、到时/异常保留、已完整评分候选的截止登记、参数和拒绝覆盖。最终discover **197项全部通过**；A版196项与B版197项日志分别保留。[本轮报告](../results/iterated_quality/run02/实验记录.md)独立验证10628、每轮完整350工序及接受轨迹，不把小试当稳定收益证明。
+
+## 双工件联合调整（2026-10-21，仅本地）
+
+[test_pair_search.py](test_pair_search.py)新增10项，核查完整小实例范围、完整批量/逐个评分、远距离同时移动与换机、保留较差中间解、有限候选复现、截止已评分结果保留、当前阶段与全程最好分离、参数错误。`python -B -m unittest problem2.tests.test_pair_search -v`；本轮完整discover **207项通过**。
+
+另有[独立小实例门禁](../results/pair_quality/run01/small_gate.json)：三工件288编码与四工件9216编码分别过滤9个两件范围，候选集合及最小值吻合；[真实单件停滞反例](../results/pair_quality/run01/real_small_barrier.json)为72→71。这些不替代[Case2短对照](../results/pair_quality/run01/实验记录.md)的质量结果。

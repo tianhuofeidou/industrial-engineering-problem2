@@ -5,22 +5,12 @@
 *.xls
 *.xlsm
 
-# 实验目录默认排除文件，再按确认清单允许汇总和过程记录。
+# 实验目录只收录报告Markdown。结果JSON、过程记录、模型、完整调度与逐轮日志全部留在本机。
+# 2026-10-22 收紧：此前的 summary.json / config.json / *history*.json / events.jsonl /
+# rounds.jsonl / csv / png 允许规则已移除，单个 summary.json 曾达 4.57 MB。
 /problem2/results/**/*
 !/problem2/results/**/
 !/problem2/results/**/*.md
-!/problem2/results/**/summary.json
-!/problem2/results/**/config.json
-!/problem2/results/**/*history*.json
-!/problem2/results/**/events.jsonl
-!/problem2/results/**/rounds.jsonl
-!/problem2/results/**/*history*.csv
-!/problem2/results/**/*结果*.csv
-!/problem2/results/**/convergence.png
-!/problem2/results/**/temperature.png
-!/problem2/results/**/best_curve_search.png
-!/problem2/results/**/best_curve.png
-!/problem2/results/**/annealing_current.png
 
 # 仅保留Case 1及Case 2最好解这两份完整调度。
 !/problem2/results/exact_case1/run01/gurobi/result.json
@@ -38,6 +28,8 @@
 /problem2/results/**/source_snapshot/
 /problem2/results/**/source_snapshots/
 /.backups/
+# 本地会话记忆，含本机路径与历史上下文，不得公开。
+/.memsearch/
 /outputs/
 /artifacts/
 *.log
