@@ -88,3 +88,13 @@ python -B -m unittest discover -s problem2/tests -t .
 [test_pair_search.py](test_pair_search.py)新增10项，核查完整小实例范围、完整批量/逐个评分、远距离同时移动与换机、保留较差中间解、有限候选复现、截止已评分结果保留、当前阶段与全程最好分离、参数错误。`python -B -m unittest problem2.tests.test_pair_search -v`；本轮完整discover **207项通过**。
 
 另有[独立小实例门禁](../results/pair_quality/run01/small_gate.json)：三工件288编码与四工件9216编码分别过滤9个两件范围，候选集合及最小值吻合；[真实单件停滞反例](../results/pair_quality/run01/real_small_barrier.json)为72→71。这些不替代[Case2短对照](../results/pair_quality/run01/实验记录.md)的质量结果。
+
+## 宽度上限新增测试（2026-10-23开发，本次公开）
+
+[test_width_cap.py](test_width_cap.py)核对显式上限、耗尽停止、保留缩小、无参默认和非法参数；本次discover共213项通过。独立[门禁](../results/width_cap_probe/run01/gate_report.json)另核对修改前备份默认轨迹和288编码/真实模型，并非单元测试自动运行长求解。
+
+## 10465成果同步的公开测试
+
+本次包含[test_candidate_arcs.py](test_candidate_arcs.py)、[test_width_cap.py](test_width_cap.py)和[test_annealing_recording.py](test_annealing_recording.py)：核查可选候选接口、宽度上限/默认兼容及过程记录不改变退火随机轨迹。精简公开源码的本次实际测试数量与真实小模型检查见[发布检查](../published/stage1_10465/release_checks.json)，不要将历史本机213项计数解释成公开仓库本次计数。
+
+本次发布检查：精简公开文件树123项单元测试全部通过、0跳过，另6个真实小模型与288编码范围穷举一致；已重新核验10465和全部10个起点，未重跑Case2长时间搜索。

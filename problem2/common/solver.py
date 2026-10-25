@@ -60,7 +60,11 @@ def warm_start(data):
 
 
 def build_model(data, warm, folder, seconds, threads, free_jobs=None, stable_constraints=None, strengthen=False,
-                compact=False, solver_env=None):
+                compact=False, solver_env=None, candidate_arcs=None):
+    if candidate_arcs is not None:
+        candidate_arcs.check(data.n)
+        if not candidate_arcs.satisfies(code_from_result(warm, data.n)):
+            raise ValueError('候选相邻集合排除了参考初始解')
     import gurobipy as gp
     from gurobipy import GRB
     build_started = time.perf_counter()
@@ -130,6 +134,9 @@ def build_model(data, warm, folder, seconds, threads, free_jobs=None, stable_con
         if stable_constraints is not None:
             from problem2.common.stable_constraints import arc_constants
             edges, constants = arc_constants(data.n, q, machines, orders, fixed_arcs, strengthen)
+        if candidate_arcs is not None:
+            # 只删除不允许的实际工件弧，保留全部队首、队尾和空并行队列。
+            edges = [(i, j) for i, j in edges if candidate_arcs.permits(q, i, j)]
         arcs[q] = {}
         for i, j in edges:
             var = binary(f'z_{q}_{i}_{j}', constants.get((i, j)))
@@ -242,6 +249,8 @@ def build_model(data, warm, folder, seconds, threads, free_jobs=None, stable_con
     model._reduction = {'full_binary_variables': 5*data.n*data.n+5*data.n+2,
                         'binary_variables': model.NumBinVars, 'variables': model.NumVars,
                         'constraints': model.NumConstrs, 'substituted_binary_variables': len(fixed_values)}
+    if candidate_arcs is not None:
+        model._reduction['candidate_arc_counts'] = {q: len(candidate_arcs.edges[q]) for q in arcs}
     model._strengthening = {'enabled': strengthen, 'objective_lower_from_fixed_relations': objective_lower,
                            'additional_mandatory_arcs': len(fixed_arcs)-original_fixed_arcs,
                            'minimum_time_width': min(ub_s[k]-lb_s[k] for k in lb_s),

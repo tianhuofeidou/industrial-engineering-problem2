@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "public_tree_tests": 123,
+  "skipped_tests": 0,
+  "errors": 0,
+  "failures": 0,
+  "case2_saved_objective": 10465,
+  "saved_operations": 350,
+  "start_codes_verified": 10,
+  "candidate_models": [
+    {
+      "case": "default_full",
+      "encodings_enumerated": 288,
+      "allowed_encodings": 288,
+      "optimum": 56,
+      "scope": "full",
+      "binary_variables": 62
+    },
+    {
+      "case": "all_candidates",
+      "encodings_enumerated": 288,
+      "allowed_encodings": 288,
+      "optimum": 56,
+      "scope": "restricted",
+      "binary_variables": 62
+    },
+    {
+      "case": "reference_candidates",
+      "encodings_enumerated": 288,
+      "allowed_encodings": 1,
+      "optimum": 117,
+      "scope": "restricted",
+      "binary_variables": 43
+    },
+    {
+      "case": "empty_parallel_queue",
+      "encodings_enumerated": 288,
+      "allowed_encodings": 3,
+      "optimum": 117,
+      "scope": "restricted",
+      "binary_variables": 44
+    }
+  ],
+  "full_pipeline_models": [
+    {
+      "shape": "A",
+      "objective": 56,
+      "expected": 56,
+      "scope": "restricted",
+      "model_sha256": "9e3df91dfa6afb81cf25c3dd8545503fbb0eb4b68aba2d08fff6f0458d286a2c"
+    },
+    {
+      "shape": "B",
+      "objective": 56,
+      "expected": 56,
+      "scope": "restricted",
+      "model_sha256": "9e3df91dfa6afb81cf25c3dd8545503fbb0eb4b68aba2d08fff6f0458d286a2c"
+    }
+  ],
+  "exhaustive_codes_per_small_instance": 288,
+  "historical_files_present_and_byte_identical": 86,
+  "public_source_files": 87,
+  "source_subset_disclosed": true,
+  "formal_defaults_unchanged": true,
+  "solver_case2_restarted": false,
+  "description": "Tests executed in a fresh selected-public-tree copy, not against untracked local research modules. Original input files used only locally for verification and not included in publish list."
+}

@@ -1,0 +1,20 @@
+{
+  "algorithm": "SHA-256",
+  "text_line_endings": "LF (Git blob); normalize CRLF before checking",
+  "files": {
+    "diversity.json": "9aae92b218bc22edf9ab1f3e4f66621c41683029ecf1cbea72bb416513e3fea5",
+    "model_hashes.json": "9b03d9127c4aab0d36f81cff19dec126f3a7e6059ce16cb8d7a6664a40129ed6",
+    "parameters.json": "11f1cf7418cb98102c1bd86514593d55be765bd940113a22b692f0bfb873dd40",
+    "README.md": "12a9ca48b3f5199f8347c727a4fd136661a1a08ee92756a42f9fbaff824ddd31",
+    "release_checks.json": "ecc89025119d7662bdd9a3eaee3b3ce4423f96279d8f8223caf9bffcd1c7c590",
+    "reproduce.py": "f3518c43198f1d9b0dbc7325d3ef1ec29702aa6ec0add98babe70c9c67b72425",
+    "resources.py": "8e752da2432c450ae8c9fe86009088bb2d9324f4883a7c216fda1f27718f7c3b",
+    "runs.json": "ef4a7d7493d999fe27742b3dec68d583ec574309e51232d9dda6858e4bde481c",
+    "source_receipt.json": "a6bb8eeeec654609b1078859329b206988725076567a88a24f8a15fb9b3651cc",
+    "starts.json": "77c27e5b9972484808fa1a721b32707b8ac6b326f1214eb86da383f4e2fef558",
+    "time_quality.svg": "4e8546eac877c703587e4239cb8ea9cabe8defca5b2f0e6dd33fdfd20bb2edba",
+    "verification.json": "4f41788e899e1e5073dd531120a420b04a9baa8da4a320575d467b2f25029940",
+    "best/gantt.svg": "551afa88a6da17616fd6e1a5bb8533da615778fe1ae0f3be6a21dd3207f9e6f3",
+    "best/result.json": "8b6874c37a7173a8e6c680be4efd9d2cb7ed18566cece0e608af8b0ac4577d32"
+  }
+}

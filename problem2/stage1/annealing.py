@@ -6,11 +6,25 @@ import time
 from problem2.common.evaluator import Recorder
 from problem2.common.local_search import all_neighbors, random_neighbor
 
-def run_annealing(data, initial, seed, config, observer=None, deadline=None, on_event=None):
+def run_annealing(data, initial, seed, config, observer=None, deadline=None, on_event=None, process=None):
     rng, record = random.Random(seed), Recorder(data, initial, config.archive_size)
     current, cost = initial, record.evaluator.cost(initial)
+    # 可选过程记录只读取已产生的决策；关闭时不创建过程文件。
+    if process is not None:
+        process.start(initial, cost, record.evaluator)
+    def finish(iterations, details):
+        outcome = record.finish(iterations, details)
+        if process is not None:
+            process.finish(outcome)
+        return outcome
+    last_operation = None
+    def remember_operation(operation):
+        nonlocal last_operation
+        last_operation = operation
+        if observer is not None and hasattr(observer, 'operation'):
+            observer.operation(operation)
     if deadline is not None and time.perf_counter() >= deadline:
-        return record.finish(0, {'reason': 'time_budget', 'levels': 0,
+        return finish(0, {'reason': 'time_budget', 'levels': 0,
                                 'calibration_complete': False, 'accepted': 0, 'uphill_accepted': 0})
     candidates = list(all_neighbors(initial))
     # 仅用当前邻域分数估计初温，不读取5031；校准评价计入退火耗时和次数。
@@ -18,9 +32,13 @@ def run_annealing(data, initial, seed, config, observer=None, deadline=None, on_
     positive = []
     for candidate in sample:
         if deadline is not None and time.perf_counter() >= deadline:
-            return record.finish(0, {'reason': 'time_budget', 'levels': 0,
+            return finish(0, {'reason': 'time_budget', 'levels': 0,
                                     'calibration_complete': False, 'accepted': 0, 'uphill_accepted': 0})
-        delta = record.evaluator.cost(candidate)-cost
+        previous_best = record.evaluator.best_cost
+        value = record.evaluator.cost(candidate)
+        delta = value-cost
+        if process is not None:
+            process.calibration(initial, candidate, cost, value, previous_best, record.evaluator)
         if delta > 0:
             positive.append(delta)
     calibrated_temperature = statistics.median(positive)/(-math.log(0.8)) if positive else 1.0
@@ -40,7 +58,10 @@ def run_annealing(data, initial, seed, config, observer=None, deadline=None, on_
                 reason = 'time_budget'
                 break
             # 五种邻域的所有具体操作等概率抽取。
-            if observer is not None and hasattr(observer, 'operation'):
+            before, before_cost = current, cost
+            if process is not None:
+                candidate = random_neighbor(current, rng, on_operation=remember_operation)
+            elif observer is not None and hasattr(observer, 'operation'):
                 candidate = random_neighbor(current, rng, on_operation=observer.operation)
             else:
                 candidate = random_neighbor(current, rng)
@@ -52,13 +73,23 @@ def run_annealing(data, initial, seed, config, observer=None, deadline=None, on_
             delta = value-cost
             if observer is not None:
                 observer.trial(current, candidate, cost, value, temperature=temperature)
-            if delta <= 0 or rng.random() < math.exp(-delta/temperature):
+            if process is None:
+                take = delta <= 0 or rng.random() < math.exp(-delta/temperature)
+            else:
+                probability = 1.0 if delta <= 0 else math.exp(-delta/temperature)
+                draw = None if delta <= 0 else rng.random()
+                take = delta <= 0 or draw < probability
+            if take:
                 current, cost = candidate, value
                 if observer is not None:
                     observer.accepted(current, cost)
                 accepted += 1
                 uphill_accepted += int(delta > 0)
                 record.remember(current)
+            if process is not None:
+                process.trial_result(before, candidate, before_cost, value, steps+1,
+                                     temperature, last_operation, take, probability,
+                                     draw, previous_best, record.evaluator)
             steps += 1
         if reason == 'time_budget':
             break
@@ -70,7 +101,7 @@ def run_annealing(data, initial, seed, config, observer=None, deadline=None, on_
                      'current': cost, 'best': record.evaluator.best_cost, 'steps': steps,
                      'accepted': accepted, 'uphill_accepted': uphill_accepted, 'level': levels})
         temperature *= config.sa_cooling
-    return record.finish(steps, {'reason': reason, 'levels': levels,
+    return finish(steps, {'reason': reason, 'levels': levels,
                                 'initial_temperature': initial_temperature,
                                 'calibrated_temperature': calibrated_temperature,
                                 'temperature_multiplier': config.sa_temperature_multiplier,

@@ -11,20 +11,28 @@ from problem2.common.encoding import decode, code_from_result
 from problem2.common.validation import validate_exact
 
 def optimize_once(data, reference, restrictions, folder, seconds, threads, strengthen=False,
-                  compact=False, solver_env=None, deadline=None):
+                  compact=False, solver_env=None, deadline=None, candidate_arcs=None):
     import gurobipy as gp
+    if candidate_arcs is not None:
+        candidate_arcs.check(data.n)
+        if not candidate_arcs.satisfies(reference):
+            raise ValueError('候选相邻集合排除了参考初始解')
     if folder.exists():
         raise FileExistsError('求解目录已存在')
     folder.mkdir(parents=True)
     warm = decode(data, reference)
     validate_exact(data, warm)
-    write_json(folder/'restrictions.json', restrictions.as_dict() if restrictions is not None else {'scope': 'full'})
+    description = restrictions.as_dict() if restrictions is not None else {'scope': 'full'}
+    if candidate_arcs is not None:
+        description = candidate_arcs.as_dict() | {'fixed_relations': description if restrictions is not None else None}
+    write_json(folder/'restrictions.json', description)
     original, started = Path.cwd(), time.perf_counter()
     env = model = None
     try:
         os.chdir(folder)
+        candidate_options = {} if candidate_arcs is None else {'candidate_arcs': candidate_arcs}
         env, model = build_model(data, warm, folder, seconds, threads, stable_constraints=restrictions,
-                                 strengthen=strengthen, compact=compact, solver_env=solver_env)
+                                 strengthen=strengthen, compact=compact, solver_env=solver_env, **candidate_options)
         # 建模也占总预算；不能把建模前的剩余时间原样当作求解时间。
         if deadline is not None:
             model.Params.TimeLimit = max(0, min(seconds, deadline-time.perf_counter()))
@@ -41,7 +49,7 @@ def optimize_once(data, reference, restrictions, folder, seconds, threads, stren
         if not math.isfinite(proof['bound']):
             proof['bound'] = 0  # 加工时间均为正，0为有效保守下界。
         proof['solver_seconds_limit'] = model.Params.TimeLimit
-        if restrictions is None:
+        if restrictions is None and candidate_arcs is None:
             proof['scope'] = 'full'
             proof['original_optimality_proven_by_this_run'] = proof['optimal']
         result = warm
@@ -56,6 +64,8 @@ def optimize_once(data, reference, restrictions, folder, seconds, threads, stren
             code = code_from_result(solved, data.n)
             if restrictions is not None and not restrictions.satisfies(code):
                 raise AssertionError('求解结果违反固定关系')
+            if candidate_arcs is not None and not candidate_arcs.satisfies(code):
+                raise AssertionError('求解结果违反候选相邻集合')
             result = decode(data, code)
             if proof['optimal'] and abs(result['objective']-solved['objective']) > 1e-4:
                 raise AssertionError('最优模型结果与同编码解码不一致')

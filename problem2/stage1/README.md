@@ -28,3 +28,11 @@
 |[windows.py](windows.py)|从当前参考解选择连续区间，调用受限Gurobi。|共用模块/兼容接口；按实际调用使用|已跟踪|
 
 输出包括`config.json`、`initial/`、`annealing/`、`window/`、`final/`、`summary.json`和过程记录。历史10873是已保存默认配置的一次可行结果，不保证换种子或机器重现；10702来自不同的长时间追加任务。
+
+## 可选宽度上限（2026-10-23开发，本次公开接口与基础测试）
+
+`refine_windows(..., max_width=None)`不传时保留原策略与固定宽度研究调用；显式`max_width=7`或9可限制初始和自适应扩大的宽度，缩小规则不变。正式main参数和默认未切换。见[独立短验证](../experiments/width_cap_probe.py)、[测试](../tests/test_width_cap.py)和[本次记录](../results/width_cap_probe/run01/实验记录.md)。
+
+## 40分钟研究配置与公开结果
+
+[10465报告](../published/stage1_10465/README.md)：A为初温倍率0.5/cooling0.998/moves2000，B为0.5/0.9989995966664914/1000；构造8、单周期完整降温、总2400秒含3秒收尾、精修使用剩余时间、单轮30秒、宽5自适应最高9、2线程、cache关闭。A种子2026102513已得10465；不同环境不保证同值。该独立复现入口不改变上表默认。

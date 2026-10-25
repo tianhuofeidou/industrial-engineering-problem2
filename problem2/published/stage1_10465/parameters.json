@@ -1,0 +1,88 @@
+{
+  "configurations": {
+    "A_w9": {
+      "shape": "A",
+      "moves": 2000,
+      "cooling": 0.998,
+      "round_seconds": 30,
+      "max_width": 9
+    },
+    "B_w9": {
+      "shape": "B",
+      "moves": 1000,
+      "cooling": 0.9989995966664914,
+      "round_seconds": 30,
+      "max_width": 9
+    }
+  },
+  "runs": [
+    {
+      "config": "A_w9",
+      "seed": 2026102511
+    },
+    {
+      "config": "B_w9",
+      "seed": 2026102512
+    },
+    {
+      "config": "A_w9",
+      "seed": 2026102513
+    },
+    {
+      "config": "B_w9",
+      "seed": 2026102514
+    },
+    {
+      "config": "A_w9",
+      "seed": 2026102515
+    },
+    {
+      "config": "B_w9",
+      "seed": 2026102516
+    },
+    {
+      "config": "A_w9",
+      "seed": 2026102517
+    },
+    {
+      "config": "B_w9",
+      "seed": 2026102518
+    }
+  ],
+  "nominal_seconds": 2400,
+  "main_seconds_limit": 2397,
+  "export_reserve_seconds": 3,
+  "initial_width": 5,
+  "max_width": 9,
+  "round_seconds": 30,
+  "max_rounds": 100000,
+  "threads": 2,
+  "cache": false,
+  "temperature_multiplier": 0.5,
+  "temperature_floor_ratio": 0.0001,
+  "constructions": 8,
+  "natural_cooling_only": true,
+  "automatic_reheat": false,
+  "resources": {
+    "physical_cores_detected": 8,
+    "logical_processors_detected": 16,
+    "available_affinity_mask": 65535,
+    "selected_affinity_mask": 20480,
+    "selected_logical_processors": [
+      12,
+      14
+    ],
+    "selected_physical_cores": 2,
+    "gurobi_threads": 2,
+    "priority_class": 16384,
+    "priority": "BELOW_NORMAL",
+    "one_logical_processor_per_physical_core": true
+  },
+  "task_start_utc": "2026-10-25T02:27:15+00:00",
+  "finished_utc": "2026-10-25T07:51:59.993750+00:00",
+  "task_wall_seconds": 19484.993761777878,
+  "process_seconds": 19179.48407550002,
+  "historical_cost_excluded": true,
+  "scope": "restricted",
+  "original_optimality_proven": false
+}

@@ -1,0 +1,320 @@
+{
+  "pairs": [
+    {
+      "first": "A_seed2026102513",
+      "second": "historical_10568",
+      "kendall_A": 191,
+      "kendall_B": 185,
+      "machine_hamming": 14
+    },
+    {
+      "first": "A_seed2026102513",
+      "second": "historical_10574",
+      "kendall_A": 197,
+      "kendall_B": 203,
+      "machine_hamming": 13
+    },
+    {
+      "first": "A_seed2026102513",
+      "second": "B_seed2026102512",
+      "kendall_A": 216,
+      "kendall_B": 217,
+      "machine_hamming": 12
+    },
+    {
+      "first": "A_seed2026102513",
+      "second": "B_seed2026102518",
+      "kendall_A": 210,
+      "kendall_B": 215,
+      "machine_hamming": 21
+    },
+    {
+      "first": "A_seed2026102513",
+      "second": "A_seed2026102515",
+      "kendall_A": 207,
+      "kendall_B": 218,
+      "machine_hamming": 19
+    },
+    {
+      "first": "A_seed2026102513",
+      "second": "B_seed2026102516",
+      "kendall_A": 248,
+      "kendall_B": 236,
+      "machine_hamming": 17
+    },
+    {
+      "first": "A_seed2026102513",
+      "second": "A_seed2026102511",
+      "kendall_A": 193,
+      "kendall_B": 196,
+      "machine_hamming": 15
+    },
+    {
+      "first": "A_seed2026102513",
+      "second": "A_seed2026102517",
+      "kendall_A": 236,
+      "kendall_B": 223,
+      "machine_hamming": 13
+    },
+    {
+      "first": "A_seed2026102513",
+      "second": "B_seed2026102514",
+      "kendall_A": 177,
+      "kendall_B": 186,
+      "machine_hamming": 12
+    },
+    {
+      "first": "historical_10568",
+      "second": "historical_10574",
+      "kendall_A": 166,
+      "kendall_B": 168,
+      "machine_hamming": 11
+    },
+    {
+      "first": "historical_10568",
+      "second": "B_seed2026102512",
+      "kendall_A": 195,
+      "kendall_B": 196,
+      "machine_hamming": 14
+    },
+    {
+      "first": "historical_10568",
+      "second": "B_seed2026102518",
+      "kendall_A": 203,
+      "kendall_B": 204,
+      "machine_hamming": 17
+    },
+    {
+      "first": "historical_10568",
+      "second": "A_seed2026102515",
+      "kendall_A": 236,
+      "kendall_B": 231,
+      "machine_hamming": 21
+    },
+    {
+      "first": "historical_10568",
+      "second": "B_seed2026102516",
+      "kendall_A": 187,
+      "kendall_B": 171,
+      "machine_hamming": 25
+    },
+    {
+      "first": "historical_10568",
+      "second": "A_seed2026102511",
+      "kendall_A": 222,
+      "kendall_B": 205,
+      "machine_hamming": 17
+    },
+    {
+      "first": "historical_10568",
+      "second": "A_seed2026102517",
+      "kendall_A": 183,
+      "kendall_B": 178,
+      "machine_hamming": 21
+    },
+    {
+      "first": "historical_10568",
+      "second": "B_seed2026102514",
+      "kendall_A": 184,
+      "kendall_B": 195,
+      "machine_hamming": 16
+    },
+    {
+      "first": "historical_10574",
+      "second": "B_seed2026102512",
+      "kendall_A": 183,
+      "kendall_B": 180,
+      "machine_hamming": 15
+    },
+    {
+      "first": "historical_10574",
+      "second": "B_seed2026102518",
+      "kendall_A": 219,
+      "kendall_B": 218,
+      "machine_hamming": 14
+    },
+    {
+      "first": "historical_10574",
+      "second": "A_seed2026102515",
+      "kendall_A": 178,
+      "kendall_B": 175,
+      "machine_hamming": 26
+    },
+    {
+      "first": "historical_10574",
+      "second": "B_seed2026102516",
+      "kendall_A": 249,
+      "kendall_B": 243,
+      "machine_hamming": 18
+    },
+    {
+      "first": "historical_10574",
+      "second": "A_seed2026102511",
+      "kendall_A": 226,
+      "kendall_B": 211,
+      "machine_hamming": 14
+    },
+    {
+      "first": "historical_10574",
+      "second": "A_seed2026102517",
+      "kendall_A": 235,
+      "kendall_B": 226,
+      "machine_hamming": 16
+    },
+    {
+      "first": "historical_10574",
+      "second": "B_seed2026102514",
+      "kendall_A": 198,
+      "kendall_B": 209,
+      "machine_hamming": 15
+    },
+    {
+      "first": "B_seed2026102512",
+      "second": "B_seed2026102518",
+      "kendall_A": 170,
+      "kendall_B": 176,
+      "machine_hamming": 19
+    },
+    {
+      "first": "B_seed2026102512",
+      "second": "A_seed2026102515",
+      "kendall_A": 255,
+      "kendall_B": 243,
+      "machine_hamming": 15
+    },
+    {
+      "first": "B_seed2026102512",
+      "second": "B_seed2026102516",
+      "kendall_A": 200,
+      "kendall_B": 191,
+      "machine_hamming": 15
+    },
+    {
+      "first": "B_seed2026102512",
+      "second": "A_seed2026102511",
+      "kendall_A": 223,
+      "kendall_B": 199,
+      "machine_hamming": 15
+    },
+    {
+      "first": "B_seed2026102512",
+      "second": "A_seed2026102517",
+      "kendall_A": 228,
+      "kendall_B": 194,
+      "machine_hamming": 15
+    },
+    {
+      "first": "B_seed2026102512",
+      "second": "B_seed2026102514",
+      "kendall_A": 163,
+      "kendall_B": 163,
+      "machine_hamming": 20
+    },
+    {
+      "first": "B_seed2026102518",
+      "second": "A_seed2026102515",
+      "kendall_A": 231,
+      "kendall_B": 235,
+      "machine_hamming": 24
+    },
+    {
+      "first": "B_seed2026102518",
+      "second": "B_seed2026102516",
+      "kendall_A": 198,
+      "kendall_B": 197,
+      "machine_hamming": 18
+    },
+    {
+      "first": "B_seed2026102518",
+      "second": "A_seed2026102511",
+      "kendall_A": 185,
+      "kendall_B": 183,
+      "machine_hamming": 22
+    },
+    {
+      "first": "B_seed2026102518",
+      "second": "A_seed2026102517",
+      "kendall_A": 276,
+      "kendall_B": 254,
+      "machine_hamming": 18
+    },
+    {
+      "first": "B_seed2026102518",
+      "second": "B_seed2026102514",
+      "kendall_A": 163,
+      "kendall_B": 169,
+      "machine_hamming": 17
+    },
+    {
+      "first": "A_seed2026102515",
+      "second": "B_seed2026102516",
+      "kendall_A": 257,
+      "kendall_B": 260,
+      "machine_hamming": 14
+    },
+    {
+      "first": "A_seed2026102515",
+      "second": "A_seed2026102511",
+      "kendall_A": 170,
+      "kendall_B": 166,
+      "machine_hamming": 16
+    },
+    {
+      "first": "A_seed2026102515",
+      "second": "A_seed2026102517",
+      "kendall_A": 225,
+      "kendall_B": 241,
+      "machine_hamming": 16
+    },
+    {
+      "first": "A_seed2026102515",
+      "second": "B_seed2026102514",
+      "kendall_A": 186,
+      "kendall_B": 202,
+      "machine_hamming": 15
+    },
+    {
+      "first": "B_seed2026102516",
+      "second": "A_seed2026102511",
+      "kendall_A": 253,
+      "kendall_B": 238,
+      "machine_hamming": 20
+    },
+    {
+      "first": "B_seed2026102516",
+      "second": "A_seed2026102517",
+      "kendall_A": 162,
+      "kendall_B": 169,
+      "machine_hamming": 10
+    },
+    {
+      "first": "B_seed2026102516",
+      "second": "B_seed2026102514",
+      "kendall_A": 213,
+      "kendall_B": 206,
+      "machine_hamming": 17
+    },
+    {
+      "first": "A_seed2026102511",
+      "second": "A_seed2026102517",
+      "kendall_A": 231,
+      "kendall_B": 197,
+      "machine_hamming": 14
+    },
+    {
+      "first": "A_seed2026102511",
+      "second": "B_seed2026102514",
+      "kendall_A": 160,
+      "kendall_B": 150,
+      "machine_hamming": 15
+    },
+    {
+      "first": "A_seed2026102517",
+      "second": "B_seed2026102514",
+      "kendall_A": 235,
+      "kendall_B": 191,
+      "machine_hamming": 13
+    }
+  ],
+  "interpretation": "descriptive code distances only; not evidence of separate basins"
+}

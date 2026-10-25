@@ -31,3 +31,7 @@
 |[validation.py](validation.py)|独立核查一般模型的调度；允许等待，不调用求解器或解码函数。|共用模块/兼容接口；按实际调用使用|已跟踪|
 
 完整模型命令为`python -B -m problem2.common.solver`，当前专用入口只处理Case 1；Case 2完整模型须单独授权。相邻变量和时间约束允许工位6主动等待，受限求解必须保留同一已验证参考解。
+
+## 本次公开的可选接口
+
+[candidate_arcs.py](candidate_arcs.py)与solver/solver_utils的候选接口用于已有独立实验，默认不传时保持原模型范围；10465这批未使用候选约束。对应基础测试见[test_candidate_arcs.py](../tests/test_candidate_arcs.py)。实际结果与限制见[一阶段公开报告](../published/stage1_10465/README.md)。
