@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "public_tree_tests": 163,
+  "skipped_tests": 0,
+  "errors": 0,
+  "failures": 0,
+  "case2_saved_objective": 10335,
+  "saved_operations": 350,
+  "start_codes_verified": 3,
+  "exhaustive_encodings": 288,
+  "integration_models": [
+    {
+      "policy": "always",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 32,
+      "scope": "restricted",
+      "model_sha256": "3c0e2354cfbcf56ea9e100837a81937972516d82abfe1602b25c6f390c9bb578"
+    },
+    {
+      "policy": "always",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 32,
+      "scope": "restricted",
+      "model_sha256": "95dfbfbd1f2e30b0bc59c61f53022350ad9dc57a5a4fd2732e065677ef379ea6"
+    },
+    {
+      "policy": "always",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 16,
+      "scope": "restricted",
+      "model_sha256": "6dd362959948e25cab1f41a822146085a230949f2d28f7954b984908251f923a"
+    },
+    {
+      "policy": "gated",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 32,
+      "scope": "restricted",
+      "model_sha256": "3c0e2354cfbcf56ea9e100837a81937972516d82abfe1602b25c6f390c9bb578"
+    },
+    {
+      "policy": "gated",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 32,
+      "scope": "restricted",
+      "model_sha256": "95dfbfbd1f2e30b0bc59c61f53022350ad9dc57a5a4fd2732e065677ef379ea6"
+    },
+    {
+      "policy": "gated",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 16,
+      "scope": "restricted",
+      "model_sha256": "6dd362959948e25cab1f41a822146085a230949f2d28f7954b984908251f923a"
+    },
+    {
+      "policy": "outer_always",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 16,
+      "scope": "restricted",
+      "model_sha256": "9e3df91dfa6afb81cf25c3dd8545503fbb0eb4b68aba2d08fff6f0458d286a2c"
+    },
+    {
+      "policy": "outer_always",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 16,
+      "scope": "restricted",
+      "model_sha256": "9e3df91dfa6afb81cf25c3dd8545503fbb0eb4b68aba2d08fff6f0458d286a2c"
+    },
+    {
+      "policy": "outer_always",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 16,
+      "scope": "restricted",
+      "model_sha256": "9e3df91dfa6afb81cf25c3dd8545503fbb0eb4b68aba2d08fff6f0458d286a2c"
+    },
+    {
+      "policy": "outer_gated",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 16,
+      "scope": "restricted",
+      "model_sha256": "9e3df91dfa6afb81cf25c3dd8545503fbb0eb4b68aba2d08fff6f0458d286a2c"
+    },
+    {
+      "policy": "outer_gated",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 16,
+      "scope": "restricted",
+      "model_sha256": "9e3df91dfa6afb81cf25c3dd8545503fbb0eb4b68aba2d08fff6f0458d286a2c"
+    },
+    {
+      "policy": "outer_gated",
+      "width": 2,
+      "optimum": 56,
+      "allowed_encodings": 16,
+      "scope": "restricted",
+      "model_sha256": "9e3df91dfa6afb81cf25c3dd8545503fbb0eb4b68aba2d08fff6f0458d286a2c"
+    }
+  ],
+  "original_always_three_mps_identical": true,
+  "core_stage2_files_byte_identical": 3,
+  "source_files_in_public_tree": 94,
+  "resources": {
+    "pid": 21340,
+    "affinity_mask": 1365,
+    "logical_processors": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "gurobi_threads": 6,
+    "priority_class": 16384,
+    "priority": "BELOW_NORMAL"
+  },
+  "formal_defaults_unchanged": true,
+  "case2_solver_restarted": false,
+  "selected_tree_only": true,
+  "inputs_copied_only_to_local_test_tree": true,
+  "public_wrapper_scope": "Search code unchanged; ROOT portability and batch instrumentation omitted; metadata corrected"
+}

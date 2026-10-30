@@ -1,0 +1,23 @@
+{
+  "algorithm": "SHA-256",
+  "text_line_endings": "LF (Git blob); normalize CRLF before checking",
+  "files": {
+    "best/gantt.svg": "9feece71e02150dd823e4f7650388aa625e33e1d30a95746b85c23b62dc22e88",
+    "best/result.json": "fbc94cbbe59f9ff377207c7dfd956e2f8310eb01b63ff900ce63a190619aea6a",
+    "completion_analysis.json": "022a314d2fd9e47cd0ee76c3b3a81926b9b8accc50bf0e4634c2b96f6cabcff0",
+    "hybrid_round.py": "f7c08c7fb12943954ca800921ed9f56acccc16f17a1b4488969bf039ce1f4b01",
+    "model_hashes.json": "df5756bba83ac518d4d04429184f1a237e1fe57f3717f9598669b9d5a43f6a6f",
+    "paired_analysis.json": "eb0fe691ec6e1efab40508018f47766f5666d4d17404add3dd5a92e168975473",
+    "parameters.json": "9de0bca61722db503b2f276f04f5b8858fe407ae060c34aab7e63554144c0e95",
+    "pipeline.py": "c3bf24e16e05992737ef03134e65d199a0e4f58c1edb81c59e4b599a58d3b97e",
+    "README.md": "5b0edb71f324afed82ecb474e3bceee51641631ff07555c507e445b2d01c938c",
+    "release_checks.json": "83846b40c758b4db2f3c094be7efd4012b60123b1a3e1f95114550d4702d7548",
+    "reproduce.py": "34d91ae4c7303e66e402fa963d1d503cb1b812285739bb13ab292a3ff9821596",
+    "resources.py": "00e5a25eb76ef06781decc29fd6421199cad77e9ae5befc3b06fc8505ce77a52",
+    "runs.json": "088961e91ab1d9368f43d38c3f57e24f3a84a948fc156f49e41b6bc1119ca9bf",
+    "source_receipt.json": "114462ede832a363b4b2b36fab9341c1919e9ddec757f6dc7ba3b9d15a8086b1",
+    "starts.json": "a4dccfedf56a8b7440e749cab16781b0dd7f338f36eaae0da442175b5318b5b6",
+    "time_quality.svg": "4fea046e5bea9521117121204a3c0c5e1f3194e311d069e5898b280d25119385",
+    "verification.json": "00fa534e4edc38372ed695b56b936f33f8ec636ce2b53381214f5b51c5dc3d7b"
+  }
+}

@@ -1,0 +1,357 @@
+[
+  {
+    "complete": true,
+    "id": "start10445_always",
+    "method": "always",
+    "start": 10445,
+    "seed": 2026103001,
+    "initial_code_sha256": "9b868b7f1e47fe0ebd90641ace9e99f4f2c571f04fe13f51c716a058c9f3cf36",
+    "objective": 10445,
+    "scope": "restricted",
+    "original_optimality_proven_by_this_run": false,
+    "seconds": 5306.970274686813,
+    "rounds": 54,
+    "best_available_seconds": 0.47579193115234375,
+    "checkpoints": {
+      "1800": 10445,
+      "3600": 10445,
+      "5400": 10445
+    },
+    "termination": "remaining_time_below_180_seconds",
+    "error": null,
+    "start_id": "start10445",
+    "process_seconds": 5307.014228000002,
+    "audit_seconds": 1.4204175999984727,
+    "cell_seconds": 5308.434646899999,
+    "model_count": 162,
+    "availability": [
+      {
+        "elapsed_seconds": 0.47579193115234375,
+        "objective": 10445,
+        "kind": "verified_best_available"
+      }
+    ],
+    "metrics": {
+      "rounds": 54,
+      "eligible_rounds": 54,
+      "skipped_rounds": 0,
+      "gurobi_calls": 162,
+      "gurobi_runtime": 4834.174000501633,
+      "gurobi_phase_seconds": 4863.893622699981,
+      "rebuild_seconds": 163.00809649999428,
+      "descent_seconds": 272.36912649998885,
+      "accepted_worse": 4,
+      "restarts": 9,
+      "global_improvement_rounds": 0,
+      "global_gain_by_saved_stage": {},
+      "candidate_local_gurobi_gains": 32
+    }
+  },
+  {
+    "complete": true,
+    "id": "start10445_gated",
+    "method": "gated",
+    "start": 10445,
+    "seed": 2026103001,
+    "initial_code_sha256": "9b868b7f1e47fe0ebd90641ace9e99f4f2c571f04fe13f51c716a058c9f3cf36",
+    "objective": 10401,
+    "scope": "restricted",
+    "original_optimality_proven_by_this_run": false,
+    "seconds": 5175.841847658157,
+    "rounds": 254,
+    "best_available_seconds": 4775.81787610054,
+    "checkpoints": {
+      "1800": 10445,
+      "3600": 10430,
+      "5400": 10401
+    },
+    "termination": "remaining_time_below_180_seconds",
+    "error": null,
+    "start_id": "start10445",
+    "process_seconds": 5175.890255300001,
+    "audit_seconds": 3.445277200000419,
+    "cell_seconds": 5179.3355333,
+    "model_count": 144,
+    "availability": [
+      {
+        "elapsed_seconds": 0.537207841873169,
+        "objective": 10445,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 3048.249337911606,
+        "objective": 10430,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 4775.81787610054,
+        "objective": 10401,
+        "kind": "verified_best_available"
+      }
+    ],
+    "metrics": {
+      "rounds": 254,
+      "eligible_rounds": 48,
+      "skipped_rounds": 206,
+      "gurobi_calls": 144,
+      "gurobi_runtime": 3079.590001344681,
+      "gurobi_phase_seconds": 3105.2249934999927,
+      "rebuild_seconds": 784.9605533999784,
+      "descent_seconds": 1252.6757467999741,
+      "accepted_worse": 12,
+      "restarts": 41,
+      "global_improvement_rounds": 2,
+      "global_gain_by_saved_stage": {
+        "descended": 44
+      },
+      "candidate_local_gurobi_gains": 0
+    }
+  },
+  {
+    "complete": true,
+    "id": "start10492_gated",
+    "method": "gated",
+    "start": 10492,
+    "seed": 2026103002,
+    "initial_code_sha256": "fbb576fc318bac47ca96b60c8c8051ef697ac9bac82cd9bc0570fba3cabe96f0",
+    "objective": 10492,
+    "scope": "restricted",
+    "original_optimality_proven_by_this_run": false,
+    "seconds": 5286.262144327164,
+    "rounds": 292,
+    "best_available_seconds": 0.5032596588134766,
+    "checkpoints": {
+      "1800": 10492,
+      "3600": 10492,
+      "5400": 10492
+    },
+    "termination": "remaining_time_below_180_seconds",
+    "error": null,
+    "start_id": "start10492",
+    "process_seconds": 5286.309248999998,
+    "audit_seconds": 3.801828100000421,
+    "cell_seconds": 5290.111077900001,
+    "model_count": 117,
+    "availability": [
+      {
+        "elapsed_seconds": 0.5032596588134766,
+        "objective": 10492,
+        "kind": "verified_best_available"
+      }
+    ],
+    "metrics": {
+      "rounds": 292,
+      "eligible_rounds": 39,
+      "skipped_rounds": 253,
+      "gurobi_calls": 117,
+      "gurobi_runtime": 2773.0889999866486,
+      "gurobi_phase_seconds": 2793.9523417999844,
+      "rebuild_seconds": 873.648624100002,
+      "descent_seconds": 1580.707255600002,
+      "accepted_worse": 20,
+      "restarts": 48,
+      "global_improvement_rounds": 0,
+      "global_gain_by_saved_stage": {},
+      "candidate_local_gurobi_gains": 0
+    }
+  },
+  {
+    "complete": true,
+    "id": "start10492_always",
+    "method": "always",
+    "start": 10492,
+    "seed": 2026103002,
+    "initial_code_sha256": "fbb576fc318bac47ca96b60c8c8051ef697ac9bac82cd9bc0570fba3cabe96f0",
+    "objective": 10492,
+    "scope": "restricted",
+    "original_optimality_proven_by_this_run": false,
+    "seconds": 5235.126049995422,
+    "rounds": 42,
+    "best_available_seconds": 0.4968230724334717,
+    "checkpoints": {
+      "1800": 10492,
+      "3600": 10492,
+      "5400": 10492
+    },
+    "termination": "remaining_time_below_180_seconds",
+    "error": null,
+    "start_id": "start10492",
+    "process_seconds": 5236.473257499998,
+    "audit_seconds": 1.8465944999989006,
+    "cell_seconds": 5238.3198526000015,
+    "model_count": 126,
+    "availability": [
+      {
+        "elapsed_seconds": 0.4968230724334717,
+        "objective": 10492,
+        "kind": "verified_best_available"
+      }
+    ],
+    "metrics": {
+      "rounds": 42,
+      "eligible_rounds": 42,
+      "skipped_rounds": 0,
+      "gurobi_calls": 126,
+      "gurobi_runtime": 4593.438999176025,
+      "gurobi_phase_seconds": 4630.4113591999885,
+      "rebuild_seconds": 190.11040549999234,
+      "descent_seconds": 407.16345869999714,
+      "accepted_worse": 4,
+      "restarts": 7,
+      "global_improvement_rounds": 0,
+      "global_gain_by_saved_stage": {},
+      "candidate_local_gurobi_gains": 34
+    }
+  },
+  {
+    "complete": true,
+    "id": "start10520_always",
+    "method": "always",
+    "start": 10520,
+    "seed": 2026103003,
+    "initial_code_sha256": "f5951cb8a1d06fbcc2edf1410fce1502ffc7b7a63043c52ceabd497e4187865e",
+    "objective": 10501,
+    "scope": "restricted",
+    "original_optimality_proven_by_this_run": false,
+    "seconds": 5247.656916856766,
+    "rounds": 33,
+    "best_available_seconds": 3626.033094406128,
+    "checkpoints": {
+      "1800": 10520,
+      "3600": 10518,
+      "5400": 10501
+    },
+    "termination": "remaining_time_below_180_seconds",
+    "error": null,
+    "start_id": "start10520",
+    "process_seconds": 5247.739237000002,
+    "audit_seconds": 1.9237155000009807,
+    "cell_seconds": 5249.662952899998,
+    "model_count": 99,
+    "availability": [
+      {
+        "elapsed_seconds": 0.5010766983032227,
+        "objective": 10520,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 2205.7636857032776,
+        "objective": 10518,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 3619.1433296203613,
+        "objective": 10504,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 3626.033094406128,
+        "objective": 10501,
+        "kind": "verified_best_available"
+      }
+    ],
+    "metrics": {
+      "rounds": 33,
+      "eligible_rounds": 33,
+      "skipped_rounds": 0,
+      "gurobi_calls": 99,
+      "gurobi_runtime": 4642.4760003089905,
+      "gurobi_phase_seconds": 4674.746777399996,
+      "rebuild_seconds": 180.8846268000052,
+      "descent_seconds": 383.28575059999275,
+      "accepted_worse": 1,
+      "restarts": 4,
+      "global_improvement_rounds": 2,
+      "global_gain_by_saved_stage": {
+        "gurobi": 19
+      },
+      "candidate_local_gurobi_gains": 25
+    }
+  },
+  {
+    "complete": true,
+    "id": "start10520_gated",
+    "method": "gated",
+    "start": 10520,
+    "seed": 2026103003,
+    "initial_code_sha256": "f5951cb8a1d06fbcc2edf1410fce1502ffc7b7a63043c52ceabd497e4187865e",
+    "objective": 10335,
+    "scope": "restricted",
+    "original_optimality_proven_by_this_run": false,
+    "seconds": 5271.350383281708,
+    "rounds": 224,
+    "best_available_seconds": 2079.939311504364,
+    "checkpoints": {
+      "1800": 10493,
+      "3600": 10335,
+      "5400": 10335
+    },
+    "termination": "remaining_time_below_180_seconds",
+    "error": null,
+    "start_id": "start10520",
+    "process_seconds": 5271.401438699999,
+    "audit_seconds": 3.340238600001612,
+    "cell_seconds": 5274.7416779999985,
+    "model_count": 132,
+    "availability": [
+      {
+        "elapsed_seconds": 0.751563310623169,
+        "objective": 10520,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 447.84542655944824,
+        "objective": 10516,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 1036.3098680973053,
+        "objective": 10508,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 1539.994457244873,
+        "objective": 10493,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 1876.5734906196594,
+        "objective": 10437,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 1886.629091501236,
+        "objective": 10430,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 2071.4878010749817,
+        "objective": 10355,
+        "kind": "verified_best_available"
+      },
+      {
+        "elapsed_seconds": 2079.939311504364,
+        "objective": 10335,
+        "kind": "verified_best_available"
+      }
+    ],
+    "metrics": {
+      "rounds": 224,
+      "eligible_rounds": 44,
+      "skipped_rounds": 180,
+      "gurobi_calls": 132,
+      "gurobi_runtime": 3081.587000131607,
+      "gurobi_phase_seconds": 3107.289475700076,
+      "rebuild_seconds": 777.2373498999441,
+      "descent_seconds": 1351.2963788000707,
+      "accepted_worse": 14,
+      "restarts": 35,
+      "global_improvement_rounds": 5,
+      "global_gain_by_saved_stage": {
+        "gurobi": 39,
+        "descended": 146
+      },
+      "candidate_local_gurobi_gains": 4
+    }
+  }
+]

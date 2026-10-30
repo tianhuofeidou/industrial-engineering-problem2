@@ -98,3 +98,7 @@ python -B -m unittest discover -s problem2/tests -t .
 本次包含[test_candidate_arcs.py](test_candidate_arcs.py)、[test_width_cap.py](test_width_cap.py)和[test_annealing_recording.py](test_annealing_recording.py)：核查可选候选接口、宽度上限/默认兼容及过程记录不改变退火随机轨迹。精简公开源码的本次实际测试数量与真实小模型检查见[发布检查](../published/stage1_10465/release_checks.json)，不要将历史本机213项计数解释成公开仓库本次计数。
 
 本次发布检查：精简公开文件树123项单元测试全部通过、0跳过，另6个真实小模型与288编码范围穷举一致；已重新核验10465和全部10个起点，未重跑Case2长时间搜索。
+
+## 10335公开包回归检查
+
+本次公开test_stage2_neighborhoods.py、test_perturb_rebuild.py、test_iterated_search.py及[test_stage2_release.py](test_stage2_release.py)。新增发布回归核查调用条件含等值、跳过GP保留较差候选和全程最好、外层接受不变、可用时间不回填和配对数据一致。仅公开文件树的实际测试计数与真实小模型等价门禁见[发布检查](../published/stage2_10335/release_checks.json)；历史214项是原实验源码的证据，不冒充本次公开测试数。

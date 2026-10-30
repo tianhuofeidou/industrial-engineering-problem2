@@ -1,5 +1,7 @@
 # 二阶段目录索引
 
+2026-10-30：[10335条件精修公开入口](../published/stage2_10335/README.md)复用本目录的`perturb_rebuild.py`、`iterated_search.py`和`neighborhood_search.py`，这三个模块及对应测试随本次上传。它是独立追加搜索配置，未替换原main/multistart默认。完整参数、历史成本、三个参考配对及复现限制见公开报告。
+
 [项目总索引](../../项目索引.md) · [运行说明](../README.md) · [实验记录索引](../docs/实验记录索引.md)
 
 二阶段是可选追加改善：少量工件在前后段成组联合重排，必要时有限次调用Gurobi允许自由插入，并可扰动后继续下降。它不属于一阶段默认600秒以内的固定组成，不保证每次改善。
@@ -12,12 +14,15 @@
 |[joint_search.py](joint_search.py)|少量工件同时在前后段成组重排；其余工件的相对顺序和机器保持。|共用模块/兼容接口；按实际调用使用|已跟踪|
 |[main.py](main.py)|前后段联合重排、少量自由工件Gurobi及扰动后局部下降的研究入口。|独立入口；运行前核对参数与预算|已跟踪|
 |[multistart.py](multistart.py)|保留不同局部最优起点，独立多进程联合重排；统一预算包含初始化。|独立入口；运行前核对参数与预算|已跟踪|
+|[perturb_rebuild.py](perturb_rebuild.py)|非连续大组扰动和A/B/机器联合插入重建。|10335流程共用模块，也可单独运行启发式|本次公开|
+|[iterated_search.py](iterated_search.py)|全工件下降、当前/最好分离和受控较差接受。|10335共用下降与接受函数；其自身入口不调用GP|本次公开|
+|[neighborhood_search.py](neighborhood_search.py)|范围搜索和原子检查点辅助；10335使用atomic_json。|共用模块，neighborhood_main命令行仍仅本地|本次公开|
 
 历史10890→10875→10862→10847是多个追加步骤的记录，不是默认一次运行结果。细节见[主设计](../docs/算法设计.md#66-10月11日联合重排与评分验证)及[并行多起点设计](../docs/并行多起点搜索.md)。
 
 ## 2026-10-21：区间与自由工件切换研究入口
 
-新增独立入口`python -B -m problem2.stage2.neighborhood_main`，实现位于[neighborhood_search.py](neighborhood_search.py)，命令行位于[neighborhood_main.py](neighborhood_main.py)。这些新文件目前仅在本地，尚未提交；现有`main`、`multistart`和一阶段默认流程保持原样。
+新增独立入口`python -B -m problem2.stage2.neighborhood_main`，实现位于[neighborhood_search.py](neighborhood_search.py)，命令行位于[neighborhood_main.py](neighborhood_main.py)。neighborhood_search.py随10335成果公开，neighborhood_main.py仍仅本地；现有`main`、`multistart`和一阶段默认流程保持原样。
 
 它读取并验证已有完整调度，再在两种邻域间切换：
 

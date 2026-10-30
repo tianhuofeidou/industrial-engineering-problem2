@@ -1,0 +1,84 @@
+{
+  "pairs": [
+    {
+      "start": 10445,
+      "always": 10445,
+      "gated": 10401,
+      "gated_minus_always": -44,
+      "always_rounds": 54,
+      "gated_rounds": 254,
+      "always_seconds": 5307.014228000002,
+      "gated_seconds": 5175.890255300001,
+      "checkpoints": {
+        "1800": {
+          "always": 10445,
+          "gated": 10445
+        },
+        "3600": {
+          "always": 10445,
+          "gated": 10430
+        },
+        "5400": {
+          "always": 10445,
+          "gated": 10401
+        }
+      }
+    },
+    {
+      "start": 10492,
+      "always": 10492,
+      "gated": 10492,
+      "gated_minus_always": 0,
+      "always_rounds": 42,
+      "gated_rounds": 292,
+      "always_seconds": 5236.473257499998,
+      "gated_seconds": 5286.309248999998,
+      "checkpoints": {
+        "1800": {
+          "always": 10492,
+          "gated": 10492
+        },
+        "3600": {
+          "always": 10492,
+          "gated": 10492
+        },
+        "5400": {
+          "always": 10492,
+          "gated": 10492
+        }
+      }
+    },
+    {
+      "start": 10520,
+      "always": 10501,
+      "gated": 10335,
+      "gated_minus_always": -166,
+      "always_rounds": 33,
+      "gated_rounds": 224,
+      "always_seconds": 5247.739237000002,
+      "gated_seconds": 5271.401438699999,
+      "checkpoints": {
+        "1800": {
+          "always": 10520,
+          "gated": 10493
+        },
+        "3600": {
+          "always": 10518,
+          "gated": 10335
+        },
+        "5400": {
+          "always": 10501,
+          "gated": 10335
+        }
+      }
+    }
+  ],
+  "descriptive_only": true,
+  "n_reference_schedules": 3,
+  "wins": 2,
+  "ties": 1,
+  "losses": 0,
+  "mean_gated_minus_always": -70.0,
+  "primary": "Final objective, gated minus always, same reference and seed; descriptive only",
+  "comparison": "Only GP call gate changed; resulting search trajectories and covered rounds differ naturally"
+}

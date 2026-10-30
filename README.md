@@ -1,5 +1,7 @@
 # 工业工程综合实验：题目2
 
+2026-10-30公开更新：项目已验证最好可行解为 **[10335秒](problem2/published/stage2_10335/best/result.json)**，350道工序独立核验通过；从保存的10520出发，条件精修二阶段追加约34分40秒首次保存。六份90分钟上限对照中，条件精修相对每轮精修为2胜1平；[完整报告、参数、曲线、甘特图与复现入口](problem2/published/stage2_10335/README.md)。历史起点和选择成本另计，不是默认600秒结果，未证明全局最优。下方按日期保留历史状态。
+
 2026-10-25公开更新：一阶段从原始输入已得到并独立验证 **[10465秒](problem2/published/stage1_10465/best/result.json)**，来自A配置、种子2026102513，两核/2线程、单次40分钟档，首次保存约39分23秒。8份新运行均已完成，加2份历史参考形成10个起点；[报告、参数、甘特图与复现](problem2/published/stage1_10465/README.md)。正式默认600秒未改；10465是单次最好可行值，不是保证值或全局最优。项目历史二阶段最好10454仍更低。
 
 2026-10-22结果与状态更新（仅本地）：项目已验证最好可行解为**[10454](problem2/results/stage2_overnight_hybrid/run01/final/result.json)**，来自十小时夜间二阶段混合搜索，350工序独立核验通过，全部Gurobi范围受限，不构成原题全局最优证明；一阶段从原始数据的最好结果为**[10592](problem2/results/stage1_sa_allocation/run01/main/final/result.json)**（1200秒、种子2026102101、退火480秒配置）。历史10702、10873等数字各自对应当时配置与预算，不是算法能力上限。详见[一阶段退火分配](problem2/results/stage1_sa_allocation/run02/实验记录.md)与[夜间二阶段](problem2/results/stage2_overnight_hybrid/run01/实验记录.md)。
@@ -69,14 +71,17 @@ python -B -m problem2.stage1.main --case 2 --seed 2026101114 --seconds 600 --out
 python -B -m problem2.stage2.main --case 2 --reference problem2/results/case2_run01/final/result.json --seconds 600 --explore --output problem2/results/case2_stage2_run01
 ```
 
-这里的600秒是追加预算，不包含参考解的历史计算成本。输出的 `final/result.json`、`final/schedule.csv` 和 `final/gantt.svg` 分别保存完整调度、工序时间表和甘特图。
+10335对应独立研究配置：`python -B problem2/published/stage2_10335/reproduce.py --start 10520 --policy gated --output problem2/results/reproduce_10335_new01`，默认90分钟上限，参数与原600秒入口不同。Windows默认六核6线程低优先级，其他平台显式加`--portable`；[详细说明](problem2/published/stage2_10335/README.md)。
 
-## 当前状态（2026-10-25；历史实验按各自日期）
+这里的600秒是上方旧入口的追加预算，不包含参考解的历史计算成本。输出的 `final/result.json`、`final/schedule.csv` 和 `final/gantt.svg` 分别保存完整调度、工序时间表和甘特图。
+
+## 当前状态（2026-10-30；历史实验按各自日期）
 
 | 项目 | 已完成的结果 | 说明 |
 | --- | --- | --- |
 | Case 1完整精确模型 | 最优值5031秒 | Gurobi和COPT均验证全局最优；COPT使用Gurobi可行解作为初始解 |
 | 一阶段独立运行 | 历史种子2026101114复现10890秒 | 当次首次发现37.41秒，完整流程141.12秒；其他种子及运行条件可能不同 |
+| Case 2当前最好可行调度 | [10335秒](problem2/published/stage2_10335/README.md) | 2026-10-30，保存10520起点追加约34分40秒首次保存；六份完整对照，条件精修2胜1平，未证明全局最优 |
 | Case 2历史最好可行调度 | 10454秒 | 2026-10-22十小时夜间二阶段混合搜索得到，350工序独立核验通过；全部Gurobi范围受限，未证明全局最优 |
 | Case 2一阶段最好可行调度 | [10465秒](problem2/published/stage1_10465/README.md) | 2026-10-25，40分钟档、两核/2线程、A配置、种子2026102513；不是正式默认600秒结果 |
 | Case 2旧历史最好（已被超过） | 10702秒 | 来自不限时宽度9追加求解，首次找到约7小时3分钟；保留为历史记录，不再代表当前最好值 |

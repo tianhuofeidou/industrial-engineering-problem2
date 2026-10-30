@@ -1,0 +1,77 @@
+{
+  "shared": {
+    "sizes": [
+      5,
+      7,
+      9
+    ],
+    "heuristic_seconds": 120,
+    "repair_seconds": 45,
+    "widths": [
+      5,
+      7,
+      9
+    ],
+    "solver_seconds": [
+      90,
+      120,
+      180
+    ],
+    "temperature_scale": 0.005,
+    "cooling": 0.98,
+    "worse_cap": 0.03,
+    "restart_stall": 6,
+    "max_rounds": 100000,
+    "threads": 6
+  },
+  "policies": {
+    "always": "Gurobi after every heuristic descent",
+    "gated": "Gurobi only if descended candidate <= own global best frozen at round start; else retain candidate for unchanged outer acceptance"
+  },
+  "input_sha256": {
+    "问题2.pdf": "975f906e4b7a3f850cfddb5d158ecb66662884a85691c15d04278cb5cfdc2cf1",
+    "问题2数据.xlsx": "dd94ba1c7812800cc4bf61b680151927caa80e1a834ded9e22a7250adced2e39"
+  },
+  "resources": {
+    "physical_cores_detected": 8,
+    "logical_processors_detected": 16,
+    "available_affinity_mask": 65535,
+    "selected_affinity_mask": 1365,
+    "selected_logical_processors": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "selected_physical_cores": 6,
+    "gurobi_threads": 6,
+    "priority_class": 16384,
+    "priority": "BELOW_NORMAL",
+    "one_logical_processor_per_physical_core": true
+  },
+  "nominal_cell_seconds": 5400,
+  "audit_reserve_per_cell_seconds": 60,
+  "worker_upper_seconds": 5340,
+  "cell_order": [
+    "start10445_always",
+    "start10445_gated",
+    "start10492_gated",
+    "start10492_always",
+    "start10520_always",
+    "start10520_gated"
+  ],
+  "scope": "restricted",
+  "formal_defaults_changed": false,
+  "task_start_utc": "2026-10-29T17:50:51+00:00",
+  "finished_utc": "2026-10-30T02:43:03.047180+00:00",
+  "task_wall_seconds": 31932.047163248062,
+  "process_seconds": 31524.8276655,
+  "cell_audit_seconds": 15.778071500000806,
+  "independent_review_seconds": 2.2038985999970464,
+  "independent_review_after_original_deadline": true,
+  "extra_solving": false,
+  "historical_preparation_included": false,
+  "exact_objective_reproduction_guaranteed": false
+}

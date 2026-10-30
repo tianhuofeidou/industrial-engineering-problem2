@@ -1,0 +1,64 @@
+{
+  "complete": true,
+  "best": 10335,
+  "improvement_from_previous_record": 110,
+  "comparison_to_external_user_reported_10407": -72,
+  "external_reference_independently_verified": false,
+  "best_start": 10520,
+  "best_seed": 2026103003,
+  "best_available_seconds": 2079.939311504364,
+  "best_round": 106,
+  "best_stages": {
+    "perturbed": 15050,
+    "repaired": 10675,
+    "descended": 10355,
+    "candidate": 10335,
+    "best": 10335
+  },
+  "best_gp": [
+    {
+      "width": 5,
+      "before": 10355,
+      "after": 10355
+    },
+    {
+      "width": 7,
+      "before": 10355,
+      "after": 10355
+    },
+    {
+      "width": 9,
+      "before": 10355,
+      "after": 10335
+    }
+  ],
+  "policies": {
+    "always": {
+      "rounds": 129,
+      "gp_calls": 387,
+      "skipped_rounds": 0,
+      "process_seconds": 15791.226722500001,
+      "gp_seconds": 14169.051759299966,
+      "gp_time_fraction": 0.8972736576007301
+    },
+    "gated": {
+      "rounds": 770,
+      "gp_calls": 393,
+      "skipped_rounds": 639,
+      "process_seconds": 15733.600942999998,
+      "gp_seconds": 9006.466811000053,
+      "gp_time_fraction": 0.5724351878269228
+    }
+  },
+  "task_wall_seconds": 31932.047163248062,
+  "finished_utc": "2026-10-30T02:43:03.047180+00:00",
+  "independent_review_utc": "2026-10-30T05:15:57.182394+00:00",
+  "independent_review_seconds": 2.2038985999970464,
+  "final_review_after_original_deadline": true,
+  "extra_solving": false,
+  "independently_checked_schedules": 177,
+  "independently_sampled_models": 66,
+  "all_program_models": 780,
+  "scope": "restricted",
+  "original_optimality_proven": false
+}
